@@ -1,8 +1,11 @@
 {
   "manifest_version": 3,
-  "name": "Google Maps Time Tracker",
+  "name": "Google Maps Surfer",
+  "description": "Track how much time you spend surfing maps.google.com",
   "version": "1.0",
-  "permissions": ["storage", "webNavigation"],
+  "permissions": [
+    "tabs"
+  ],
   "background": {
     "service_worker": "background.js"
   }
