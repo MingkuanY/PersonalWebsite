@@ -1,38 +1,49 @@
+let startTime;
+let isTracking = false;
+
+// Listen for tab activation
 chrome.tabs.onActivated.addListener(function (activeInfo) {
   chrome.tabs.get(activeInfo.tabId, function (tab) {
-    if (tab.url && tab.url.includes("www.google.com/maps")) {
-      console.log("You have surfed for 2 hours.");
+    if (tab.url) {
+      // Start tracking
+      if (tab.url.includes("google.com/maps") && !isTracking) {
+        startTime = new Date().getTime();
+        isTracking = true;
+        console.log("Starts tracking");
+      }
+      // Stops tracking
+      else if (!tab.url.includes("google.com/maps") && isTracking) {
+        const endTime = new Date().getTime();
+        const durationInSeconds = Math.round((endTime - startTime) / 1000);
+
+        // Calculate new total duration
+        chrome.storage.local.get(["googleMapsTime"]).then((result) => {
+          const totalTime = result.googleMapsTime ? result.googleMapsTime : 0;
+          chrome.storage.local.set({ googleMapsTime: totalTime + durationInSeconds }).then(() => {
+            console.log(`Surfed for ${durationInSeconds} seconds for a new total of ${totalTime + durationInSeconds} seconds.`);
+          });
+        });
+
+        isTracking = false;
+      }
     }
   });
 });
 
-// let startTime;
-// let isTracking = false;
+// Listen for tab creation
+chrome.tabs.onCreated.addListener(function (tab) {
+  if (tab.url && tab.url.includes("google.com/maps") && !isTracking) {
+    startTime = new Date().getTime();
+    isTracking = true;
+    console.log("Start tracking (new tab)");
+  }
+});
 
-// // Listen for tab focus changes
-// chrome.tabs.onActivated.addListener(({ tabId }) => {
-//   chrome.tabs.get(tabId, (tab) => {
-//     console.log("Tab activated:", tab.url);
-
-//     if (tab.url) {
-//       if (tab.url.includes("https://www.google.com/maps")) {
-//         startTime = new Date().getTime();
-//         isTracking = true;
-//         console.log("Tracking started");
-//       } else {
-//         if (isTracking) {
-//           const endTime = new Date().getTime();
-//           const durationInHours = Math.round((endTime - startTime) / (1000 * 60 * 60));
-
-//           chrome.storage.local.get(["googleMapsTime"], (result) => {
-//             const totalTime = result.googleMapsTime || 0;
-//             chrome.storage.local.set({ googleMapsTime: totalTime + durationInHours });
-//           });
-
-//           isTracking = false;
-//           console.log("Tracking stopped, duration:", durationInHours, "hours");
-//         }
-//       }
-//     }
-//   });
-// });
+// Listen for tab update
+chrome.tabs.onUpdated.addListener(function (tabId, changeInfo, tabInfo) {
+  if (changeInfo.url && changeInfo.url.includes("google.com/maps") && !isTracking) {
+    startTime = new Date().getTime();
+    isTracking = true;
+    console.log("Start tracking (new tab update)");
+  }
+});

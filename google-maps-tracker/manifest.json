@@ -4,9 +4,12 @@
   "description": "Track how much time you spend surfing maps.google.com",
   "version": "1.0",
   "permissions": [
-    "tabs"
+    "tabs", "storage"
   ],
   "background": {
     "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
   }
 }
