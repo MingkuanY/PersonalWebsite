@@ -1,6 +1,8 @@
-const secondsBefore2024 = 1300000;
+const secondsBefore2024 = 13000000;
 
 chrome.storage.local.get(["googleMapsTime"]).then((result) => {
   const totalTime = secondsBefore2024 + (result.googleMapsTime ? result.googleMapsTime : 0);
-  document.getElementById("duration").innerText = `${Math.floor(totalTime / 60 / 60)} hours ${Math.floor(totalTime / 60) % 60} minutes ${totalTime % 60} seconds`;
+  document.getElementById("hours").innerText = `${Math.floor(totalTime / 60 / 60)}`;
+  document.getElementById("minutes").innerText = `${Math.floor(totalTime / 60) % 60}`;
+  document.getElementById("seconds").innerText =`${totalTime % 60}`;
 });

@@ -5,10 +5,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Google Maps Surfer</title>
   <link rel="stylesheet" href="popup.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@300;400&family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet">
 </head>
 <body>
-  <div class="youHaveSurfed">You've surfed <strong>Google Maps</strong> for</div>
-  <div id="duration"></div>
+  <div class="youHaveSurfed">You've surfed <span class="stronger">Google Maps</span> for</div>
+  <div class="timeContainer">
+    <div id="hours"></div>
+    <div class="unit">h</div>
+    <div id="minutes"></div>
+    <div class="unit">m</div>
+    <div id="seconds"></div>
+    <div class="unit">s</div>
+  </div>
+  <img src="/icons/earthPin.png" alt="Earth" class="earth">
   <script src="./popup.js"></script>
 </body>
 </html>

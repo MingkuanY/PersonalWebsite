@@ -1,18 +1,46 @@
 body {
-  height: 80px;
-  width: 540px;
+  height: 100px;
+  width: 270px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: start;
   background-color: #33a853;
   color: white;
+  padding: 0 20px;
 }
 
 .youHaveSurfed {
   font-size: 16px;
+  font-family: 'Figtree', sans-serif;
+  font-weight: 300;
+}
+.stronger {
+  font-family: 'Figtree', sans-serif;
+  font-weight: 400;
 }
 
-#duration {
-  font-size: 34px;
+.timeContainer {
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#hours, #minutes, #seconds {
+  font-size: 44px;
+}
+
+.unit {
+  font-size: 16px;
+  margin-right: 4px;
+}
+
+.earth {
+  position: absolute;
+  top: 0;
+  right: -60px;
+  height: 120px;
+  width: 120px;
 }
