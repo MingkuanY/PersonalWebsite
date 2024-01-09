@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Google Maps Surfer",
-  "description": "Track how much time you spend surfing Google Maps and bump those numbers up!",
+  "description": "Tracking how much time you spend surfing Google Maps",
   "version": "1.0",
   "permissions": [
     "tabs", "storage"

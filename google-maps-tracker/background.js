@@ -9,7 +9,7 @@ chrome.tabs.onActivated.addListener(function (activeInfo) {
       if (tab.url.includes("google.com/maps") && !isTracking) {
         startTime = new Date().getTime();
         isTracking = true;
-        console.log("Starts tracking");
+        // console.log("Starts tracking");
       }
       // Stops tracking
       else if (!tab.url.includes("google.com/maps") && isTracking) {
@@ -20,7 +20,7 @@ chrome.tabs.onActivated.addListener(function (activeInfo) {
         chrome.storage.local.get(["googleMapsTime"]).then((result) => {
           const totalTime = result.googleMapsTime ? result.googleMapsTime : 0;
           chrome.storage.local.set({ googleMapsTime: totalTime + durationInSeconds }).then(() => {
-            console.log(`Surfed for ${durationInSeconds} seconds for a new total of ${totalTime + durationInSeconds} seconds.`);
+            // console.log(`Surfed for ${durationInSeconds} seconds for a new total of ${totalTime + durationInSeconds} seconds.`);
           });
         });
 
@@ -35,7 +35,7 @@ chrome.tabs.onCreated.addListener(function (tab) {
   if (tab.url && tab.url.includes("google.com/maps") && !isTracking) {
     startTime = new Date().getTime();
     isTracking = true;
-    console.log("Start tracking (new tab)");
+    // console.log("Start tracking (new tab)");
   }
 });
 
@@ -44,7 +44,7 @@ chrome.tabs.onUpdated.addListener(function (tabId, changeInfo, tabInfo) {
   if (changeInfo.url && changeInfo.url.includes("google.com/maps") && !isTracking) {
     startTime = new Date().getTime();
     isTracking = true;
-    console.log("Start tracking (new tab update)");
+    // console.log("Start tracking (new tab update)");
   }
 });
 
@@ -54,14 +54,14 @@ chrome.windows.onFocusChanged.addListener(async function (windowId) {
     return;
   }
 
-  const [activeTab] = await chrome.tabs.query({active: true, windowId: windowId});
+  const [activeTab] = await chrome.tabs.query({ active: true, windowId: windowId });
 
   if (activeTab && activeTab.url) {
     // Start tracking
     if (activeTab.url.includes("google.com/maps") && !isTracking) {
       startTime = new Date().getTime();
       isTracking = true;
-      console.log("Starts tracking (window focus changed)");
+      // console.log("Starts tracking (window focus changed)");
     }
     // Stops tracking
     else if (!activeTab.url.includes("google.com/maps") && isTracking) {
@@ -72,7 +72,7 @@ chrome.windows.onFocusChanged.addListener(async function (windowId) {
       chrome.storage.local.get(["googleMapsTime"]).then((result) => {
         const totalTime = result.googleMapsTime ? result.googleMapsTime : 0;
         chrome.storage.local.set({ googleMapsTime: totalTime + durationInSeconds }).then(() => {
-          console.log(`Surfed for ${durationInSeconds} seconds for a new total of ${totalTime + durationInSeconds} seconds. Switched to different window.`);
+          // console.log(`Surfed for ${durationInSeconds} seconds for a new total of ${totalTime + durationInSeconds} seconds. Switched to different window.`);
         });
       });
 
