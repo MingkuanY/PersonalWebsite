@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Google Maps Surfer",
+  "name": "GeoSurfer",
   "description": "Tracking how much time you spend surfing Google Maps",
   "version": "1.0",
   "permissions": [

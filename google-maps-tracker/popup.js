@@ -5,8 +5,8 @@ document.addEventListener('DOMContentLoaded', function () {
       // Show setup popup
       document.body.innerHTML =
         `<div class="welcomeContainer">
-          <div class="stronger welcome">Google Maps Surfer</div>
-          <img src="/icons/icon128.png" alt="Google Maps Surfer Logo" class="logo">
+          <div class="stronger welcome">GeoSurfer</div>
+          <img src="/icons/icon128.png" alt="GeoSurfer Logo" class="logo">
         </div>
         <label for="previousHours" class="youHaveSurfed logAnyHours">Log any hours you've already surfed:</label>
         <div class="inputContainer">
