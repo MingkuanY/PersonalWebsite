@@ -4,17 +4,19 @@
 }
 
 body {
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
 }
 
 /* intro */
 
 .intro {
-  font-size: 64px;
-  /* margin-top: 12vh; */
-  margin-top: 6vh;
+  font-size: 6.25vh;
 }
 
 .stronger {
@@ -24,89 +26,107 @@ body {
 /* collage */
 
 .collage {
-  position: relative;
-  width: 924px;
-  height: 611px;
-  /* margin-top: 9vh; */
-  margin-top: 5vh;
+  margin-top: 9vh;
+  display: flex;
 }
+
+.leftcollage {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  margin-right: 1.27vh;
+}
+
+.centercollage {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3vh;
+}
+
+.rightcollage {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1.27vh;
+  margin-top: 6.8vh;
+}
+
+/* rower */
 
 .rowerContainer {
-  width: 131px;
-  height: 160px;
-  overflow: hidden;
-  position: absolute;
-  top: 0;
-  left: 104px;
+  height: 15.6vh;
+  width: fit-content;
+  margin-bottom: 1.27vh;
 }
+
 .rower {
-  width: 100%;
   height: 100%;
+  aspect-ratio: 0.818;
   object-fit: cover;
+  object-position: 45% 50%;
 }
+
+/* horn player */
 
 .hornplayerContainer {
-  width: 235px;
-  height: 287px;
-  overflow: hidden;
-  position: absolute;
-  top: 173px;
-  left: 0;
+  height: 28vh;
+  width: fit-content;
 }
+
 .hornplayer {
-  width: 100%;
   height: 100%;
+  aspect-ratio: 0.818;
   object-fit: cover;
+  object-position: 50% 50%;
 }
+
+/* CS student */
 
 .csstudentContainer {
-  width: 400px;
-  height: 487px;
-  overflow: hidden;
-  position: absolute;
-  top: 31px;
-  left: 248px;
+  height: 47.6vh;
+  width: fit-content;
 }
+
 .csstudent {
-  width: 100%;
   height: 100%;
+  aspect-ratio: 0.818;
   object-fit: cover;
+  object-position: 36% 50%;
 }
+
+/* photographer */
 
 .photographerContainer {
-  width: 169px;
-  height: 206px;
-  overflow: hidden;
-  position: absolute;
-  top: 70px;
-  left: 661px;
-}
-.photographer {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+  height: 20.1vh;
+  width: fit-content;
+  margin-bottom: 1.27vh;
 }
 
-.roadtripperContainer {
-  width: 263px;
-  height: 322px;
-  overflow: hidden;
-  position: absolute;
-  top: 289px;
-  left: 661px;
-}
-.roadtripper {
-  width: 100%;
+.photographer {
   height: 100%;
+  aspect-ratio: 0.818;
   object-fit: cover;
+  object-position: 40% 50%;
+}
+
+/* road tripper */
+
+.roadtripperContainer {
+  height: 31.4vh;
+  width: fit-content;
+}
+
+.roadtripper {
+  height: 100%;
+  aspect-ratio: 0.818;
+  object-fit: cover;
+  object-position: 50% 95%;
 }
 
 /* instructions */
 
 .instructions {
-  font-size: 20px;
-  /* margin-top: 5vh; */
-  margin-top: 2vh;
+  font-size: 1.95vh;
+  margin-top: 5vh;
 }
 
 .zoom {
