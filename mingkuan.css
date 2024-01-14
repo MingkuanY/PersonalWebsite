@@ -14,7 +14,7 @@ body {
 .intro {
   font-size: 64px;
   /* margin-top: 12vh; */
-  margin-top: 8vh;
+  margin-top: 6vh;
 }
 
 .stronger {
@@ -27,7 +27,8 @@ body {
   position: relative;
   width: 924px;
   height: 611px;
-  margin-top: 9vh;
+  /* margin-top: 9vh; */
+  margin-top: 5vh;
 }
 
 .rowerContainer {
@@ -104,7 +105,8 @@ body {
 
 .instructions {
   font-size: 20px;
-  margin-top: 5vh;
+  /* margin-top: 5vh; */
+  margin-top: 2vh;
 }
 
 .zoom {
