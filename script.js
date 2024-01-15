@@ -120,7 +120,7 @@ const phrases = [
 ];
 
 function setupInitialState() {
-  fx.setText(phrases[1], 150, 30);
+  fx.setText(phrases[1], 100, 30);
   images.forEach(image => {
     if (image.classList.contains('csstudent')) {
       image.classList.remove('gray');
