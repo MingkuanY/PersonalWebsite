@@ -13,6 +13,24 @@ body {
   padding: 0;
 }
 
+/* image grayscale effect */
+
+img {
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.gray {
+  filter: grayscale(100%);
+  opacity: calc(0.6);
+  transition: opacity 0.3s, filter 0.3s;
+}
+
+.color {
+  filter: grayscale(0%);
+  transition: opacity 0.3s, filter 0.2s;
+}
+
 /* intro */
 
 .intro {
