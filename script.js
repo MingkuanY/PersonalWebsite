@@ -111,7 +111,7 @@ const facet = document.getElementById('facet');
 const fx = new TextScramble(facet);
 
 const phrases = [
-  ' ...',
+  '',
   ' CS student @ Georgia Tech.',
   ' road tripper.',
   ' horn player.',
