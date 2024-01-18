@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -301,7 +305,11 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: start;
+}
+
+.csIntro {
+  font-size: 6.25vh;
 }
 
 .csBio {
@@ -324,10 +332,6 @@ section {
   align-items: start;
   position: relative;
   cursor: pointer;
-}
-.csProject:hover {
-  background-color: #0f1113;
-  transition: background-color 0.3s;
 }
 
 .csProjectCollage {
