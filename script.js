@@ -2,7 +2,7 @@
 
 currentIndex = 1;
 
-const images = document.querySelectorAll('img');
+const images = document.querySelectorAll('.collage img');
 images.forEach(image => {
   image.addEventListener('mouseover', () => {
     let index = 0;

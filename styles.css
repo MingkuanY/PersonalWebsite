@@ -1,0 +1,463 @@
+* {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 300;
+  color: #24292F;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* sections */
+
+section {
+  height: 100vh;
+}
+
+.landingSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+/* LANDING PAGE */
+
+/* image grayscale effect */
+
+.collage img {
+  cursor: pointer;
+  box-shadow: 3px 4px 4px 0px rgba(36,41,47,0.25);
+}
+
+.gray {
+  filter: grayscale(100%);
+  opacity: calc(0.6);
+  transition: opacity 0.3s, filter 0.3s;
+}
+
+/* intro */
+
+.intro {
+  font-size: 6.25vh;
+}
+
+.stronger {
+  font-weight: 400;
+}
+
+/* collage */
+
+.collage {
+  margin-top: 9vh;
+  display: flex;
+}
+
+.leftcollage {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  margin-right: 1.27vh;
+}
+
+.centercollage {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3vh;
+}
+
+.rightcollage {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1.27vh;
+  margin-top: 6.8vh;
+}
+
+/* rower */
+
+.rowerContainer {
+  height: 15.6vh;
+  width: fit-content;
+  margin-bottom: 1.27vh;
+}
+
+.rower {
+  height: 100%;
+  aspect-ratio: 0.818;
+  object-fit: cover;
+  object-position: 45% 50%;
+}
+
+/* horn player */
+
+.hornplayerContainer {
+  height: 28vh;
+  width: fit-content;
+}
+
+.hornplayer {
+  height: 100%;
+  aspect-ratio: 0.818;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+/* CS student */
+
+.csstudentContainer {
+  height: 47.6vh;
+  width: fit-content;
+}
+
+.csstudent {
+  height: 100%;
+  aspect-ratio: 0.818;
+  object-fit: cover;
+  object-position: 36% 50%;
+}
+
+/* photographer */
+
+.photographerContainer {
+  height: 20.1vh;
+  width: fit-content;
+  margin-bottom: 1.27vh;
+}
+
+.photographer {
+  height: 100%;
+  aspect-ratio: 0.818;
+  object-fit: cover;
+  object-position: 40% 50%;
+}
+
+/* road tripper */
+
+.roadtripperContainer {
+  height: 31.4vh;
+  width: fit-content;
+}
+
+.roadtripper {
+  height: 100%;
+  aspect-ratio: 0.818;
+  object-fit: cover;
+  object-position: 50% 95%;
+}
+
+
+
+
+
+
+
+/* CS STUDENT PAGE */
+
+.csstudentSection {
+  padding: 8vh;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+
+/* profile bar */
+
+.profileBar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 22.4vw;
+}
+
+.csPicContainer {
+  width: 100%;
+  height: fit-content;
+}
+
+.csPic {
+  width: 100%;
+  aspect-ratio: 0.818;
+  object-fit: cover;
+  object-position: 36% 50%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.csNameAndEmail {
+  margin-top: 1.27vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+.csName {
+  font-weight: 400;
+  font-size: 6.5vh;
+  white-space: nowrap;
+}
+
+.csEmail {
+  margin-top: -0.4vh;
+  font-family: 'Quantico', sans-serif;
+  font-weight: 400;
+  font-size: 2.15vh;
+  color: #656A71;
+  text-decoration: none;
+}
+
+.csResumeContainer {
+  margin-top: 1.27vh;
+  width: 100%;
+  height: 5.75vh;
+  border-radius: 1.2vh;
+  border: none;
+  background-color: #24292F;
+  cursor: pointer;
+}
+
+.csResumeContainer:hover {
+  background-color: #1a1e22;
+  transition: background-color 0.3s;
+}
+
+.csResume {
+  color: white;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 3.52vh;
+}
+
+.csGT {
+  margin-top: 2.15vh;
+  font-size: 2.15vh;
+  font-weight: 400;
+}
+
+.csSocials {
+  margin-top: 2.54vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.csSocials img {
+  height: 4.68vh;
+  aspect-ratio: 1;
+}
+
+.githubContainer, .devpostContainer {
+  margin-left: 4.67vh;
+}
+
+
+
+/* bio */
+
+.csMain {
+  margin-left: 4vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.csBio {
+  width: 65vw;
+  font-size: 3vh;
+}
+
+.strongest {
+  font-weight: 800;
+}
+
+/* project collage */
+
+.boxshadow {
+  box-shadow: 3px 4px 4px 0px rgba(36,41,47,0.25);
+}
+
+.csProject {
+  background-color: #24292F;
+  box-shadow: 3px 4px 4px 0px rgba(36,41,47,0.25);
+  padding: 0.7vh 2vh;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  position: relative;
+  cursor: pointer;
+}
+.csProject:hover {
+  background-color: #1a1e22;
+  transition: background-color 0.3s;
+}
+
+.csProjectCollage {
+  margin-top: 4vh;
+  display: flex;
+  width: 65vw;
+}
+
+.csProjectCol1 {
+  flex: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+.csProjectCol2 {
+  margin-left: 1.2vh;
+  flex: 18vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+.csProjectCol3 {
+  margin-left: 1.2vh;
+  flex: 9vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+
+/* learn more */
+
+.csProjectLearnMore {
+  position: absolute;
+  bottom: 1.75vh;
+  right: 2vw;
+  display: flex;
+  align-items: center;
+}
+
+.csProjectLearnMoreText {
+  font-size: 1.56vh;
+  font-weight: 400;
+  color: white;
+  margin-top: 0.6vh;
+}
+
+.csProjectIconContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.csProjectTools {
+  margin-top: 1vh;
+  font-style: italic;
+  font-weight: 700;
+  color: white;
+  font-size: 2vh;
+}
+
+/* ensemble */
+
+.csEnsemble {
+  height: 65vh;
+  width: 100%;
+  border-top-left-radius: 2.5vh;
+}
+
+.csEnsembleName {
+  font-weight: 400;
+  font-size: 8.8vh;
+  color: white;
+}
+
+.csEnsembleUsersText {
+  margin-left: 0.16vw;
+  font-weight: 400;
+  font-size: 2.4vh;
+  color: #f266f5;
+}
+
+/* bite */
+.csBite {
+  height: 42vh;
+  width: 100%;
+}
+
+.csBiteName {
+  font-weight: 400;
+  font-size: 11.2vh;
+  color: white;
+}
+
+.csBiteHackMitText {
+  margin-left: 0.16vw;
+  font-weight: 400;
+  font-size: 2.4vh;
+  color: #ffd700;
+}
+
+/* geosurfer */
+
+.csGeoSurfer {
+  margin-top: 1.2vh;
+  height: 16.8vh;
+  width: 100%;
+}
+
+.csGeoSurferName {
+  font-weight: 400;
+  font-size: 4.7vh;
+  color: white;
+}
+
+/* traveldust */
+
+.csTravelDust {
+  border-top-right-radius: 2.5vh;
+  height: 18.2vh;
+  width: 100%;
+}
+
+.csTravelDustName {
+  font-weight: 400;
+  font-size: 5vh;
+  color: white;
+}
+
+/* kanjiro */
+
+.csKanjiro {
+  margin-top: 1.2vh;
+  height: 15vh;
+  width: 13vw;
+}
+
+.csKanjiroName {
+  font-weight: 400;
+  font-size: 4.7vh;
+  color: white;
+}
+
+/* bump */
+
+.csBump {
+  margin-top: 1.2vh;
+  height: 11.8vh;
+  width: 9vw;
+}
+
+.csBumpName {
+  font-weight: 400;
+  font-size: 3.9vh;
+  color: white;
+}

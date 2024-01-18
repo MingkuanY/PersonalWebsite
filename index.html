@@ -3,39 +3,131 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="mingkuan.css">
+  <link rel="stylesheet" href="styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Quantico&family=Rubik:ital,wght@0,300;0,400;0,700;1,500&display=swap" rel="stylesheet">
   <title>Mingkuan Yan</title>
   <link rel="icon" type="image/x-icon" href="assets/valleyoffire.png">
+  <script defer src="script.js"></script>
 </head>
 <body>
-  <div class="intro">Hi, I'm <span class="stronger">Mingkuan</span>. I'm a<span id="facet"></span></div>
-  <div class="collage">
-    <div class="leftcollage">
-      <div class="rowerContainer">
-        <img class="rower" src="assets/rower.JPG" alt="Rower">
+  <section class="landingSection">
+    <div class="intro">Hi, I'm <span class="stronger">Mingkuan</span>. I'm a<span id="facet"></span></div>
+    <div class="collage">
+      <div class="leftcollage">
+        <div class="rowerContainer">
+          <img class="rower" src="assets/rower.JPG" alt="Rower">
+        </div>
+        <div class="hornplayerContainer">
+          <img class="hornplayer" src="assets/hornplayer.jpg" alt="Horn Player">
+        </div>
       </div>
-      <div class="hornplayerContainer">
-        <img class="hornplayer" src="assets/hornplayer.jpg" alt="Horn Player">
+      <div class="centercollage">
+        <div class="csstudentContainer">
+          <img class="csstudent" src="assets/csstudent.jpg" alt="CS Student">
+        </div>
+      </div>
+      <div class="rightcollage">
+        <div class="photographerContainer">
+          <img class="photographer" src="assets/photographer.JPG" alt="Photographer">
+        </div>
+        <div class="roadtripperContainer">
+          <img class="roadtripper" src="assets/roadtripper.JPG" alt="Road Tripper">
+        </div>
       </div>
     </div>
-    <div class="centercollage">
-      <div class="csstudentContainer">
-        <img class="csstudent" src="assets/linkedinuser.jpg" alt="CS Student">
+  </section>
+
+  <section class="csstudentSection">
+    <div class="profileBar">
+      <div class="csPicContainer">
+        <img class="csPic" src="assets/csstudent.jpg" alt="CS Student">
+      </div>
+      <div class="csNameAndEmail">
+        <div class="csName">Mingkuan Yan</div>
+        <a href="mailto:mingkuan.yan@gatech.edu" class="csEmail">mingkuan.yan@gatech.edu</a>
+      </div>
+      <button class="csResumeContainer boxshadow">
+        <a href="" class="csResume">RESUME</a>
+      </button>
+      <div class="csGT">GEORGIA INSTITUTE OF TECHNOLOGY</div>
+      <div class="csSocials">
+        <div class="linkedinContainer">
+          <a href="https://www.linkedin.com/in/mingkuan-yan/"><img src="assets/linkedin.svg" alt="LinkedIn"></a>
+        </div>
+        <div class="githubContainer">
+          <a href="https://github.com/MingkuanY"><img src="assets/github.svg" alt="GitHub"></a>
+        </div>
+        <div class="devpostContainer">
+          <a href="https://devpost.com/myan71"><img src="assets/devpost.svg" alt="Devpost"></a>
+        </div>
       </div>
     </div>
-    <div class="rightcollage">
-      <div class="photographerContainer">
-        <img class="photographer" src="assets/photographer.JPG" alt="Photographer">
-      </div>
-      <div class="roadtripperContainer">
-        <img class="roadtripper" src="assets/roadtripper.JPG" alt="Road Tripper">
+    <div class="csMain">
+      <div class="csBio"><span class="strongest">Web dev is my passion.</span> I love making mock-ups of cool websites on Figma and turning them into reality in VSCode. Check out what I've done so far!</div>
+      <div class="csProjectCollage">
+        <div class="csProjectCol1">
+          <div class="csEnsemble csProject">
+            <div class="csEnsembleName">Ensemble</div>
+            <div class="csProjectIconContainer">
+              <img src="assets/user.svg" alt="User">
+              <div class="csEnsembleUsersText">2.1k USERS</div>
+            </div>
+            <div class="csProjectTools">Angular, TypeScript, HTML, CSS, Figma</div>
+            <div class="csProjectLearnMore">
+              <img src="assets/back_arrow.svg" alt="Learn More">
+              <div class="csProjectLearnMoreText">Learn More</div>
+            </div>
+          </div>
+        </div>
+        <div class="csProjectCol2">
+          <div class="csBite csProject">
+            <div class="csBiteName">Bite</div>
+            <div class="csProjectIconContainer">
+              <img src="assets/Trophy.svg" alt="Trophy">
+              <div class="csBiteHackMitText">HACKMIT WINNER</div>
+            </div>
+            <div class="csProjectTools">JavaScript, HTML, CSS, Python Flask</div>
+            <div class="csProjectLearnMore">
+              <img src="assets/back_arrow.svg" alt="Learn More">
+              <div class="csProjectLearnMoreText">Learn More</div>
+            </div>
+          </div>
+          <div class="csGeoSurfer csProject">
+            <div class="csGeoSurferName">GeoSurfer</div>
+            <div class="csProjectTools">JavaScript, HTML, CSS</div>
+            <div class="csProjectLearnMore">
+              <img src="assets/back_arrow.svg" alt="Learn More">
+              <div class="csProjectLearnMoreText">Learn More</div>
+            </div>
+          </div>
+        </div>
+        <div class="csProjectCol3">
+          <div class="csTravelDust csProject">
+            <div class="csTravelDustName">TravelDust</div>
+            <div class="csProjectLearnMore">
+              <img src="assets/back_arrow.svg" alt="Learn More">
+              <div class="csProjectLearnMoreText">Learn More</div>
+            </div>
+          </div>
+          <div class="csKanjiro csProject">
+            <div class="csKanjiroName">Kanjiro</div>
+            <div class="csProjectLearnMore">
+              <img src="assets/back_arrow.svg" alt="Learn More">
+              <div class="csProjectLearnMoreText">Learn More</div>
+            </div>
+          </div>
+          <div class="csBump csProject">
+            <div class="csBumpName">Bump</div>
+            <div class="csProjectLearnMore">
+              <img src="assets/back_arrow.svg" alt="Learn More">
+              <div class="csProjectLearnMoreText">Learn More</div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-  <!-- <div class="instructions"><span class="zoom">Zoom</span> and <span class="click">click</span> to see what I do!</div> -->
-  <script src="script.js"></script>
+  </section>
 </body>
 </html>
