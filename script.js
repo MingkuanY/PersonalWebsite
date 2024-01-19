@@ -31,7 +31,7 @@ images.forEach(image => {
       currentIndex = index;
     }
     images.forEach(otherImage => {
-      if (otherImage !== image) {
+      if (otherImage !== image && !otherImage.classList.contains('gray')) {
         otherImage.classList.add("gray");
       }
     });
