@@ -178,7 +178,7 @@ section {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 19vw;
+  width: fit-content;
 }
 
 .csPicContainer {
@@ -187,7 +187,7 @@ section {
 }
 
 .csPic {
-  width: 100%;
+  height: 42vh;
   aspect-ratio: 0.818;
   object-fit: cover;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -203,7 +203,7 @@ section {
 
 .csName {
   font-weight: 400;
-  font-size: 5.8vh;
+  font-size: 5.4vh;
   white-space: nowrap;
 }
 
@@ -274,6 +274,7 @@ section {
   margin-top: 2vh;
   font-size: 2vh;
   font-weight: 400;
+  text-align: center;
 }
 
 .csSocials {
