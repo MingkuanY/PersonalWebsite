@@ -101,7 +101,6 @@ section {
   height: 100%;
   aspect-ratio: 0.818;
   object-fit: cover;
-  object-position: 45% 50%;
 }
 
 /* horn player */
@@ -115,7 +114,6 @@ section {
   height: 100%;
   aspect-ratio: 0.818;
   object-fit: cover;
-  object-position: 50% 50%;
 }
 
 /* CS student */
@@ -129,7 +127,6 @@ section {
   height: 100%;
   aspect-ratio: 0.818;
   object-fit: cover;
-  object-position: 36% 50%;
 }
 
 /* photographer */
@@ -144,7 +141,6 @@ section {
   height: 100%;
   aspect-ratio: 0.818;
   object-fit: cover;
-  object-position: 40% 50%;
 }
 
 /* road tripper */
@@ -158,7 +154,6 @@ section {
   height: 100%;
   aspect-ratio: 0.818;
   object-fit: cover;
-  object-position: 50% 95%;
 }
 
 
@@ -173,7 +168,7 @@ section {
   padding: 8vh;
   display: flex;
   justify-content: center;
-  align-items: start;
+  align-items: center;
 }
 
 /* profile bar */
@@ -183,7 +178,7 @@ section {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 22.4vw;
+  width: 19vw;
 }
 
 .csPicContainer {
@@ -195,12 +190,11 @@ section {
   width: 100%;
   aspect-ratio: 0.818;
   object-fit: cover;
-  object-position: 36% 50%;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .csNameAndEmail {
-  margin-top: 1.27vh;
+  margin-top: 1vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -209,18 +203,20 @@ section {
 
 .csName {
   font-weight: 400;
-  font-size: 6.5vh;
+  font-size: 5.8vh;
   white-space: nowrap;
 }
 
 .csEmail {
-  margin-top: -0.4vh;
+  margin-top: -0.2vh;
   font-family: 'Quantico', sans-serif;
   font-weight: 400;
-  font-size: 2.15vh;
+  font-size: 1.8vh;
   color: #656A71;
   text-decoration: none;
 }
+
+/* resume button styling */
 
 .csResume {
   position: relative;
@@ -237,7 +233,7 @@ section {
   color: white;
   text-decoration: none;
   font-weight: 400;
-  font-size: 3.52vh;
+  font-size: 3vh;
   overflow: hidden;
 }
 
@@ -275,25 +271,25 @@ section {
 }
 
 .csGT {
-  margin-top: 2.15vh;
-  font-size: 2.15vh;
+  margin-top: 2vh;
+  font-size: 2vh;
   font-weight: 400;
 }
 
 .csSocials {
-  margin-top: 2.54vh;
+  margin-top: 2vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .csSocials img {
-  height: 4.68vh;
+  height: 4.3vh;
   aspect-ratio: 1;
 }
 
 .githubContainer, .devpostContainer {
-  margin-left: 4.67vh;
+  margin-left: 4.5vh;
 }
 
 
@@ -313,8 +309,8 @@ section {
 }
 
 .csBio {
-  width: 65vw;
-  font-size: 3vh;
+  width: 55vw;
+  font-size: 2.5vh;
 }
 
 .strongest {
@@ -323,21 +319,10 @@ section {
 
 /* project collage */
 
-.csProject {
-  background-color: #24292F;
-  box-shadow: 3px 4px 4px 0px rgba(36,41,47,0.25);
-  padding: 0.7vh 2vh;
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  position: relative;
-  cursor: pointer;
-}
-
 .csProjectCollage {
   margin-top: 4vh;
   display: flex;
-  width: 65vw;
+  width: 55vw;
 }
 
 .csProjectCol1 {
@@ -349,8 +334,8 @@ section {
 }
 
 .csProjectCol2 {
-  margin-left: 1.2vh;
-  flex: 18vw;
+  margin-left: 1vh;
+  flex: 13vw;
   display: flex;
   flex-direction: column;
   justify-content: start;
@@ -358,29 +343,40 @@ section {
 }
 
 .csProjectCol3 {
-  margin-left: 1.2vh;
-  flex: 9vw;
+  margin-left: 1vh;
+  flex: 4vw;
   display: flex;
   flex-direction: column;
   justify-content: start;
   align-items: start;
 }
 
+.csProject {
+  background-color: #24292F;
+  box-shadow: 3px 4px 4px 0px rgba(36,41,47,0.25);
+  padding: 0.5vh 1.6vh;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  position: relative;
+  cursor: pointer;
+}
+
 /* learn more */
 
 .csProjectLearnMore {
   position: absolute;
-  bottom: 1.75vh;
-  right: 2vw;
+  bottom: 1.5vh;
+  right: 1vw;
   display: flex;
   align-items: center;
 }
 
 .csProjectLearnMoreText {
-  font-size: 1.56vh;
+  font-size: 1.5vh;
   font-weight: 400;
   color: white;
-  margin-top: 0.6vh;
+  margin-top: 0.75vh;
 }
 
 .csProjectLearnMoreText:hover {
@@ -398,13 +394,15 @@ section {
   font-style: italic;
   font-weight: 700;
   color: white;
-  font-size: 2vh;
+  font-size: 1.7vh;
+  line-height: 2.4vh;
+  letter-spacing: 0.06vw;
 }
 
 /* ensemble */
 
 .csEnsemble {
-  height: 65vh;
+  height: 60vh;
   width: 100%;
   border-top-left-radius: 2.5vh;
   background: rgba(0, 0, 0, 0.7) url(assets/ensemble.jpg);
@@ -420,15 +418,15 @@ section {
 }
 
 .csEnsembleUsersText {
-  margin-left: 0.16vw;
+  margin-left: 0.1vw;
   font-weight: 400;
-  font-size: 2.4vh;
+  font-size: 2vh;
   color: #f266f5;
 }
 
 /* bite */
 .csBite {
-  height: 42vh;
+  height: 40vh;
   width: 100%;
   background: rgba(0, 0, 0, 0.7) url(assets/bite.jpeg);
   background-size: cover;
@@ -438,31 +436,31 @@ section {
 
 .csBiteName {
   font-weight: 400;
-  font-size: 11.2vh;
+  font-size: 11vh;
   color: white;
 }
 
 .csBiteHackMitText {
-  margin-left: 0.16vw;
+  margin-left: 0.1vw;
   font-weight: 400;
-  font-size: 2.4vh;
+  font-size: 2vh;
   color: #ffd700;
 }
 
 /* geosurfer */
 
 .csGeoSurfer {
-  margin-top: 1.2vh;
-  height: 16.8vh;
+  margin-top: 1vh;
+  height: 16vh;
   width: 100%;
-  background: rgba(0, 0, 0, 0.7) url(assets/geosurfer.jpg);
+  background: rgba(0, 0, 0, 0.75) url(assets/geosurfer.jpg);
   background-size: cover;
   background-blend-mode: darken;
 }
 
 .csGeoSurferName {
   font-weight: 400;
-  font-size: 4.7vh;
+  font-size: 4.2vh;
   color: white;
 }
 
@@ -470,7 +468,7 @@ section {
 
 .csTravelDust {
   border-top-right-radius: 2.5vh;
-  height: 18.2vh;
+  height: 17vh;
   width: 100%;
   background: rgba(0, 0, 0, 0.35) url(assets/traveldust.jpeg);
   background-size: cover;
@@ -480,15 +478,15 @@ section {
 
 .csTravelDustName {
   font-weight: 400;
-  font-size: 5vh;
+  font-size: 4.5vh;
   color: white;
 }
 
 /* kanjiro */
 
 .csKanjiro {
-  margin-top: 1.2vh;
-  height: 15vh;
+  margin-top: 1vh;
+  height: 14vh;
   width: 13.5vw;
   background: rgba(0, 0, 0, 0.5) url(assets/kanjiro.jpeg);
   background-size: cover;
@@ -504,12 +502,12 @@ section {
 /* bump */
 
 .csBump {
-  margin-top: 1.2vh;
-  height: 11.8vh;
+  margin-top: 1vh;
+  height: 11vh;
   width: 10vw;
   background: rgba(0, 0, 0, 0.7) url(assets/bump.jpg);
   background-size: cover;
-  background-position: 50% 38%;
+  background-position: 50% 5%;
   background-blend-mode: darken;
 }
 
