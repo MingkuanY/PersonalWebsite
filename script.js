@@ -109,6 +109,7 @@ class TextScramble {
 
 const facet = document.getElementById('facet');
 const fx = new TextScramble(facet);
+const fxIntro = new TextScramble(document.getElementById('imMingkuan'));
 
 const phrases = [
   '',
@@ -131,3 +132,42 @@ function setupInitialState() {
 }
 
 window.addEventListener('load', setupInitialState);
+
+
+
+/* scroll to CS page */
+
+const intro = document.querySelector('.intro');
+const csPic = document.querySelector('.csstudentContainer');
+csPic.addEventListener('click', () => {
+  // fade the other images
+  images.forEach(image => {
+    if (!image.classList.contains('csstudent')) {
+      image.classList.add('fade');
+    }
+  });
+
+  // scramble 'Hi, I'm Mingkuan' into nothing
+  fxIntro.setText(phrases[0], 20, 25);
+
+  setTimeout(() => {
+    intro.classList.add('growBold');
+  }, 400);
+
+  // scroll to CS section
+  setTimeout(() => {
+    const csStudentSection = document.querySelector('.csstudentSection');
+    csStudentSection.scrollIntoView({ behavior: 'smooth' });
+  }, 1000);
+
+  // reset classes afterward
+  setTimeout(() => {
+    images.forEach(image => {
+      if (image.classList.contains('fade')) {
+        image.classList.remove('fade');
+      }
+    });
+    intro.classList.remove('growBold');
+    document.getElementById('imMingkuan').innerHTML = "Hi, I'm <span class='stronger'>Mingkuan</span>. ";
+  }, 2000);
+});
