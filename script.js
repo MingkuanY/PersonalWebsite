@@ -150,10 +150,6 @@ csPic.addEventListener('click', () => {
   // scramble 'Hi, I'm Mingkuan' into nothing
   fxIntro.setText(phrases[0], 20, 25);
 
-  setTimeout(() => {
-    intro.classList.add('growBold');
-  }, 400);
-
   // scroll to CS section
   setTimeout(() => {
     const csStudentSection = document.querySelector('.csstudentSection');
@@ -167,7 +163,6 @@ csPic.addEventListener('click', () => {
         image.classList.remove('fade');
       }
     });
-    intro.classList.remove('growBold');
     document.getElementById('imMingkuan').innerHTML = "Hi, I'm <span class='stronger'>Mingkuan</span>. ";
   }, 2000);
 });

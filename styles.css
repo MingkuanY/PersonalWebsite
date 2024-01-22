@@ -9,7 +9,7 @@ body {
   padding: 0;
 }
 
-@media (max-width: 1600px) {
+@media (max-width: 1700px) {
   html {
     font-size: 12px;
   }
@@ -238,11 +238,11 @@ section {
 
 .csPicContainer {
   width: 100%;
-  height: fit-content;
+  height: 100%;
 }
 
 .csPic {
-  height: 28rem;
+  width: 23rem;
   aspect-ratio: 0.818;
   object-fit: cover;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -420,6 +420,7 @@ section {
   align-items: start;
   position: relative;
   cursor: pointer;
+  border: none;
 }
 
 /* learn more */
@@ -430,6 +431,11 @@ section {
   right: 1rem;
   display: flex;
   align-items: center;
+}
+
+.csProjectLearnMore img {
+  width: 2.4rem;
+  height: 2.4rem;
 }
 
 .csProjectLearnMoreText {
@@ -446,6 +452,11 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.csProjectIconContainer img {
+  width: 2.5rem;
+  height: 2.5rem;
 }
 
 .csProjectTools {
