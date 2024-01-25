@@ -421,6 +421,7 @@ section {
   position: relative;
   cursor: pointer;
   border: none;
+  transition: height 0.3s, background 0.3s;
 }
 
 /* learn more */
@@ -482,6 +483,14 @@ section {
   background-blend-mode: darken;
 }
 
+.csEnsemble:hover {
+  height: 41rem;
+  background: rgba(0, 0, 0, 0.4) url(assets/ensemble.jpg);
+  background-size: cover;
+  background-position: 50% 20%;
+  background-blend-mode: darken;
+}
+
 .csEnsembleName {
   font-size: 5.5rem;
   color: white;
@@ -499,6 +508,14 @@ section {
   height: 26rem;
   width: 100%;
   background: rgba(0, 0, 0, 0.7) url(assets/bite.jpeg);
+  background-size: cover;
+  background-position: 30% 50%;
+  background-blend-mode: darken;
+}
+
+.csBite:hover {
+  height: 27rem;
+  background: rgba(0, 0, 0, 0.4) url(assets/bite.jpeg);
   background-size: cover;
   background-position: 30% 50%;
   background-blend-mode: darken;
@@ -527,6 +544,13 @@ section {
   background-blend-mode: darken;
 }
 
+.csGeoSurfer:hover {
+  height: 12rem;
+  background: rgba(0, 0, 0, 0.5) url(assets/geosurfer.jpg);
+  background-size: cover;
+  background-blend-mode: darken;
+}
+
 .csGeoSurferName {
   font-size: 3rem;
   color: white;
@@ -541,6 +565,14 @@ section {
   height: 12rem;
   width: 100%;
   background: rgba(0, 0, 0, 0.35) url(assets/traveldust.jpeg);
+  background-size: cover;
+  background-position: 50% 50%;
+  background-blend-mode: darken;
+}
+
+.csTravelDust:hover {
+  height: 13rem;
+  background: rgba(0, 0, 0, 0.1) url(assets/traveldust.jpeg);
   background-size: cover;
   background-position: 50% 50%;
   background-blend-mode: darken;
@@ -564,6 +596,13 @@ section {
   background-blend-mode: darken;
 }
 
+.csKanjiro:hover {
+  height: 10rem;
+  background: rgba(0, 0, 0, 0.3) url(assets/kanjiro.jpeg);
+  background-size: cover;
+  background-blend-mode: darken;
+}
+
 .csKanjiroName {
   font-size: 3.5rem;
   color: white;
@@ -578,6 +617,14 @@ section {
   height: 7rem;
   width: 11rem;
   background: rgba(0, 0, 0, 0.7) url(assets/bump.jpg);
+  background-size: cover;
+  background-position: 50% 5%;
+  background-blend-mode: darken;
+}
+
+.csBump:hover {
+  height: 8rem;
+  background: rgba(0, 0, 0, 0.3) url(assets/bump.jpg);
   background-size: cover;
   background-position: 50% 5%;
   background-blend-mode: darken;
