@@ -166,3 +166,60 @@ csPic.addEventListener('click', () => {
     document.getElementById('imMingkuan').innerHTML = "Hi, I'm <span class='stronger'>Mingkuan</span>. ";
   }, 2000);
 });
+
+/* scroll to projects */
+
+const csEnsemble = document.querySelector('.csEnsemble');
+csEnsemble.addEventListener('click', () => {
+  const ensembleProject = document.querySelector('.ensembleProject');
+  ensembleProject.scrollIntoView({ behavior: 'smooth', block: 'center' });
+});
+
+const csBite = document.querySelector('.csBite');
+csBite.addEventListener('click', () => {
+  const ensembleProject = document.querySelector('.biteProject');
+  ensembleProject.scrollIntoView({ behavior: 'smooth', block: 'center' });
+});
+
+const csGeoSurfer = document.querySelector('.csGeoSurfer');
+csGeoSurfer.addEventListener('click', () => {
+  const ensembleProject = document.querySelector('.geosurferProject');
+  ensembleProject.scrollIntoView({ behavior: 'smooth', block: 'center' });
+});
+
+const csTravelDust = document.querySelector('.csTravelDust');
+csTravelDust.addEventListener('click', () => {
+  const ensembleProject = document.querySelector('.traveldustProject');
+  ensembleProject.scrollIntoView({ behavior: 'smooth', block: 'center' });
+});
+
+const csKanjiro = document.querySelector('.csKanjiro');
+csKanjiro.addEventListener('click', () => {
+  const ensembleProject = document.querySelector('.kanjiroProject');
+  ensembleProject.scrollIntoView({ behavior: 'smooth', block: 'center' });
+});
+
+const csBump = document.querySelector('.csBump');
+csBump.addEventListener('click', () => {
+  const ensembleProject = document.querySelector('.bumpProject');
+  ensembleProject.scrollIntoView({ behavior: 'smooth', block: 'center' });
+});
+
+/* scroll back home */
+
+const landingSection = document.querySelector('.landingSection');
+const homeButton = document.querySelector('.homeButton');
+
+function handleHome() {
+  if (window.scrollY >= landingSection.getBoundingClientRect().bottom) {
+    homeButton.style.display = 'block';
+  } else {
+    homeButton.style.display = 'none';
+  }
+}
+
+window.onscroll = handleHome;
+
+homeButton.addEventListener('click', () => {
+  landingSection.scrollIntoView({ behavior: 'smooth' });
+});

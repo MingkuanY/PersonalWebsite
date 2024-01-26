@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-body {
+body, h1, h2, h3, p, footer {
   margin: 0;
   padding: 0;
 }
@@ -15,31 +15,31 @@ body {
   }
 }
 
-@media (max-width: 1280px) {
+@media (max-width: 1380px) {
   html {
     font-size: 10px;
   }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1124px) {
   html {
     font-size: 8px;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 868px) {
   html {
     font-size: 6px;
   }
 }
 
-@media (max-width: 640px) {
+@media (max-width: 740px) {
   html {
     font-size: 5px;
   }
 }
 
-@media (max-width: 475px) {
+@media (max-width: 575px) {
   html {
     font-size: 4px;
   }
@@ -139,7 +139,7 @@ section {
   margin-top: 4.5rem;
 }
 
-.collage button {
+button {
   border: none;
   padding: 0;
   background: white;
@@ -455,7 +455,7 @@ section {
   align-items: center;
 }
 
-.csProjectIconContainer img {
+.csProjectIconContainer img, .fullProjectIconContainer img {
   width: 2.5rem;
   height: 2.5rem;
 }
@@ -635,4 +635,191 @@ section {
   color: white;
   font-weight: 400;
   margin: 0;
+}
+
+
+
+
+
+
+
+
+
+/* cs projects section */
+
+.csProjectSection {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+}
+
+.homeButton {
+  position: fixed;
+  top: 5.4rem;
+  right: 3rem;
+  height: 5rem;
+  aspect-ratio: 1;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.homeButton:hover {
+  transform: scale(1.1);
+}
+
+.myProjects {
+  margin-top: 8rem;
+  font-size: 3rem;
+  font-weight: 500;
+  margin-bottom: 6.3rem;
+}
+
+.fullProjectContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10rem;
+}
+
+.fullProjectInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.fullProjectMarginRight {
+  margin-right: 6rem;
+}
+
+.fullProjectNameContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fullProjectName {
+  font-size: 6rem;
+}
+
+.fullProjectIconContainer {
+  margin-top: 1.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fullProjectDescription {
+  margin-top: 1.6rem;
+  font-size: 2rem;
+  font-weight: 100;
+  text-align: center;
+  width: 43rem;
+}
+
+.fullProjectTools {
+  margin-top: 2.4rem;
+  font-size: 1.5rem;
+  font-style: italic;
+  font-weight: 600;
+  width: 29rem;
+  text-align: center;
+}
+
+.visitProjectContainer {
+  margin-top: 2.4rem;
+  cursor: pointer;
+}
+
+.visitProjectButton {
+  padding: 0.5rem 1rem;
+  background-color: #24292F;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 3px 4px 4px 0px rgba(36,41,47,0.25);
+  cursor: pointer;
+}
+
+.fullProjectWebsite {
+  color: white;
+  font-style: italic;
+  font-weight: 200;
+  font-size: 1.5rem;
+}
+
+.fullProjectWebsiteVisitArrow {
+  margin-left: 0.6rem;
+  width: 2.4rem;
+  aspect-ratio: 1;
+}
+
+.fullProjectIcon {
+  height: 4rem;
+  aspect-ratio: 1;
+}
+
+.fullProjectPicContainer {
+  height: 38rem;
+  width: fit-content;
+}
+
+.fullProjectPic {
+  height: 100%;
+  aspect-ratio: 1.42;
+  object-fit: cover;
+  border-radius: 1.6rem;
+  /* box-shadow: 3px 4px 4px 0px rgba(36,41,47,0.25); */
+  box-shadow: 0 60px 123px -25px hsla(240, 2%, 12%, 0.42), 0 35px 75px -35px hsla(240, 1%, 18%, 0.08);
+  transition: all .6s ease;
+}
+
+.fullProjectPicLeftLean {
+  transform: perspective(50rem) rotateY(-25deg) scale(.8) rotateX(10deg);
+}
+
+.fullProjectPicLeftLean:hover {
+  transform: perspective(70rem) rotateY(10deg) scale(1) rotateX(6deg);
+}
+
+.fullProjectPicRightLean {
+  transform: perspective(50rem) rotateY(25deg) scale(.8) rotateX(10deg);
+}
+
+.fullProjectPicRightLean:hover {
+  transform: perspective(70rem) rotateY(-10deg) scale(1) rotateX(6deg);
+}
+
+/* project-specific styles */
+
+.fullProjectLogo {
+  height: 5.8rem;
+  margin-left: 1.6rem;
+}
+
+.verticalRatio {
+  aspect-ratio: 0.5;
+}
+
+
+
+
+
+
+
+/* footer */
+
+.footerContainer {
+  height: 7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  font-size: 1.5rem;
+  font-weight: 100;
 }
