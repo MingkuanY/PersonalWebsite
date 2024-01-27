@@ -1,53 +1,58 @@
 /* image grayscale effect */
 
 let currentIndex = 1;
+let fade = true;
 
 const images = document.querySelectorAll('.collage img');
 images.forEach(image => {
   image.addEventListener('mouseover', () => {
-    let index = 0;
-    switch (image.classList[0]) {
-      case 'csstudent':
-        index = 1;
-        break;
-      case 'roadtripper':
-        index = 2;
-        break;
-      case 'hornplayer':
-        index = 3;
-        break;
-      case 'photographer':
-        index = 4;
-        break;
-      case 'rower':
-        index = 5;
-        break;
-    }
-    if (image.classList.contains('gray')) {
-      image.classList.remove('gray');
-    }
-    if (currentIndex !== index) {
-      fx.setText(phrases[index], 45, 50);
-      currentIndex = index;
-    }
-    images.forEach(otherImage => {
-      if (otherImage !== image && !otherImage.classList.contains('gray')) {
-        otherImage.classList.add("gray");
+    if (fade) {
+      let index = 0;
+      switch (image.classList[0]) {
+        case 'csstudent':
+          index = 1;
+          break;
+        case 'roadtripper':
+          index = 2;
+          break;
+        case 'hornplayer':
+          index = 3;
+          break;
+        case 'photographer':
+          index = 4;
+          break;
+        case 'rower':
+          index = 5;
+          break;
       }
-    });
+      if (image.classList.contains('gray')) {
+        image.classList.remove('gray');
+      }
+      if (currentIndex !== index) {
+        fx.setText(phrases[index], 45, 50);
+        currentIndex = index;
+      }
+      images.forEach(otherImage => {
+        if (otherImage !== image && !otherImage.classList.contains('gray')) {
+          otherImage.classList.add("gray");
+        }
+      });
+    }
   }, false);
   image.addEventListener('mouseout', () => {
-    if (currentIndex !== 1) {
-      fx.setText(phrases[1], 45, 50);
-    }
-    images.forEach(image => {
-      if (image.classList[0] === 'csstudent') {
-        image.classList.remove("gray");
-      } else if (!image.classList.contains('gray')) {
-        image.classList.add('gray');
+    if (fade) {
+      if (currentIndex !== 1) {
+        fx.setText(phrases[1], 45, 50);
       }
-    });
-    currentIndex = 1;
+      images.forEach(image => {
+        if (image.classList[0] === 'csstudent') {
+          image.classList.remove("gray");
+        } else if (!image.classList.contains('gray')) {
+          image.classList.add('gray');
+        }
+      });
+      currentIndex = 1;
+    }
   }, false);
 });
 
@@ -141,17 +146,23 @@ const intro = document.querySelector('.intro');
 const picContainers = document.querySelectorAll('.collage button');
 images.forEach(pic => {
   pic.addEventListener('click', () => {
+    fade = false;
     // fade the other images
     images.forEach(image => {
       if (pic !== image) {
         image.classList.add('fade');
       }
     });
+    // enlarge the current pic
     picContainers.forEach(picContainer => {
       if (picContainer.children[0].classList.contains(pic.classList[0])) {
-        const csHeight = document.querySelector('.csstudentContainer').offsetHeight;
+        const csStudentContainer = document.querySelector('.csstudentContainer');
+        const csHeight = csStudentContainer.offsetHeight;
         const currHeight = picContainer.offsetHeight;
-        picContainer.style.transform = `scale(${ csHeight / currHeight })`;
+        const translateX = csStudentContainer.getBoundingClientRect().left - picContainer.offsetLeft;
+        const translateY = csStudentContainer.offsetTop - picContainer.offsetTop;
+        picContainer.style.transformOrigin = 'top left';
+        picContainer.style.transform = `translate(${translateX}px, ${translateY}px) scale(${csHeight / currHeight})`;
         picContainer.style.zIndex = '10';
       }
     });
@@ -160,13 +171,18 @@ images.forEach(pic => {
     fxIntro.setText(phrases[0], 20, 25);
 
     // scroll to CS section
-    setTimeout(() => {
-      const csStudentSection = document.querySelector('.csstudentSection');
-      csStudentSection.scrollIntoView({ behavior: 'smooth' });
-    }, 1000);
+    if (pic.classList.contains('csstudent')) {
+      setTimeout(() => {
+        const csStudentSection = document.querySelector('.csstudentSection');
+        csStudentSection.scrollIntoView({ behavior: 'smooth' });
+      }, 1300);
+    }
+
+    // transition to other sections
 
     // reset classes afterward
     setTimeout(() => {
+      fade = true;
       images.forEach(image => {
         if (image.classList.contains('fade')) {
           image.classList.remove('fade');
@@ -177,7 +193,7 @@ images.forEach(pic => {
         picContainer.style.zIndex = '0';
       });
       document.getElementById('imMingkuan').innerHTML = "Hi, I'm <span class='stronger'>Mingkuan</span>. ";
-    }, 2000);
+    }, 2500);
   });
 });
 
