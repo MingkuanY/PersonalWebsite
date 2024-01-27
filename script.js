@@ -1,6 +1,6 @@
 /* image grayscale effect */
 
-currentIndex = 1;
+let currentIndex = 1;
 
 const images = document.querySelectorAll('.collage img');
 images.forEach(image => {
@@ -135,36 +135,50 @@ window.addEventListener('load', setupInitialState);
 
 
 
-/* scroll to CS page */
+/* collage: click -> focus -> scroll */
 
 const intro = document.querySelector('.intro');
-const csPic = document.querySelector('.csstudentContainer');
-csPic.addEventListener('click', () => {
-  // fade the other images
-  images.forEach(image => {
-    if (!image.classList.contains('csstudent')) {
-      image.classList.add('fade');
-    }
-  });
-
-  // scramble 'Hi, I'm Mingkuan' into nothing
-  fxIntro.setText(phrases[0], 20, 25);
-
-  // scroll to CS section
-  setTimeout(() => {
-    const csStudentSection = document.querySelector('.csstudentSection');
-    csStudentSection.scrollIntoView({ behavior: 'smooth' });
-  }, 1000);
-
-  // reset classes afterward
-  setTimeout(() => {
+const picContainers = document.querySelectorAll('.collage button');
+images.forEach(pic => {
+  pic.addEventListener('click', () => {
+    // fade the other images
     images.forEach(image => {
-      if (image.classList.contains('fade')) {
-        image.classList.remove('fade');
+      if (pic !== image) {
+        image.classList.add('fade');
       }
     });
-    document.getElementById('imMingkuan').innerHTML = "Hi, I'm <span class='stronger'>Mingkuan</span>. ";
-  }, 2000);
+    picContainers.forEach(picContainer => {
+      if (picContainer.children[0].classList.contains(pic.classList[0])) {
+        const csHeight = document.querySelector('.csstudentContainer').offsetHeight;
+        const currHeight = picContainer.offsetHeight;
+        picContainer.style.transform = `scale(${ csHeight / currHeight })`;
+        picContainer.style.zIndex = '10';
+      }
+    });
+
+    // scramble 'Hi, I'm Mingkuan' into nothing
+    fxIntro.setText(phrases[0], 20, 25);
+
+    // scroll to CS section
+    setTimeout(() => {
+      const csStudentSection = document.querySelector('.csstudentSection');
+      csStudentSection.scrollIntoView({ behavior: 'smooth' });
+    }, 1000);
+
+    // reset classes afterward
+    setTimeout(() => {
+      images.forEach(image => {
+        if (image.classList.contains('fade')) {
+          image.classList.remove('fade');
+        }
+      });
+      picContainers.forEach(picContainer => {
+        picContainer.style.transform = 'scale(1)';
+        picContainer.style.zIndex = '0';
+      });
+      document.getElementById('imMingkuan').innerHTML = "Hi, I'm <span class='stronger'>Mingkuan</span>. ";
+    }, 2000);
+  });
 });
 
 /* scroll to projects */

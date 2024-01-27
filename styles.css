@@ -81,7 +81,7 @@ section {
 .collage img {
   cursor: pointer;
   box-shadow: 3px 4px 4px 0px rgba(36,41,47,0.25);
-  transition: opacity 0.3s, filter 0.3s;
+  transition: opacity 0.5s, filter 0.5s, object-position 0.5s;
 }
 
 .gray {
@@ -91,7 +91,18 @@ section {
 
 .fade {
   opacity: 0;
-  transition: opacity 0.5s;
+  object-position: 50% 50%;
+}
+
+.collage button {
+  transition: transform 0.5s;
+}
+
+.move {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
 }
 
 .growBold {
@@ -117,6 +128,7 @@ section {
 .collage {
   margin-top: 6rem;
   display: flex;
+  position: relative;
 }
 
 .leftcollage {
