@@ -477,7 +477,7 @@ button {
   height: 40rem;
   width: 100%;
   border-top-left-radius: 1.7rem;
-  background: rgba(0, 0, 0, 0.7) url(assets/ensemble.jpg);
+  background: rgba(0, 0, 0, 0.7) url(assets/projectpreviews/ensemble.jpg);
   background-size: cover;
   background-position: 50% 20%;
   background-blend-mode: darken;
@@ -485,7 +485,7 @@ button {
 
 .csEnsemble:hover {
   height: 41rem;
-  background: rgba(0, 0, 0, 0.4) url(assets/ensemble.jpg);
+  background: rgba(0, 0, 0, 0.4) url(assets/projectpreviews/ensemble.jpg);
   background-size: cover;
   background-position: 50% 20%;
   background-blend-mode: darken;
@@ -507,7 +507,7 @@ button {
 .csBite {
   height: 26rem;
   width: 100%;
-  background: rgba(0, 0, 0, 0.7) url(assets/bite.jpeg);
+  background: rgba(0, 0, 0, 0.7) url(assets/projectpreviews/bite.jpeg);
   background-size: cover;
   background-position: 30% 50%;
   background-blend-mode: darken;
@@ -515,7 +515,7 @@ button {
 
 .csBite:hover {
   height: 27rem;
-  background: rgba(0, 0, 0, 0.4) url(assets/bite.jpeg);
+  background: rgba(0, 0, 0, 0.4) url(assets/projectpreviews/bite.jpeg);
   background-size: cover;
   background-position: 30% 50%;
   background-blend-mode: darken;
@@ -539,14 +539,14 @@ button {
   margin-top: 0.7rem;
   height: 11rem;
   width: 100%;
-  background: rgba(0, 0, 0, 0.75) url(assets/geosurfer.jpg);
+  background: rgba(0, 0, 0, 0.75) url(assets/projectpreviews/geosurfer.jpg);
   background-size: cover;
   background-blend-mode: darken;
 }
 
 .csGeoSurfer:hover {
   height: 12rem;
-  background: rgba(0, 0, 0, 0.5) url(assets/geosurfer.jpg);
+  background: rgba(0, 0, 0, 0.5) url(assets/projectpreviews/geosurfer.jpg);
   background-size: cover;
   background-blend-mode: darken;
 }
@@ -564,7 +564,7 @@ button {
   border-top-right-radius: 1.7rem;
   height: 12rem;
   width: 100%;
-  background: rgba(0, 0, 0, 0.35) url(assets/traveldust.jpeg);
+  background: rgba(0, 0, 0, 0.35) url(assets/projectpreviews/traveldust.jpeg);
   background-size: cover;
   background-position: 50% 50%;
   background-blend-mode: darken;
@@ -572,7 +572,7 @@ button {
 
 .csTravelDust:hover {
   height: 13rem;
-  background: rgba(0, 0, 0, 0.1) url(assets/traveldust.jpeg);
+  background: rgba(0, 0, 0, 0.1) url(assets/projectpreviews/traveldust.jpeg);
   background-size: cover;
   background-position: 50% 50%;
   background-blend-mode: darken;
@@ -591,14 +591,14 @@ button {
   margin-top: 0.7rem;
   height: 9rem;
   width: 15rem;
-  background: rgba(0, 0, 0, 0.5) url(assets/kanjiro.jpeg);
+  background: rgba(0, 0, 0, 0.5) url(assets/projectpreviews/kanjiro.jpeg);
   background-size: cover;
   background-blend-mode: darken;
 }
 
 .csKanjiro:hover {
   height: 10rem;
-  background: rgba(0, 0, 0, 0.3) url(assets/kanjiro.jpeg);
+  background: rgba(0, 0, 0, 0.3) url(assets/projectpreviews/kanjiro.jpeg);
   background-size: cover;
   background-blend-mode: darken;
 }
@@ -616,7 +616,7 @@ button {
   margin-top: 0.7rem;
   height: 7rem;
   width: 11rem;
-  background: rgba(0, 0, 0, 0.7) url(assets/bump.jpg);
+  background: rgba(0, 0, 0, 0.7) url(assets/projectpreviews/bump.jpg);
   background-size: cover;
   background-position: 50% 5%;
   background-blend-mode: darken;
@@ -624,7 +624,7 @@ button {
 
 .csBump:hover {
   height: 8rem;
-  background: rgba(0, 0, 0, 0.3) url(assets/bump.jpg);
+  background: rgba(0, 0, 0, 0.3) url(assets/projectpreviews/bump.jpg);
   background-size: cover;
   background-position: 50% 5%;
   background-blend-mode: darken;
@@ -716,6 +716,7 @@ button {
 .fullProjectDescription {
   margin-top: 1.6rem;
   font-size: 2rem;
+  line-height: 2.6rem;
   font-weight: 100;
   text-align: center;
   width: 43rem;
@@ -724,6 +725,7 @@ button {
 .fullProjectTools {
   margin-top: 2.4rem;
   font-size: 1.5rem;
+  line-height: 2.1rem;
   font-style: italic;
   font-weight: 600;
   width: 29rem;
@@ -762,6 +764,8 @@ button {
   height: 4rem;
   aspect-ratio: 1;
 }
+
+/* project pic */
 
 .fullProjectPicContainer {
   height: 38rem;
