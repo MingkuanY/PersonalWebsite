@@ -58,11 +58,27 @@ section {
   height: 100vh;
 }
 
-.landingSection {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+
+
+
+
+
+
+/* HOME BUTTON */
+
+.homeButton {
+  display: none;
+  position: fixed;
+  top: 5.4rem;
+  right: 3rem;
+  height: 5rem;
+  aspect-ratio: 1;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.homeButton:hover {
+  transform: scale(1.1);
 }
 
 
@@ -73,8 +89,14 @@ section {
 
 
 
-
 /* LANDING PAGE */
+
+.landingSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
 /* image grayscale effect */
 
@@ -463,6 +485,7 @@ button {
 .csProjectIconContainer img, .fullProjectIconContainer img {
   width: 2.5rem;
   height: 2.5rem;
+  margin-right: 0.4rem;
 }
 
 .csProjectTools {
@@ -536,6 +559,13 @@ button {
 .csBiteHackMitText {
   font-size: 1.4rem;
   color: #ffd700;
+}
+
+/* netwark */
+
+.csNetwarkARText {
+  font-size: 1.4rem;
+  color: #ff00aa;
 }
 
 /* geosurfer */
@@ -650,7 +680,42 @@ button {
 
 
 
-/* cs projects section */
+
+
+
+
+
+/* CS SKILLS & PROJECTS SECTION */
+
+.csSkillsSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.skillsContainer, .courseworkContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 8rem;
+}
+
+.mySkills, .myCoursework {
+  font-size: 3rem;
+  font-weight: 500;
+  margin-bottom: 2.5rem;
+}
+
+.skills, .coursework {
+  font-size: 2rem;
+  line-height: 2.6rem;
+  font-style: italic;
+  font-weight: 100;
+  text-align: center;
+  width: 84rem;
+}
 
 .csProjectSection {
   position: relative;
@@ -661,26 +726,11 @@ button {
   height: fit-content;
 }
 
-.homeButton {
-  display: none;
-  position: fixed;
-  top: 5.4rem;
-  right: 3rem;
-  height: 5rem;
-  aspect-ratio: 1;
-  cursor: pointer;
-  transition: transform 0.3s;
-}
-
-.homeButton:hover {
-  transform: scale(1.1);
-}
-
 .myProjects {
   margin-top: 8rem;
   font-size: 3rem;
   font-weight: 500;
-  margin-bottom: 6.3rem;
+  margin-bottom: 6rem;
 }
 
 .fullProjectContainer {
@@ -735,6 +785,13 @@ button {
   font-weight: 600;
   width: 29rem;
   text-align: center;
+}
+
+.visitContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 54%;
 }
 
 .visitProjectContainer {
