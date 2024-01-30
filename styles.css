@@ -9,6 +9,10 @@ body, h1, h2, h3, p, footer {
   padding: 0;
 }
 
+body {
+  position: relative;
+}
+
 @media (max-width: 2000px) {
   html {
     font-size: 12px;
@@ -75,6 +79,7 @@ section {
   aspect-ratio: 1;
   cursor: pointer;
   transition: transform 0.3s;
+  z-index: 100;
 }
 
 .homeButton:hover {
@@ -273,6 +278,11 @@ button {
   aspect-ratio: 0.818;
   object-fit: cover;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transition: transform 0.3s;
+}
+
+.csPic:hover {
+  transform: scale(1.03);
 }
 
 .csNameAndEmail {
@@ -373,6 +383,11 @@ button {
 .csSocials img {
   height: 3rem;
   aspect-ratio: 1;
+  transition: transform 0.3s;
+}
+
+.csSocials img:hover {
+  transform: scale(1.1);
 }
 
 .githubContainer, .devpostContainer {
@@ -797,6 +812,11 @@ button {
 .visitProjectContainer {
   margin-top: 2.4rem;
   cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.visitProjectContainer:hover {
+  transform: scale(1.1);
 }
 
 .visitProjectButton {
