@@ -1,9 +1,12 @@
+/* COLLAGE */
+
 /* image grayscale effect */
 
 let currentIndex = 1;
 let fade = true;
 
 const images = document.querySelectorAll('.collage img');
+
 images.forEach(image => {
   image.addEventListener('mouseover', () => {
     if (fade) {
@@ -125,6 +128,15 @@ const phrases = [
   ' rower.'
 ];
 
+// content
+const csContent = document.querySelector('.csContent');
+const roadtripperContent = document.querySelector('.roadtripperContent');
+const hornplayerContent = document.querySelector('.hornplayerContent');
+const photographerContent = document.querySelector('.photographerContent');
+const rowerContent = document.querySelector('.rowerContent');
+
+
+// website setup
 function setupInitialState() {
   fx.setText(phrases[1], 100, 30);
   images.forEach(image => {
@@ -133,20 +145,31 @@ function setupInitialState() {
     } else {
       image.classList.add('gray');
     }
-  })
+  });
+
+  roadtripperContent.style.display = 'none';
+  hornplayerContent.style.display = 'none';
+  photographerContent.style.display = 'none';
+  rowerContent.style.display = 'none';
 }
 
 window.addEventListener('load', setupInitialState);
 
 
 
-/* collage: click -> focus -> scroll */
+
+
+
+
+/* click -> focus -> scroll */
 
 const intro = document.querySelector('.intro');
 const picContainers = document.querySelectorAll('.collage button');
+
 images.forEach(pic => {
   pic.addEventListener('click', () => {
     fade = false;
+
     // fade the other images
     images.forEach(image => {
       if (pic !== image) {
@@ -170,15 +193,56 @@ images.forEach(pic => {
     // scramble 'Hi, I'm Mingkuan' into nothing
     fxIntro.setText(phrases[0], 20, 25);
 
-    // scroll to CS section
-    if (pic.classList.contains('csstudent')) {
-      setTimeout(() => {
-        const csStudentSection = document.querySelector('.csstudentSection');
-        csStudentSection.scrollIntoView({ behavior: 'smooth' });
-      }, 1300);
-    }
 
-    // transition to other sections
+
+    // CHANGE AND SCROLL TO SECTION
+
+    // hide all content sections
+    csContent.style.display = 'none';
+    roadtripperContent.style.display = 'none';
+    hornplayerContent.style.display = 'none';
+    photographerContent.style.display = 'none';
+    rowerContent.style.display = 'none';
+
+    // show specific content based on clicked image
+    const pause = 1300;
+    switch (pic.classList[0]) {
+      case 'csstudent':
+        csContent.style.display = 'block';
+        setTimeout(() => {
+          const csStudentSection = document.querySelector('.csstudentSection');
+          csStudentSection.scrollIntoView({ behavior: 'smooth' });
+        }, pause);
+        break;
+      case 'roadtripper':
+        roadtripperContent.style.display = 'block';
+        setTimeout(() => {
+          const rtMainSection = document.querySelector('.rtMainSection');
+          rtMainSection.scrollIntoView({ behavior: 'smooth' });
+        }, pause);
+        break;
+      case 'hornplayer':
+        hornplayerContent.style.display = 'block';
+        setTimeout(() => {
+          const hpMainSection = document.querySelector('.hpMainSection');
+          hpMainSection.scrollIntoView({ behavior: 'smooth' });
+        }, pause);
+        break;
+      case 'photographer':
+        photographerContent.style.display = 'block';
+        setTimeout(() => {
+          const phMainSection = document.querySelector('.phMainSection');
+          phMainSection.scrollIntoView({ behavior: 'smooth' });
+        }, pause);
+        break;
+      case 'rower':
+        rowerContent.style.display = 'block';
+        setTimeout(() => {
+          const roMainSection = document.querySelector('.roMainSection');
+          roMainSection.scrollIntoView({ behavior: 'smooth' });
+        }, pause);
+        break;
+    }
 
     // reset classes afterward
     setTimeout(() => {
@@ -197,7 +261,14 @@ images.forEach(pic => {
   });
 });
 
-/* scroll to projects */
+
+
+
+
+
+
+
+/* scroll to CS projects */
 
 const csEnsemble = document.querySelector('.csEnsemble');
 csEnsemble.addEventListener('click', () => {
@@ -234,6 +305,12 @@ csBump.addEventListener('click', () => {
   const ensembleProject = document.querySelector('.bumpProject');
   ensembleProject.scrollIntoView({ behavior: 'smooth', block: 'center' });
 });
+
+
+
+
+
+
 
 /* scroll back home */
 

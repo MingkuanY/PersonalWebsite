@@ -250,6 +250,10 @@ button {
 
 
 
+
+
+/* CSSTUDENT */
+
 /* CS STUDENT PAGE */
 
 .csstudentSection {
@@ -409,14 +413,12 @@ button {
 .csIntro {
   font-size: 4rem;
   font-weight: 300;
-  margin: 0;
 }
 
 .csBio {
   width: 65rem;
   font-size: 1.6rem;
   font-weight: 300;
-  margin: 0;
 }
 
 /* project collage */
@@ -909,4 +911,42 @@ button {
 .footer {
   font-size: 1.5rem;
   font-weight: 100;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ROADTRIPPER */
+
+.rtMapMain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.rtIntro {
+  font-size: 4rem;
+  font-weight: 300;
+}
+
+.rtBio {
+  font-size: 1.6rem;
+  font-weight: 300;
 }
