@@ -934,7 +934,7 @@ button {
 
 /* ROADTRIPPER */
 
-.rtMapMain {
+.rtMainSection {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -947,6 +947,120 @@ button {
 }
 
 .rtBio {
+  font-size: 1.6rem;
+  font-weight: 300;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* HORNPLAYER */
+
+.hpMainSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hpIntro {
+  font-size: 4rem;
+  font-weight: 300;
+}
+
+.hpBio {
+  font-size: 1.6rem;
+  font-weight: 300;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* PHOTOGRAPHER */
+
+.phMainSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.phIntro {
+  font-size: 4rem;
+  font-weight: 300;
+}
+
+.phBio {
+  font-size: 1.6rem;
+  font-weight: 300;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ROWER */
+
+.roMainSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.roIntro {
+  font-size: 4rem;
+  font-weight: 300;
+}
+
+.roBio {
   font-size: 1.6rem;
   font-weight: 300;
 }
