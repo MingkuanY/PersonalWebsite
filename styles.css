@@ -109,6 +109,9 @@ section {
   cursor: pointer;
   box-shadow: 3px 4px 4px 0px rgba(36,41,47,0.25);
   transition: opacity 0.5s, filter 0.5s, object-position 0.5s;
+  height: 100%;
+  aspect-ratio: 0.818;
+  object-fit: cover;
 }
 
 .gray {
@@ -185,12 +188,6 @@ button {
   margin-bottom: 0.8rem;
 }
 
-.rower {
-  height: 100%;
-  aspect-ratio: 0.818;
-  object-fit: cover;
-}
-
 /* horn player */
 
 .hornplayerContainer {
@@ -198,23 +195,11 @@ button {
   width: fit-content;
 }
 
-.hornplayer {
-  height: 100%;
-  aspect-ratio: 0.818;
-  object-fit: cover;
-}
-
 /* CS student */
 
 .csstudentContainer {
   height: 31.5rem;
   width: fit-content;
-}
-
-.csstudent {
-  height: 100%;
-  aspect-ratio: 0.818;
-  object-fit: cover;
 }
 
 /* photographer */
@@ -225,23 +210,11 @@ button {
   margin-bottom: 0.9rem;
 }
 
-.photographer {
-  height: 100%;
-  aspect-ratio: 0.818;
-  object-fit: cover;
-}
-
 /* road tripper */
 
 .roadtripperContainer {
   height: 21rem;
   width: fit-content;
-}
-
-.roadtripper {
-  height: 100%;
-  aspect-ratio: 0.818;
-  object-fit: cover;
 }
 
 
@@ -522,7 +495,7 @@ button {
   height: 40rem;
   width: 100%;
   border-top-left-radius: 1.7rem;
-  background: rgba(0, 0, 0, 0.7) url(assets/projectpreviews/ensemble.jpg);
+  background: rgba(0, 0, 0, 0.7) url(assets/csstudent/projectpreviews/ensemble.jpg);
   background-size: cover;
   background-position: 50% 20%;
   background-blend-mode: darken;
@@ -530,7 +503,7 @@ button {
 
 .csEnsemble:hover {
   height: 41rem;
-  background: rgba(0, 0, 0, 0.4) url(assets/projectpreviews/ensemble.jpg);
+  background: rgba(0, 0, 0, 0.4) url(assets/csstudent/projectpreviews/ensemble.jpg);
   background-size: cover;
   background-position: 50% 20%;
   background-blend-mode: darken;
@@ -552,7 +525,7 @@ button {
 .csBite {
   height: 26rem;
   width: 100%;
-  background: rgba(0, 0, 0, 0.7) url(assets/projectpreviews/bite.jpeg);
+  background: rgba(0, 0, 0, 0.7) url(assets/csstudent/projectpreviews/bite.jpeg);
   background-size: cover;
   background-position: 30% 50%;
   background-blend-mode: darken;
@@ -560,7 +533,7 @@ button {
 
 .csBite:hover {
   height: 27rem;
-  background: rgba(0, 0, 0, 0.4) url(assets/projectpreviews/bite.jpeg);
+  background: rgba(0, 0, 0, 0.4) url(assets/csstudent/csstudent/projectpreviews/bite.jpeg);
   background-size: cover;
   background-position: 30% 50%;
   background-blend-mode: darken;
@@ -591,14 +564,14 @@ button {
   margin-top: 0.7rem;
   height: 11rem;
   width: 100%;
-  background: rgba(0, 0, 0, 0.75) url(assets/projectpreviews/geosurfer.jpg);
+  background: rgba(0, 0, 0, 0.75) url(assets/csstudent/projectpreviews/geosurfer.jpg);
   background-size: cover;
   background-blend-mode: darken;
 }
 
 .csGeoSurfer:hover {
   height: 12rem;
-  background: rgba(0, 0, 0, 0.5) url(assets/projectpreviews/geosurfer.jpg);
+  background: rgba(0, 0, 0, 0.5) url(assets/csstudent/projectpreviews/geosurfer.jpg);
   background-size: cover;
   background-blend-mode: darken;
 }
@@ -616,7 +589,7 @@ button {
   border-top-right-radius: 1.7rem;
   height: 12rem;
   width: 100%;
-  background: rgba(0, 0, 0, 0.35) url(assets/projectpreviews/traveldust.jpeg);
+  background: rgba(0, 0, 0, 0.35) url(assets/csstudent/projectpreviews/traveldust.jpeg);
   background-size: cover;
   background-position: 50% 50%;
   background-blend-mode: darken;
@@ -624,7 +597,7 @@ button {
 
 .csTravelDust:hover {
   height: 13rem;
-  background: rgba(0, 0, 0, 0.1) url(assets/projectpreviews/traveldust.jpeg);
+  background: rgba(0, 0, 0, 0.1) url(assets/csstudent/projectpreviews/traveldust.jpeg);
   background-size: cover;
   background-position: 50% 50%;
   background-blend-mode: darken;
@@ -643,14 +616,14 @@ button {
   margin-top: 0.7rem;
   height: 9rem;
   width: 15rem;
-  background: rgba(0, 0, 0, 0.5) url(assets/projectpreviews/kanjiro.jpeg);
+  background: rgba(0, 0, 0, 0.5) url(assets/csstudent/projectpreviews/kanjiro.jpeg);
   background-size: cover;
   background-blend-mode: darken;
 }
 
 .csKanjiro:hover {
   height: 10rem;
-  background: rgba(0, 0, 0, 0.3) url(assets/projectpreviews/kanjiro.jpeg);
+  background: rgba(0, 0, 0, 0.3) url(assets/csstudent/projectpreviews/kanjiro.jpeg);
   background-size: cover;
   background-blend-mode: darken;
 }
@@ -668,7 +641,7 @@ button {
   margin-top: 0.7rem;
   height: 7rem;
   width: 11rem;
-  background: rgba(0, 0, 0, 0.7) url(assets/projectpreviews/bump.jpg);
+  background: rgba(0, 0, 0, 0.7) url(assets/csstudent/projectpreviews/bump.jpg);
   background-size: cover;
   background-position: 50% 5%;
   background-blend-mode: darken;
@@ -676,7 +649,7 @@ button {
 
 .csBump:hover {
   height: 8rem;
-  background: rgba(0, 0, 0, 0.3) url(assets/projectpreviews/bump.jpg);
+  background: rgba(0, 0, 0, 0.3) url(assets/csstudent/projectpreviews/bump.jpg);
   background-size: cover;
   background-position: 50% 5%;
   background-blend-mode: darken;
@@ -1010,6 +983,8 @@ button {
 
 /* PHOTOGRAPHER */
 
+/* highlights */
+
 .phMainSection {
   display: flex;
   flex-direction: column;
@@ -1027,8 +1002,123 @@ button {
   font-weight: 300;
 }
 
+.highlightsContainer {
+  margin-top: 6rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
+.highlights {
+  position: absolute;
+  top: -2rem;
+  left: -5rem;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
 
+.highlightsAlbums {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.albumContainer {
+  position: relative;
+  height: 26rem;
+  width: fit-content;
+  transition: transform 0.5s;
+}
+
+.albumContainer:hover {
+  transform: scale(1.05);
+}
+
+.albumMarginLeft {
+  margin-left: 1.5rem;
+}
+
+/* album captions */
+
+.highlightsAlbums p {
+  position: absolute;
+  font-size: 3rem;
+  font-weight: 300;
+  color: white;
+}
+
+.album1caption1 {
+  top: 0.5rem;
+  left: 2rem;
+}
+.album1caption2 {
+  top: 3.5rem;
+  left: 8rem;
+}
+
+.album2caption1 {
+  top: 1rem;
+  left: 1rem;
+}
+.album2caption2 {
+  top: 4rem;
+  left: 4rem;
+}
+.album2caption3 {
+  top: 7rem;
+  left: 10rem;
+}
+.album2caption4 {
+  top: 10rem;
+  left: 12rem;
+}
+.album2caption5 {
+  top: 14rem;
+  left: 11rem;
+}
+.album2caption6 {
+  top: 17rem;
+  left: 9rem;
+}
+.album2caption7 {
+  top: 20rem;
+  left: 13rem;
+}
+
+.album3caption {
+  top: 22rem;
+  left: 2.5rem;
+}
+
+/* album pics */
+
+.highlightsAlbums img {
+  cursor: pointer;
+  box-shadow: 3px 4px 4px 0px rgba(36,41,47,0.25);
+  height: 100%;
+  aspect-ratio: 0.818;
+  object-fit: cover;
+}
+
+.goToGalleryContainer {
+  margin-top: 8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallery {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.goToGalleryContainer img {
+  height: 5.7rem;
+  width: 9rem;
+}
 
 
 
