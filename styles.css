@@ -400,6 +400,7 @@ button {
   margin-top: 2.5rem;
   display: flex;
   width: 65rem;
+  height: 41rem;
 }
 
 .csProjectCol1 {
@@ -533,7 +534,7 @@ button {
 
 .csBite:hover {
   height: 27rem;
-  background: rgba(0, 0, 0, 0.4) url(assets/csstudent/csstudent/projectpreviews/bite.jpeg);
+  background: rgba(0, 0, 0, 0.4) url(assets/csstudent/projectpreviews/bite.jpeg);
   background-size: cover;
   background-position: 30% 50%;
   background-blend-mode: darken;
@@ -1022,18 +1023,22 @@ button {
 .highlightsAlbums {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: start;
+  height: 30rem;
 }
 
 .albumContainer {
   position: relative;
   height: 26rem;
   width: fit-content;
-  transition: transform 0.5s;
+  transition: transform 0.5s, margin-top 0.3s;
+  overflow: hidden;
+  box-shadow: 3px 4px 4px 0px rgba(36,41,47,0.25);
 }
 
 .albumContainer:hover {
-  transform: scale(1.05);
+  cursor: pointer;
+  margin-top: 2rem;
 }
 
 .albumMarginLeft {
@@ -1045,7 +1050,7 @@ button {
 .highlightsAlbums p {
   position: absolute;
   font-size: 3rem;
-  font-weight: 300;
+  font-weight: 400;
   color: white;
 }
 
@@ -1096,7 +1101,6 @@ button {
 
 .highlightsAlbums img {
   cursor: pointer;
-  box-shadow: 3px 4px 4px 0px rgba(36,41,47,0.25);
   height: 100%;
   aspect-ratio: 0.818;
   object-fit: cover;
@@ -1153,4 +1157,11 @@ button {
 .roBio {
   font-size: 1.6rem;
   font-weight: 300;
+}
+
+.rowerContent video {
+  margin-top: 3rem;
+  height: 50rem;
+  box-shadow: 3px 4px 4px 0px rgba(36,41,47,0.25);
+  border-radius: 4rem;
 }
