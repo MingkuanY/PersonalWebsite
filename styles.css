@@ -925,6 +925,17 @@ button {
   font-weight: 300;
 }
 
+.rtMapContainer {
+  height: 52rem;
+  width: fit-content;
+}
+
+.rtMap {
+  height: 100%;
+  aspect-ratio: 1.64;
+  object-fit: cover;
+}
+
 
 
 
@@ -951,16 +962,32 @@ button {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: #24292f;
 }
 
 .hpIntro {
   font-size: 4rem;
   font-weight: 300;
+  color: white;
 }
 
 .hpBio {
   font-size: 1.6rem;
   font-weight: 300;
+  color: white;
+}
+
+.hpProfilePicContainer {
+  margin-top: 2rem;
+  height: 20rem;
+  width: fit-content;
+}
+
+.hpProfilePic {
+  height: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 50%;
 }
 
 
@@ -987,24 +1014,60 @@ button {
 /* highlights */
 
 .phMainSection {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
+.phBackground {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  object-fit: cover;
+  object-position: center;
+  z-index: -1;
+}
+
 .phIntro {
+  margin-top: 10rem;
   font-size: 4rem;
   font-weight: 300;
+  color: white;
 }
 
 .phBio {
   font-size: 1.6rem;
   font-weight: 300;
+  color: white;
 }
 
-.highlightsContainer {
+.goToGalleryContainer {
   margin-top: 6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallery {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: white;
+}
+
+.goToGalleryContainer img {
+  height: 5.7rem;
+  width: 9rem;
+}
+
+/* GALLERY */
+
+.highlightsContainer {
+  /* margin-top: 4rem; */
   position: relative;
   display: flex;
   flex-direction: column;
@@ -1013,9 +1076,7 @@ button {
 }
 
 .highlights {
-  position: absolute;
-  top: -2rem;
-  left: -5rem;
+  margin-bottom: 0.5rem;
   font-size: 1.3rem;
   font-weight: 500;
 }
@@ -1106,22 +1167,11 @@ button {
   object-fit: cover;
 }
 
-.goToGalleryContainer {
-  margin-top: 8rem;
+.gallerySection {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-.gallery {
-  font-size: 1.3rem;
-  font-weight: 500;
-}
-
-.goToGalleryContainer img {
-  height: 5.7rem;
-  width: 9rem;
 }
 
 
