@@ -905,109 +905,6 @@ button {
 
 
 
-
-/* ROADTRIPPER */
-
-.rtMainSection {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.rtIntro {
-  font-size: 4rem;
-  font-weight: 300;
-}
-
-.rtBio {
-  font-size: 1.6rem;
-  font-weight: 300;
-}
-
-.rtMapContainer {
-  height: 52rem;
-  width: fit-content;
-}
-
-.rtMap {
-  height: 100%;
-  aspect-ratio: 1.64;
-  object-fit: cover;
-}
-
-/* toggle map menu */
-
-.rtNav {
-  margin-top: 2rem;
-  position: relative;
-  height: 1.4rem;
-  background-color: #BFE692;
-  border-radius: 0.5rem;
-  display: flex;
-}
-
-.rtNav button {
-	height: 100%;
-  width: 10rem;
-	font-size: 1rem;
-	position: relative;
-	z-index: 1;
-	text-align: center;
-	color: #013F3F;
-	cursor: pointer;
-  transition: .5s;
-}
-
-.rtNav button:hover {
-  color: #FFF;
-}
-
-.rtNav .rtAnimation {
-  position: absolute;
-  height: 100%;
-  top: 0;
-  z-index: 0;
-  transition: all .5s ease 0s;
-  border-radius: 0.5rem;
-}
-
-.start-counties, .countiesButton:hover~.rtAnimation {
-  width: 10rem;
-  left: 0;
-  background-color: #013F3F;
-}
-
-.start-states, .statesButton:hover~.rtAnimation {
-  width: 10rem;
-  left: 10rem;
-  background-color: #013F3F;
-}
-
-.start-timeline, .timelineButton:hover~.rtAnimation {
-  width: 10rem;
-  left: 20rem;
-  background-color: #013F3F;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* HORNPLAYER */
 
 .hpMainSection {
@@ -1267,4 +1164,101 @@ button {
   height: 50rem;
   box-shadow: 3px 4px 4px 0px rgba(36,41,47,0.25);
   border-radius: 4rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ROADTRIPPER */
+
+.rtMainSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.rtIntro {
+  font-size: 4rem;
+  font-weight: 300;
+}
+
+.rtBio {
+  font-size: 1.6rem;
+  font-weight: 300;
+}
+
+#rtMap {
+  margin-top: -10rem;
+  transform: scale(0.8);
+}
+
+/* toggle map menu */
+
+.rtNav {
+  margin-top: -14rem;
+  position: relative;
+  height: 1.4rem;
+  background-color: #BFE692;
+  border-radius: 0.5rem;
+  display: flex;
+}
+
+.rtNav button {
+	height: 100%;
+  width: 10rem;
+	font-size: 1rem;
+	position: relative;
+	z-index: 1;
+	text-align: center;
+	color: #013F3F;
+	cursor: pointer;
+  transition: .5s;
+}
+
+.rtNav button:hover {
+  color: #FFF;
+}
+
+.rtNav .rtAnimation {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  z-index: 0;
+  transition: all .5s ease 0s;
+  border-radius: 0.5rem;
+}
+
+.start-counties, .countiesButton:hover~.rtAnimation {
+  width: 10rem;
+  left: 0;
+  background-color: #013F3F;
+}
+
+.start-states, .statesButton:hover~.rtAnimation {
+  width: 10rem;
+  left: 10rem;
+  background-color: #013F3F;
+}
+
+.start-timeline, .timelineButton:hover~.rtAnimation {
+  width: 10rem;
+  left: 20rem;
+  background-color: #013F3F;
 }
