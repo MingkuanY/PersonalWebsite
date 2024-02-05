@@ -108,7 +108,7 @@ section {
 .collage img {
   cursor: pointer;
   box-shadow: 3px 4px 4px 0px rgba(36,41,47,0.25);
-  transition: opacity 0.5s, filter 0.5s, object-position 0.5s;
+  transition: opacity 0.5s, filter 0.5s, object-position 0.5s, border-radius 0.5s, aspect-ratio 0.5s;
   height: 100%;
   aspect-ratio: 0.818;
   object-fit: cover;

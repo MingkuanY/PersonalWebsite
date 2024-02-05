@@ -187,6 +187,10 @@ images.forEach(pic => {
         picContainer.style.transformOrigin = 'top left';
         picContainer.style.transform = `translate(${translateX}px, ${translateY}px) scale(${csHeight / currHeight})`;
         picContainer.style.zIndex = '10';
+        if (picContainer.children[0].classList.contains('hornplayer')) {
+          picContainer.children[0].style.borderRadius = '50%';
+          picContainer.children[0].style.aspectRatio = '1';
+        }
       }
     });
 
@@ -255,6 +259,8 @@ images.forEach(pic => {
       picContainers.forEach(picContainer => {
         picContainer.style.transform = 'scale(1)';
         picContainer.style.zIndex = '0';
+        picContainer.children[0].style.aspectRatio = '0.818';
+        picContainer.children[0].style.borderRadius = '0';
       });
       document.getElementById('imMingkuan').innerHTML = "Hi, I'm <span class='stronger'>Mingkuan</span>. ";
     }, 2500);
