@@ -288,7 +288,7 @@ function loadMap() {
           const { label, states } = myTravels[key];
 
           states.forEach(({ name, visitDate, stateName }, index) => {
-            let pause = name === "GA" ? 16 : counter++;
+            let pause = counter++;
             setTimeout(() => {
               let year = new Date(visitDate).getFullYear();
               rtIntro.textContent = `By ${year},`;

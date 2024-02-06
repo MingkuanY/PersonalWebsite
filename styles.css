@@ -946,6 +946,14 @@ button {
   border-radius: 50%;
 }
 
+.comingSoon {
+  margin-top: 4rem;
+  color: white;
+  font-style: italic;
+  font-weight: 200;
+  font-size: 1.5rem;
+}
+
 
 
 

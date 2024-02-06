@@ -1,22 +1,12 @@
 {
-  "livedIn": {
-    "label": "Lived in",
+  "visited2012": {
+    "label": "Visited by 2012",
     "states": [
       {
         "name": "CA",
         "visitDate": "2004-07-30",
         "stateName": "California"
       },
-      {
-        "name": "GA",
-        "visitDate": "2022-08-08",
-        "stateName": "Georgia"
-      }
-    ]
-  },
-  "visited2012": {
-    "label": "Visited by 2012",
-    "states": [
       {
         "name": "NV",
         "visitDate": "2005-02-04",
@@ -132,6 +122,11 @@
   "visited2022": {
     "label": "Visited 2022",
     "states": [
+      {
+        "name": "GA",
+        "visitDate": "2022-08-08",
+        "stateName": "Georgia"
+      },
       {
         "name": "SC",
         "visitDate": "2022-02-23",
