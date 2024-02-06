@@ -2,512 +2,2316 @@
   "livedIn": {
     "label": "Lived in",
     "counties": [
-      "Alameda__CA",
-      "Santa_Clara__CA",
-      "Fulton__GA"
+      {
+        "name": "Santa_Clara__CA",
+        "visitDate": "2004-07-30",
+        "countyName": "Santa Clara, CA"
+      },
+      {
+        "name": "Alameda__CA",
+        "visitDate": "2004-07-30",
+        "countyName": "Alameda, CA"
+      },
+      {
+        "name": "Fulton__GA",
+        "visitDate": "2022-08-08",
+        "countyName": "Fulton, GA"
+      }
     ]
   },
   "visited2012": {
     "label": "Visited by 2012",
     "counties": [
-      "Santa_Cruz__CA",
-      "San_Mateo__CA",
-      "San_Francisco__CA",
-      "Sacramento__CA",
-      "Solano__CA",
-      "Contra_Costa__CA",
-      "Sonoma__CA",
-      "Marin__CA",
-      "Napa__CA",
-      "Yolo__CA",
-      "San_Joaquin__CA",
-      "Stanislaus__CA",
-      "Merced__CA",
-      "San_Benito__CA",
-      "Monterey__CA",
-      "Tuolumne__CA",
-      "Mariposa__CA",
-      "San_Bernardino__CA",
-      "Lake__CA",
-      "Colusa__CA",
-      "Placer__CA",
-      "Nevada__CA",
-      "El_Dorado__CA",
-      "Douglas__NV",
-      "Carson_City__NV",
-      "Washoe__NV",
-      "Clark__NV",
-      "Fresno__CA",
-      "Kings__CA",
-      "Kern__CA",
-      "Sierra__CA",
-      "Los_Angeles__CA"
+      {
+        "name": "Santa_Cruz__CA",
+        "visitedDate": "2012-01-01",
+        "countyName": "Santa Cruz, CA"
+      },
+      {
+        "name": "San_Mateo__CA",
+        "visitedDate": "2012-01-01",
+        "countyName": "San Mateo, CA"
+      },
+      {
+        "name": "San_Francisco__CA",
+        "visitedDate": "2012-01-01",
+        "countyName": "San Francisco, CA"
+      },
+      {
+        "name": "Sacramento__CA",
+        "visitedDate": "2012-01-01",
+        "countyName": "Sacramento, CA"
+      },
+      {
+        "name": "Solano__CA",
+        "visitedDate": "2012-01-01",
+        "countyName": "Solano, CA"
+      },
+      {
+        "name": "Contra_Costa__CA",
+        "visitedDate": "2012-01-01",
+        "countyName": "Contra Costa, CA"
+      },
+      {
+        "name": "Sonoma__CA",
+        "visitedDate": "2012-01-01",
+        "countyName": "Sonoma, CA"
+      },
+      {
+        "name": "Marin__CA",
+        "visitedDate": "2012-01-01",
+        "countyName": "Marin, CA"
+      },
+      {
+        "name": "Napa__CA",
+        "visitedDate": "2012-01-01",
+        "countyName": "Napa, CA"
+      },
+      {
+        "name": "Yolo__CA",
+        "visitedDate": "2012-01-01",
+        "countyName": "Yolo, CA"
+      },
+      {
+        "name": "San_Joaquin__CA",
+        "visitedDate": "2012-01-01",
+        "countyName": "San Joaquin, CA"
+      },
+      {
+        "name": "Stanislaus__CA",
+        "visitedDate": "2012-01-01",
+        "countyName": "Stanislaus, CA"
+      },
+      {
+        "name": "Merced__CA",
+        "visitedDate": "2012-01-01",
+        "countyName": "Merced, CA"
+      },
+      {
+        "name": "San_Benito__CA",
+        "visitedDate": "2012-01-01",
+        "countyName": "San Benito, CA"
+      },
+      {
+        "name": "Monterey__CA",
+        "visitedDate": "2012-01-01",
+        "countyName": "Monterey, CA"
+      },
+      {
+        "name": "Tuolumne__CA",
+        "visitedDate": "2012-01-01",
+        "countyName": "Tuolumne, CA"
+      },
+      {
+        "name": "Mariposa__CA",
+        "visitedDate": "2012-01-01",
+        "countyName": "Mariposa, CA"
+      },
+      {
+        "name": "San_Bernardino__CA",
+        "visitedDate": "2012-01-01",
+        "countyName": "San Bernardino, CA"
+      },
+      {
+        "name": "Lake__CA",
+        "visitedDate": "2012-01-01",
+        "countyName": "Lake, CA"
+      },
+      {
+        "name": "Colusa__CA",
+        "visitedDate": "2012-01-01",
+        "countyName": "Colusa, CA"
+      },
+      {
+        "name": "Placer__CA",
+        "visitedDate": "2012-01-01",
+        "countyName": "Placer, CA"
+      },
+      {
+        "name": "Nevada__CA",
+        "visitedDate": "2012-01-01",
+        "countyName": "Nevada, CA"
+      },
+      {
+        "name": "El_Dorado__CA",
+        "visitedDate": "2012-01-01",
+        "countyName": "El Dorado, CA"
+      },
+      {
+        "name": "Douglas__NV",
+        "visitedDate": "2012-01-01",
+        "countyName": "Douglas, NV"
+      },
+      {
+        "name": "Carson_City__NV",
+        "visitedDate": "2012-01-01",
+        "countyName": "Carson City, NV"
+      },
+      {
+        "name": "Washoe__NV",
+        "visitedDate": "2012-01-01",
+        "countyName": "Washoe, NV"
+      },
+      {
+        "name": "Clark__NV",
+        "visitedDate": "2012-01-01",
+        "countyName": "Clark, NV"
+      },
+      {
+        "name": "Fresno__CA",
+        "visitedDate": "2012-01-01",
+        "countyName": "Fresno, CA"
+      },
+      {
+        "name": "Kings__CA",
+        "visitedDate": "2012-01-01",
+        "countyName": "Kings, CA"
+      },
+      {
+        "name": "Kern__CA",
+        "visitedDate": "2012-01-01",
+        "countyName": "Kern, CA"
+      },
+      {
+        "name": "Sierra__CA",
+        "visitedDate": "2012-01-01",
+        "countyName": "Sierra, CA"
+      },
+      {
+        "name": "Los_Angeles__CA",
+        "visitedDate": "2012-01-01",
+        "countyName": "Los Angeles, CA"
+      }
     ]
   },
   "visited2013": {
     "label": "Visited 2013",
     "counties": [
-      "Tulare__CA",
-      "Madera__CA",
-      "Duval__FL",
-      "Clay__FL",
-      "Bradford__FL",
-      "Alachua__FL",
-      "Putnam__FL",
-      "St__Johns__FL",
-      "Flagler__FL",
-      "Volusia__FL",
-      "Brevard__FL",
-      "Orange__FL",
-      "Seminole__FL",
-      "Lake__FL",
-      "Marion__FL"
+      {
+        "name": "Tulare__CA",
+        "visitedDate": null,
+        "countyName": "Tulare, CA"
+      },
+      {
+        "name": "Madera__CA",
+        "visitedDate": null,
+        "countyName": "Madera, CA"
+      },
+      {
+        "name": "Duval__FL",
+        "visitedDate": null,
+        "countyName": "Duval, FL"
+      },
+      {
+        "name": "Clay__FL",
+        "visitedDate": null,
+        "countyName": "Clay, FL"
+      },
+      {
+        "name": "Bradford__FL",
+        "visitedDate": null,
+        "countyName": "Bradford, FL"
+      },
+      {
+        "name": "Alachua__FL",
+        "visitedDate": null,
+        "countyName": "Alachua, FL"
+      },
+      {
+        "name": "Putnam__FL",
+        "visitedDate": null,
+        "countyName": "Putnam, FL"
+      },
+      {
+        "name": "St__Johns__FL",
+        "visitedDate": null,
+        "countyName": "St. Johns, FL"
+      },
+      {
+        "name": "Flagler__FL",
+        "visitedDate": null,
+        "countyName": "Flagler, FL"
+      },
+      {
+        "name": "Volusia__FL",
+        "visitedDate": null,
+        "countyName": "Volusia, FL"
+      },
+      {
+        "name": "Brevard__FL",
+        "visitedDate": null,
+        "countyName": "Brevard, FL"
+      },
+      {
+        "name": "Orange__FL",
+        "visitedDate": null,
+        "countyName": "Orange, FL"
+      },
+      {
+        "name": "Seminole__FL",
+        "visitedDate": null,
+        "countyName": "Seminole, FL"
+      },
+      {
+        "name": "Lake__FL",
+        "visitedDate": null,
+        "countyName": "Lake, FL"
+      },
+      {
+        "name": "Marion__FL",
+        "visitedDate": null,
+        "countyName": "Marion, FL"
+      }
     ]
   },
   "visited2014": {
     "label": "Visited 2014",
     "counties": [
-      "Ventura__CA",
-      "Santa_Barbara__CA",
-      "San_Luis_Obispo__CA",
-      "Orange__CA",
-      "San_Diego__CA",
-      "Sumter__FL",
-      "Hernando__FL",
-      "Pasco__FL",
-      "Hillsborough__FL",
-      "Manatee__FL",
-      "Sarasota__FL",
-      "DeSoto__FL",
-      "Charlotte__FL",
-      "Lee__FL",
-      "Collier__FL",
-      "Broward__FL",
-      "Miami_Dade__FL",
-      "Palm_Beach__FL",
-      "St__Lucie__FL",
-      "Martin__FL",
-      "Indian_River__FL"
+      {
+        "name": "Ventura__CA",
+        "visitedDate": null,
+        "countyName": "Ventura, CA"
+      },
+      {
+        "name": "Santa_Barbara__CA",
+        "visitedDate": null,
+        "countyName": "Santa Barbara, CA"
+      },
+      {
+        "name": "San_Luis_Obispo__CA",
+        "visitedDate": null,
+        "countyName": "San Luis Obispo, CA"
+      },
+      {
+        "name": "Orange__CA",
+        "visitedDate": null,
+        "countyName": "Orange, CA"
+      },
+      {
+        "name": "San_Diego__CA",
+        "visitedDate": null,
+        "countyName": "San Diego, CA"
+      },
+      {
+        "name": "Sumter__FL",
+        "visitedDate": null,
+        "countyName": "Sumter, FL"
+      },
+      {
+        "name": "Hernando__FL",
+        "visitedDate": null,
+        "countyName": "Hernando, FL"
+      },
+      {
+        "name": "Pasco__FL",
+        "visitedDate": null,
+        "countyName": "Pasco, FL"
+      },
+      {
+        "name": "Hillsborough__FL",
+        "visitedDate": null,
+        "countyName": "Hillsborough, FL"
+      },
+      {
+        "name": "Manatee__FL",
+        "visitedDate": null,
+        "countyName": "Manatee, FL"
+      },
+      {
+        "name": "Sarasota__FL",
+        "visitedDate": null,
+        "countyName": "Sarasota, FL"
+      },
+      {
+        "name": "DeSoto__FL",
+        "visitedDate": null,
+        "countyName": "DeSoto, FL"
+      },
+      {
+        "name": "Charlotte__FL",
+        "visitedDate": null,
+        "countyName": "Charlotte, FL"
+      },
+      {
+        "name": "Lee__FL",
+        "visitedDate": null,
+        "countyName": "Lee, FL"
+      },
+      {
+        "name": "Collier__FL",
+        "visitedDate": null,
+        "countyName": "Collier, FL"
+      },
+      {
+        "name": "Broward__FL",
+        "visitedDate": null,
+        "countyName": "Broward, FL"
+      },
+      {
+        "name": "Miami_Dade__FL",
+        "visitedDate": null,
+        "countyName": "Miami-Dade, FL"
+      },
+      {
+        "name": "Palm_Beach__FL",
+        "visitedDate": null,
+        "countyName": "Palm Beach, FL"
+      },
+      {
+        "name": "St__Lucie__FL",
+        "visitedDate": null,
+        "countyName": "St. Lucie, FL"
+      },
+      {
+        "name": "Martin__FL",
+        "visitedDate": null,
+        "countyName": "Martin, FL"
+      },
+      {
+        "name": "Indian_River__FL",
+        "visitedDate": null,
+        "countyName": "Indian River, FL"
+      }
     ]
   },
   "visited2015": {
     "label": "Visited 2015",
     "counties": [
-      "Inyo__CA",
-      "Mono__CA",
-      "Queens__NY",
-      "Kings__NY",
-      "New_York__NY",
-      "Nye__NV",
-      "Esmeralda__NV"
+      {
+        "name": "Inyo__CA",
+        "visitedDate": null,
+        "countyName": "Inyo, CA"
+      },
+      {
+        "name": "Mono__CA",
+        "visitedDate": null,
+        "countyName": "Mono, CA"
+      },
+      {
+        "name": "Queens__NY",
+        "visitedDate": null,
+        "countyName": "Queens, NY"
+      },
+      {
+        "name": "Kings__NY",
+        "visitedDate": null,
+        "countyName": "Kings, NY"
+      },
+      {
+        "name": "New_York__NY",
+        "visitedDate": null,
+        "countyName": "New York, NY"
+      },
+      {
+        "name": "Nye__NV",
+        "visitedDate": null,
+        "countyName": "Nye, NV"
+      },
+      {
+        "name": "Esmeralda__NV",
+        "visitedDate": null,
+        "countyName": "Esmeralda, NV"
+      }
     ]
   },
   "visited2016": {
     "label": "Visited 2016",
     "counties": [
-      "Glenn__CA",
-      "Tehama__CA",
-      "Shasta__CA",
-      "Siskiyou__CA",
-      "Klamath__OR",
-      "Jackson__OR",
-      "Josephine__OR",
-      "Del_Norte__CA",
-      "Humboldt__CA",
-      "Mendocino__CA",
-      "Queen_Anne_s__MD",
-      "Baltimore_County__MD",
-      "Baltimore_City__MD",
-      "Anne_Arundel__MD",
-      "Howard__MD",
-      "Montgomery__MD",
-      "Prince_George_s__MD",
-      "Fairfax_Co___VA",
-      "Loudoun__VA",
-      "Washington__DC",
-      "Arlington__VA",
-      "Fairfax__VA",
-      "Alexandria__VA"
+      {
+        "name": "Glenn__CA",
+        "visitedDate": null,
+        "countyName": "Glenn, CA"
+      },
+      {
+        "name": "Tehama__CA",
+        "visitedDate": null,
+        "countyName": "Tehama, CA"
+      },
+      {
+        "name": "Shasta__CA",
+        "visitedDate": null,
+        "countyName": "Shasta, CA"
+      },
+      {
+        "name": "Siskiyou__CA",
+        "visitedDate": null,
+        "countyName": "Siskiyou, CA"
+      },
+      {
+        "name": "Klamath__OR",
+        "visitedDate": null,
+        "countyName": "Klamath, OR"
+      },
+      {
+        "name": "Jackson__OR",
+        "visitedDate": null,
+        "countyName": "Jackson, OR"
+      },
+      {
+        "name": "Josephine__OR",
+        "visitedDate": null,
+        "countyName": "Josephine, OR"
+      },
+      {
+        "name": "Del_Norte__CA",
+        "visitedDate": null,
+        "countyName": "Del Norte, CA"
+      },
+      {
+        "name": "Humboldt__CA",
+        "visitedDate": null,
+        "countyName": "Humboldt, CA"
+      },
+      {
+        "name": "Mendocino__CA",
+        "visitedDate": null,
+        "countyName": "Mendocino, CA"
+      },
+      {
+        "name": "Queen_Anne_s__MD",
+        "visitedDate": null,
+        "countyName": "Queen Anne's, MD"
+      },
+      {
+        "name": "Baltimore_County__MD",
+        "visitedDate": null,
+        "countyName": "Baltimore County, MD"
+      },
+      {
+        "name": "Baltimore_City__MD",
+        "visitedDate": null,
+        "countyName": "Baltimore City, MD"
+      },
+      {
+        "name": "Anne_Arundel__MD",
+        "visitedDate": null,
+        "countyName": "Anne Arundel, MD"
+      },
+      {
+        "name": "Howard__MD",
+        "visitedDate": null,
+        "countyName": "Howard, MD"
+      },
+      {
+        "name": "Montgomery__MD",
+        "visitedDate": null,
+        "countyName": "Montgomery, MD"
+      },
+      {
+        "name": "Prince_George_s__MD",
+        "visitedDate": null,
+        "countyName": "Prince George's, MD"
+      },
+      {
+        "name": "Fairfax_Co___VA",
+        "visitedDate": null,
+        "countyName": "Fairfax Co., VA"
+      },
+      {
+        "name": "Loudoun__VA",
+        "visitedDate": null,
+        "countyName": "Loudoun, VA"
+      },
+      {
+        "name": "Washington__DC",
+        "visitedDate": null,
+        "countyName": "Washington, DC"
+      },
+      {
+        "name": "Arlington__VA",
+        "visitedDate": null,
+        "countyName": "Arlington, VA"
+      },
+      {
+        "name": "Fairfax__VA",
+        "visitedDate": null,
+        "countyName": "Fairfax, VA"
+      },
+      {
+        "name": "Alexandria__VA",
+        "visitedDate": null,
+        "countyName": "Alexandria, VA"
+      }
     ]
   },
   "visited2018": {
     "label": "Visited 2018",
     "counties": [
-      "Hawaii__HI",
-      "Lake__MN",
-      "St__Louis__MN",
-      "Carlton__MN",
-      "Pine__MN",
-      "Chisago__MN",
-      "Washington__MN",
-      "Anoka__MN",
-      "Hennepin__MN",
-      "Ramsey__MN"
+      {
+        "name": "Hawaii__HI",
+        "visitedDate": null,
+        "countyName": "Hawaii, HI"
+      },
+      {
+        "name": "Lake__MN",
+        "visitedDate": null,
+        "countyName": "Lake, MN"
+      },
+      {
+        "name": "St__Louis__MN",
+        "visitedDate": null,
+        "countyName": "St. Louis, MN"
+      },
+      {
+        "name": "Carlton__MN",
+        "visitedDate": null,
+        "countyName": "Carlton, MN"
+      },
+      {
+        "name": "Pine__MN",
+        "visitedDate": null,
+        "countyName": "Pine, MN"
+      },
+      {
+        "name": "Chisago__MN",
+        "visitedDate": null,
+        "countyName": "Chisago, MN"
+      },
+      {
+        "name": "Washington__MN",
+        "visitedDate": null,
+        "countyName": "Washington, MN"
+      },
+      {
+        "name": "Anoka__MN",
+        "visitedDate": null,
+        "countyName": "Anoka, MN"
+      },
+      {
+        "name": "Hennepin__MN",
+        "visitedDate": null,
+        "countyName": "Hennepin, MN"
+      },
+      {
+        "name": "Ramsey__MN",
+        "visitedDate": null,
+        "countyName": "Ramsey, MN"
+      }
     ]
   },
   "visited2019": {
     "label": "Visited 2019",
     "counties": [
-      "Mohave__AZ",
-      "Washington__UT",
-      "Kane__UT",
-      "Garfield__UT",
-      "Wayne__UT",
-      "Piute__UT",
-      "Sevier__UT",
-      "Emery__UT",
-      "Utah__UT",
-      "Wasatch__UT",
-      "Salt_Lake__UT",
-      "Davis__UT",
-      "Carbon__UT",
-      "Grand__UT",
-      "San_Juan__UT"
+      {
+        "name": "Mohave__AZ",
+        "visitedDate": null,
+        "countyName": "Mohave, AZ"
+      },
+      {
+        "name": "Washington__UT",
+        "visitedDate": null,
+        "countyName": "Washington, UT"
+      },
+      {
+        "name": "Kane__UT",
+        "visitedDate": null,
+        "countyName": "Kane, UT"
+      },
+      {
+        "name": "Garfield__UT",
+        "visitedDate": null,
+        "countyName": "Garfield, UT"
+      },
+      {
+        "name": "Wayne__UT",
+        "visitedDate": null,
+        "countyName": "Wayne, UT"
+      },
+      {
+        "name": "Piute__UT",
+        "visitedDate": null,
+        "countyName": "Piute, UT"
+      },
+      {
+        "name": "Sevier__UT",
+        "visitedDate": null,
+        "countyName": "Sevier, UT"
+      },
+      {
+        "name": "Emery__UT",
+        "visitedDate": null,
+        "countyName": "Emery, UT"
+      },
+      {
+        "name": "Utah__UT",
+        "visitedDate": null,
+        "countyName": "Utah, UT"
+      },
+      {
+        "name": "Wasatch__UT",
+        "visitedDate": null,
+        "countyName": "Wasatch, UT"
+      },
+      {
+        "name": "Salt_Lake__UT",
+        "visitedDate": null,
+        "countyName": "Salt Lake, UT"
+      },
+      {
+        "name": "Davis__UT",
+        "visitedDate": null,
+        "countyName": "Davis, UT"
+      },
+      {
+        "name": "Carbon__UT",
+        "visitedDate": null,
+        "countyName": "Carbon, UT"
+      },
+      {
+        "name": "Grand__UT",
+        "visitedDate": null,
+        "countyName": "Grand, UT"
+      },
+      {
+        "name": "San_Juan__UT",
+        "visitedDate": null,
+        "countyName": "San Juan, UT"
+      }
     ]
   },
   "visited2020": {
     "label": "Visited 2020",
     "counties": [
-      "Douglas__OR",
-      "Lane__OR",
-      "Linn__OR",
-      "Clackamas__OR",
-      "Marion__OR",
-      "Washington__OR",
-      "Columbia__OR",
-      "Clatsop__OR",
-      "Tillamook__OR",
-      "Multnomah__OR",
-      "Cowlitz__WA",
-      "Lewis__WA",
-      "Skamania__WA",
-      "Yakima__WA",
-      "Klickitat__WA",
-      "Wasco__OR",
-      "Sherman__OR",
-      "Jefferson__OR",
-      "Deschutes__OR",
-      "Pierce__WA"
+      {
+        "name": "Douglas__OR",
+        "visitedDate": null,
+        "countyName": "Douglas, OR"
+      },
+      {
+        "name": "Lane__OR",
+        "visitedDate": null,
+        "countyName": "Lane, OR"
+      },
+      {
+        "name": "Linn__OR",
+        "visitedDate": null,
+        "countyName": "Linn, OR"
+      },
+      {
+        "name": "Clackamas__OR",
+        "visitedDate": null,
+        "countyName": "Clackamas, OR"
+      },
+      {
+        "name": "Marion__OR",
+        "visitedDate": null,
+        "countyName": "Marion, OR"
+      },
+      {
+        "name": "Washington__OR",
+        "visitedDate": null,
+        "countyName": "Washington, OR"
+      },
+      {
+        "name": "Columbia__OR",
+        "visitedDate": null,
+        "countyName": "Columbia, OR"
+      },
+      {
+        "name": "Clatsop__OR",
+        "visitedDate": null,
+        "countyName": "Clatsop, OR"
+      },
+      {
+        "name": "Tillamook__OR",
+        "visitedDate": null,
+        "countyName": "Tillamook, OR"
+      },
+      {
+        "name": "Multnomah__OR",
+        "visitedDate": null,
+        "countyName": "Multnomah, OR"
+      },
+      {
+        "name": "Cowlitz__WA",
+        "visitedDate": null,
+        "countyName": "Cowlitz, WA"
+      },
+      {
+        "name": "Lewis__WA",
+        "visitedDate": null,
+        "countyName": "Lewis, WA"
+      },
+      {
+        "name": "Skamania__WA",
+        "visitedDate": null,
+        "countyName": "Skamania, WA"
+      },
+      {
+        "name": "Yakima__WA",
+        "visitedDate": null,
+        "countyName": "Yakima, WA"
+      },
+      {
+        "name": "Klickitat__WA",
+        "visitedDate": null,
+        "countyName": "Klickitat, WA"
+      },
+      {
+        "name": "Wasco__OR",
+        "visitedDate": null,
+        "countyName": "Wasco, OR"
+      },
+      {
+        "name": "Sherman__OR",
+        "visitedDate": null,
+        "countyName": "Sherman, OR"
+      },
+      {
+        "name": "Jefferson__OR",
+        "visitedDate": null,
+        "countyName": "Jefferson, OR"
+      },
+      {
+        "name": "Deschutes__OR",
+        "visitedDate": null,
+        "countyName": "Deschutes, OR"
+      },
+      {
+        "name": "Pierce__WA",
+        "visitedDate": null,
+        "countyName": "Pierce, WA"
+      }
     ]
   },
   "visited2021": {
     "label": "Visited 2021",
     "counties": [
-      "Riverside__CA",
-      "La_Paz__AZ",
-      "Yavapai__AZ",
-      "Coconino__AZ",
-      "Maricopa__AZ",
-      "Pinal__AZ",
-      "Pima__AZ",
-      "Clark__WA",
-      "Thurston__WA",
-      "Grays_Harbor__WA",
-      "Clallam__WA",
-      "Jefferson__WA",
-      "Kitsap__WA",
-      "King__WA",
-      "Skagit__WA",
-      "Snohomish__WA",
-      "Whatcom__WA",
-      "Okanogan__WA",
-      "Chelan__WA",
-      "Douglas__WA",
-      "Grant__WA",
-      "Lincoln__WA",
-      "Spokane__WA",
-      "Kootenai__ID",
-      "Bonner__ID",
-      "Lincoln__MT",
-      "Sanders__MT",
-      "Flathead__MT",
-      "Glacier__MT",
-      "Teton__MT",
-      "Pondera__MT",
-      "Broadwater__MT",
-      "Lewis_and_Clark__MT",
-      "Jefferson__MT",
-      "Gallatin__MT",
-      "Park__MT",
-      "Park__WY",
-      "Carbon__MT",
-      "Teton__WY",
-      "Teton__ID",
-      "Bonneville__ID",
-      "Bingham__ID",
-      "Butte__ID",
-      "Blaine__ID",
-      "Lincoln__ID",
-      "Jerome__ID",
-      "Gooding__ID",
-      "Elmore__ID",
-      "Twin_Falls__ID",
-      "Owyhee__ID",
-      "Canyon__ID",
-      "Ada__ID",
-      "Malheur__OR",
-      "Humboldt__NV",
-      "Pershing__NV",
-      "Churchill__NV",
-      "Lyon__NV",
-      "Storey__NV"
+      {
+        "name": "Riverside__CA",
+        "visitedDate": null,
+        "countyName": "Riverside, CA"
+      },
+      {
+        "name": "La_Paz__AZ",
+        "visitedDate": null,
+        "countyName": "La Paz, AZ"
+      },
+      {
+        "name": "Yavapai__AZ",
+        "visitedDate": null,
+        "countyName": "Yavapai, AZ"
+      },
+      {
+        "name": "Coconino__AZ",
+        "visitedDate": null,
+        "countyName": "Coconino, AZ"
+      },
+      {
+        "name": "Maricopa__AZ",
+        "visitedDate": null,
+        "countyName": "Maricopa, AZ"
+      },
+      {
+        "name": "Pinal__AZ",
+        "visitedDate": null,
+        "countyName": "Pinal, AZ"
+      },
+      {
+        "name": "Pima__AZ",
+        "visitedDate": null,
+        "countyName": "Pima, AZ"
+      },
+      {
+        "name": "Clark__WA",
+        "visitedDate": null,
+        "countyName": "Clark, WA"
+      },
+      {
+        "name": "Thurston__WA",
+        "visitedDate": null,
+        "countyName": "Thurston, WA"
+      },
+      {
+        "name": "Grays_Harbor__WA",
+        "visitedDate": null,
+        "countyName": "Grays Harbor, WA"
+      },
+      {
+        "name": "Clallam__WA",
+        "visitedDate": null,
+        "countyName": "Clallam, WA"
+      },
+      {
+        "name": "Jefferson__WA",
+        "visitedDate": null,
+        "countyName": "Jefferson, WA"
+      },
+      {
+        "name": "Kitsap__WA",
+        "visitedDate": null,
+        "countyName": "Kitsap, WA"
+      },
+      {
+        "name": "King__WA",
+        "visitedDate": null,
+        "countyName": "King, WA"
+      },
+      {
+        "name": "Skagit__WA",
+        "visitedDate": null,
+        "countyName": "Skagit, WA"
+      },
+      {
+        "name": "Snohomish__WA",
+        "visitedDate": null,
+        "countyName": "Snohomish, WA"
+      },
+      {
+        "name": "Whatcom__WA",
+        "visitedDate": null,
+        "countyName": "Whatcom, WA"
+      },
+      {
+        "name": "Okanogan__WA",
+        "visitedDate": null,
+        "countyName": "Okanogan, WA"
+      },
+      {
+        "name": "Chelan__WA",
+        "visitedDate": null,
+        "countyName": "Chelan, WA"
+      },
+      {
+        "name": "Douglas__WA",
+        "visitedDate": null,
+        "countyName": "Douglas, WA"
+      },
+      {
+        "name": "Grant__WA",
+        "visitedDate": null,
+        "countyName": "Grant, WA"
+      },
+      {
+        "name": "Lincoln__WA",
+        "visitedDate": null,
+        "countyName": "Lincoln, WA"
+      },
+      {
+        "name": "Spokane__WA",
+        "visitedDate": null,
+        "countyName": "Spokane, WA"
+      },
+      {
+        "name": "Kootenai__ID",
+        "visitedDate": null,
+        "countyName": "Kootenai, ID"
+      },
+      {
+        "name": "Bonner__ID",
+        "visitedDate": null,
+        "countyName": "Bonner, ID"
+      },
+      {
+        "name": "Lincoln__MT",
+        "visitedDate": null,
+        "countyName": "Lincoln, MT"
+      },
+      {
+        "name": "Sanders__MT",
+        "visitedDate": null,
+        "countyName": "Sanders, MT"
+      },
+      {
+        "name": "Flathead__MT",
+        "visitedDate": null,
+        "countyName": "Flathead, MT"
+      },
+      {
+        "name": "Glacier__MT",
+        "visitedDate": null,
+        "countyName": "Glacier, MT"
+      },
+      {
+        "name": "Teton__MT",
+        "visitedDate": null,
+        "countyName": "Teton, MT"
+      },
+      {
+        "name": "Pondera__MT",
+        "visitedDate": null,
+        "countyName": "Pondera, MT"
+      },
+      {
+        "name": "Broadwater__MT",
+        "visitedDate": null,
+        "countyName": "Broadwater, MT"
+      },
+      {
+        "name": "Lewis_and_Clark__MT",
+        "visitedDate": null,
+        "countyName": "Lewis and Clark, MT"
+      },
+      {
+        "name": "Jefferson__MT",
+        "visitedDate": null,
+        "countyName": "Jefferson, MT"
+      },
+      {
+        "name": "Gallatin__MT",
+        "visitedDate": null,
+        "countyName": "Gallatin, MT"
+      },
+      {
+        "name": "Park__MT",
+        "visitedDate": null,
+        "countyName": "Park, MT"
+      },
+      {
+        "name": "Park__WY",
+        "visitedDate": null,
+        "countyName": "Park, WY"
+      },
+      {
+        "name": "Carbon__MT",
+        "visitedDate": null,
+        "countyName": "Carbon, MT"
+      },
+      {
+        "name": "Teton__WY",
+        "visitedDate": null,
+        "countyName": "Teton, WY"
+      },
+      {
+        "name": "Teton__ID",
+        "visitedDate": null,
+        "countyName": "Teton, ID"
+      },
+      {
+        "name": "Bonneville__ID",
+        "visitedDate": null,
+        "countyName": "Bonneville, ID"
+      },
+      {
+        "name": "Bingham__ID",
+        "visitedDate": null,
+        "countyName": "Bingham, ID"
+      },
+      {
+        "name": "Butte__ID",
+        "visitedDate": null,
+        "countyName": "Butte, ID"
+      },
+      {
+        "name": "Blaine__ID",
+        "visitedDate": null,
+        "countyName": "Blaine, ID"
+      },
+      {
+        "name": "Lincoln__ID",
+        "visitedDate": null,
+        "countyName": "Lincoln, ID"
+      },
+      {
+        "name": "Jerome__ID",
+        "visitedDate": null,
+        "countyName": "Jerome, ID"
+      },
+      {
+        "name": "Gooding__ID",
+        "visitedDate": null,
+        "countyName": "Gooding, ID"
+      },
+      {
+        "name": "Elmore__ID",
+        "visitedDate": null,
+        "countyName": "Elmore, ID"
+      },
+      {
+        "name": "Twin_Falls__ID",
+        "visitedDate": null,
+        "countyName": "Twin Falls, ID"
+      },
+      {
+        "name": "Owyhee__ID",
+        "visitedDate": null,
+        "countyName": "Owyhee, ID"
+      },
+      {
+        "name": "Canyon__ID",
+        "visitedDate": null,
+        "countyName": "Canyon, ID"
+      },
+      {
+        "name": "Ada__ID",
+        "visitedDate": null,
+        "countyName": "Ada, ID"
+      },
+      {
+        "name": "Malheur__OR",
+        "visitedDate": null,
+        "countyName": "Malheur, OR"
+      },
+      {
+        "name": "Humboldt__NV",
+        "visitedDate": null,
+        "countyName": "Humboldt, NV"
+      },
+      {
+        "name": "Pershing__NV",
+        "visitedDate": null,
+        "countyName": "Pershing, NV"
+      },
+      {
+        "name": "Churchill__NV",
+        "visitedDate": null,
+        "countyName": "Churchill, NV"
+      },
+      {
+        "name": "Lyon__NV",
+        "visitedDate": null,
+        "countyName": "Lyon, NV"
+      },
+      {
+        "name": "Storey__NV",
+        "visitedDate": null,
+        "countyName": "Storey, NV"
+      }
     ]
   },
   "visited2022": {
     "label": "Visited 2022",
     "counties": [
-      "Yuba__CA",
-      "Sutter__CA",
-      "Butte__CA",
-      "York__SC",
-      "Fairfield__SC",
-      "Chester__SC",
-      "Richland__SC",
-      "Lexington__SC",
-      "Calhoun__SC",
-      "Orangeburg__SC",
-      "Berkeley__SC",
-      "Charleston__SC",
-      "Dorchester__SC",
-      "Colleton__SC",
-      "Beaufort__SC",
-      "Hampton__SC",
-      "Jasper__SC",
-      "Effingham__GA",
-      "Bryan__GA",
-      "Chatham__GA",
-      "Bulloch__GA",
-      "Candler__GA",
-      "Emanuel__GA",
-      "Treutlen__GA",
-      "Laurens__GA",
-      "Bleckley__GA",
-      "Twiggs__GA",
-      "Bibb__GA",
-      "Monroe__GA",
-      "Lamar__GA",
-      "Spalding__GA",
-      "Henry__GA",
-      "Clayton__GA",
-      "DeKalb__GA",
-      "Cobb__GA",
-      "Butts__GA",
-      "Mecklenburg__NC",
-      "Cabarrus__NC",
-      "Rowan__NC",
-      "Davidson__NC",
-      "Randolph__NC",
-      "Guilford__NC",
-      "Alamance__NC",
-      "Orange__NC",
-      "Durham__NC",
-      "Wake__NC",
-      "Maui__HI",
-      "Honolulu__HI",
-      "Amador__CA",
-      "Alpine__CA",
-      "Lander__NV",
-      "Eureka__NV",
-      "White_Pine__NV",
-      "Millard__UT",
-      "Juab__UT",
-      "Weber__UT",
-      "Box_Elder__UT",
-      "Oneida__ID",
-      "Bannock__ID",
-      "Custer__ID",
-      "Lemhi__ID",
-      "Ravalli__MT",
-      "Missoula__MT",
-      "Lake__MT",
-      "Hood_River__OR",
-      "Trinity__CA",
-      "Navajo__AZ",
-      "Apache__AZ",
-      "McKinley__NM",
-      "Cibola__NM",
-      "Bernalillo__NM",
-      "Sandoval__NM",
-      "Santa_Fe__NM",
-      "Rio_Arriba__NM",
-      "Taos__NM",
-      "Colfax__NM",
-      "Union__NM",
-      "Dallam__TX",
-      "Hartley__TX",
-      "Oldham__TX",
-      "Potter__TX",
-      "Randall__TX",
-      "Carson__TX",
-      "Gray__TX",
-      "Donley__TX",
-      "Wheeler__TX",
-      "Beckham__OK",
-      "Washita__OK",
-      "Custer__OK",
-      "Caddo__OK",
-      "Canadian__OK",
-      "Oklahoma__OK",
-      "Lincoln__OK",
-      "Creek__OK",
-      "Tulsa__OK",
-      "Wagoner__OK",
-      "Rogers__OK",
-      "Mayes__OK",
-      "Delaware__OK",
-      "Benton__AR",
-      "Washington__AR",
-      "Carroll__AR",
-      "Barry__MO",
-      "McDonald__MO",
-      "Madison__AR",
-      "Newton__AR",
-      "Pope__AR",
-      "Conway__AR",
-      "Faulkner__AR",
-      "Pulaski__AR",
-      "Lonoke__AR",
-      "Prairie__AR",
-      "Monroe__AR",
-      "St__Francis__AR",
-      "Crittenden__AR",
-      "Shelby__TN",
-      "DeSoto__MS",
-      "Marshall__MS",
-      "Benton__MS",
-      "Union__MS",
-      "Lee__MS",
-      "Itawamba__MS",
-      "Marion__AL",
-      "Winston__AL",
-      "Walker__AL",
-      "Jefferson__AL",
-      "St__Clair__AL",
-      "Talladega__AL",
-      "Calhoun__AL",
-      "Cleburne__AL",
-      "Haralson__GA",
-      "Carroll__GA",
-      "Douglas__GA",
-      "Rockdale__GA",
-      "Newton__GA",
-      "Walton__GA",
-      "Morgan__GA",
-      "Putnam__GA",
-      "Forsyth__GA",
-      "Dawson__GA",
-      "Lumpkin__GA",
-      "Union__GA",
-      "Towns__GA",
-      "Cherokee__NC",
-      "Graham__NC",
-      "Swain__NC",
-      "Blount__TN",
-      "Sevier__TN",
-      "Cocke__TN",
-      "Haywood__NC",
-      "Jackson__NC",
-      "Macon__NC",
-      "Rabun__GA",
-      "Habersham__GA",
-      "Hall__GA",
-      "Gwinnett__GA",
-      "Cherokee__GA",
-      "Bartow__GA",
-      "Gordon__GA",
-      "Whitfield__GA",
-      "Catoosa__GA",
-      "Hamilton__TN",
-      "Dade__GA",
-      "Marion__TN",
-      "Grundy__TN",
-      "Coffee__TN",
-      "Bedford__TN",
-      "Rutherford__TN",
-      "Davidson__TN",
-      "Peach__GA",
-      "Houston__GA",
-      "Dooly__GA",
-      "Crisp__GA",
-      "Turner__GA",
-      "Tift__GA",
-      "Cook__GA",
-      "Lowndes__GA",
-      "Hamilton__FL",
-      "Suwannee__FL",
-      "Columbia__FL",
-      "Union__FL",
-      "Pinellas__FL",
-      "Citrus__FL"
+      {
+        "name": "Yuba__CA",
+        "visitedDate": null,
+        "countyName": "Yuba, CA"
+      },
+      {
+        "name": "Sutter__CA",
+        "visitedDate": null,
+        "countyName": "Sutter, CA"
+      },
+      {
+        "name": "Butte__CA",
+        "visitedDate": null,
+        "countyName": "Butte, CA"
+      },
+      {
+        "name": "York__SC",
+        "visitedDate": null,
+        "countyName": "York, SC"
+      },
+      {
+        "name": "Fairfield__SC",
+        "visitedDate": null,
+        "countyName": "Fairfield, SC"
+      },
+      {
+        "name": "Chester__SC",
+        "visitedDate": null,
+        "countyName": "Chester, SC"
+      },
+      {
+        "name": "Richland__SC",
+        "visitedDate": null,
+        "countyName": "Richland, SC"
+      },
+      {
+        "name": "Lexington__SC",
+        "visitedDate": null,
+        "countyName": "Lexington, SC"
+      },
+      {
+        "name": "Calhoun__SC",
+        "visitedDate": null,
+        "countyName": "Calhoun, SC"
+      },
+      {
+        "name": "Orangeburg__SC",
+        "visitedDate": null,
+        "countyName": "Orangeburg, SC"
+      },
+      {
+        "name": "Berkeley__SC",
+        "visitedDate": null,
+        "countyName": "Berkeley, SC"
+      },
+      {
+        "name": "Charleston__SC",
+        "visitedDate": null,
+        "countyName": "Charleston, SC"
+      },
+      {
+        "name": "Dorchester__SC",
+        "visitedDate": null,
+        "countyName": "Dorchester, SC"
+      },
+      {
+        "name": "Colleton__SC",
+        "visitedDate": null,
+        "countyName": "Colleton, SC"
+      },
+      {
+        "name": "Beaufort__SC",
+        "visitedDate": null,
+        "countyName": "Beaufort, SC"
+      },
+      {
+        "name": "Hampton__SC",
+        "visitedDate": null,
+        "countyName": "Hampton, SC"
+      },
+      {
+        "name": "Jasper__SC",
+        "visitedDate": null,
+        "countyName": "Jasper, SC"
+      },
+      {
+        "name": "Effingham__GA",
+        "visitedDate": null,
+        "countyName": "Effingham, GA"
+      },
+      {
+        "name": "Bryan__GA",
+        "visitedDate": null,
+        "countyName": "Bryan, GA"
+      },
+      {
+        "name": "Chatham__GA",
+        "visitedDate": null,
+        "countyName": "Chatham, GA"
+      },
+      {
+        "name": "Bulloch__GA",
+        "visitedDate": null,
+        "countyName": "Bulloch, GA"
+      },
+      {
+        "name": "Candler__GA",
+        "visitedDate": null,
+        "countyName": "Candler, GA"
+      },
+      {
+        "name": "Emanuel__GA",
+        "visitedDate": null,
+        "countyName": "Emanuel, GA"
+      },
+      {
+        "name": "Treutlen__GA",
+        "visitedDate": null,
+        "countyName": "Treutlen, GA"
+      },
+      {
+        "name": "Laurens__GA",
+        "visitedDate": null,
+        "countyName": "Laurens, GA"
+      },
+      {
+        "name": "Bleckley__GA",
+        "visitedDate": null,
+        "countyName": "Bleckley, GA"
+      },
+      {
+        "name": "Twiggs__GA",
+        "visitedDate": null,
+        "countyName": "Twiggs, GA"
+      },
+      {
+        "name": "Bibb__GA",
+        "visitedDate": null,
+        "countyName": "Bibb, GA"
+      },
+      {
+        "name": "Monroe__GA",
+        "visitedDate": null,
+        "countyName": "Monroe, GA"
+      },
+      {
+        "name": "Lamar__GA",
+        "visitedDate": null,
+        "countyName": "Lamar, GA"
+      },
+      {
+        "name": "Spalding__GA",
+        "visitedDate": null,
+        "countyName": "Spalding, GA"
+      },
+      {
+        "name": "Henry__GA",
+        "visitedDate": null,
+        "countyName": "Henry, GA"
+      },
+      {
+        "name": "Clayton__GA",
+        "visitedDate": null,
+        "countyName": "Clayton, GA"
+      },
+      {
+        "name": "DeKalb__GA",
+        "visitedDate": null,
+        "countyName": "DeKalb, GA"
+      },
+      {
+        "name": "Cobb__GA",
+        "visitedDate": null,
+        "countyName": "Cobb, GA"
+      },
+      {
+        "name": "Butts__GA",
+        "visitedDate": null,
+        "countyName": "Butts, GA"
+      },
+      {
+        "name": "Mecklenburg__NC",
+        "visitedDate": null,
+        "countyName": "Mecklenburg, NC"
+      },
+      {
+        "name": "Cabarrus__NC",
+        "visitedDate": null,
+        "countyName": "Cabarrus, NC"
+      },
+      {
+        "name": "Rowan__NC",
+        "visitedDate": null,
+        "countyName": "Rowan, NC"
+      },
+      {
+        "name": "Davidson__NC",
+        "visitedDate": null,
+        "countyName": "Davidson, NC"
+      },
+      {
+        "name": "Randolph__NC",
+        "visitedDate": null,
+        "countyName": "Randolph, NC"
+      },
+      {
+        "name": "Guilford__NC",
+        "visitedDate": null,
+        "countyName": "Guilford, NC"
+      },
+      {
+        "name": "Alamance__NC",
+        "visitedDate": null,
+        "countyName": "Alamance, NC"
+      },
+      {
+        "name": "Orange__NC",
+        "visitedDate": null,
+        "countyName": "Orange, NC"
+      },
+      {
+        "name": "Durham__NC",
+        "visitedDate": null,
+        "countyName": "Durham, NC"
+      },
+      {
+        "name": "Wake__NC",
+        "visitedDate": null,
+        "countyName": "Wake, NC"
+      },
+      {
+        "name": "Maui__HI",
+        "visitedDate": null,
+        "countyName": "Maui, HI"
+      },
+      {
+        "name": "Honolulu__HI",
+        "visitedDate": null,
+        "countyName": "Honolulu, HI"
+      },
+      {
+        "name": "Amador__CA",
+        "visitedDate": null,
+        "countyName": "Amador, CA"
+      },
+      {
+        "name": "Alpine__CA",
+        "visitedDate": null,
+        "countyName": "Alpine, CA"
+      },
+      {
+        "name": "Lander__NV",
+        "visitedDate": null,
+        "countyName": "Lander, NV"
+      },
+      {
+        "name": "Eureka__NV",
+        "visitedDate": null,
+        "countyName": "Eureka, NV"
+      },
+      {
+        "name": "White_Pine__NV",
+        "visitedDate": null,
+        "countyName": "White Pine, NV"
+      },
+      {
+        "name": "Millard__UT",
+        "visitedDate": null,
+        "countyName": "Millard, UT"
+      },
+      {
+        "name": "Juab__UT",
+        "visitedDate": null,
+        "countyName": "Juab, UT"
+      },
+      {
+        "name": "Weber__UT",
+        "visitedDate": null,
+        "countyName": "Weber, UT"
+      },
+      {
+        "name": "Box_Elder__UT",
+        "visitedDate": null,
+        "countyName": "Box Elder, UT"
+      },
+      {
+        "name": "Oneida__ID",
+        "visitedDate": null,
+        "countyName": "Oneida, ID"
+      },
+      {
+        "name": "Bannock__ID",
+        "visitedDate": null,
+        "countyName": "Bannock, ID"
+      },
+      {
+        "name": "Custer__ID",
+        "visitedDate": null,
+        "countyName": "Custer, ID"
+      },
+      {
+        "name": "Lemhi__ID",
+        "visitedDate": null,
+        "countyName": "Lemhi, ID"
+      },
+      {
+        "name": "Ravalli__MT",
+        "visitedDate": null,
+        "countyName": "Ravalli, MT"
+      },
+      {
+        "name": "Missoula__MT",
+        "visitedDate": null,
+        "countyName": "Missoula, MT"
+      },
+      {
+        "name": "Lake__MT",
+        "visitedDate": null,
+        "countyName": "Lake, MT"
+      },
+      {
+        "name": "Hood_River__OR",
+        "visitedDate": null,
+        "countyName": "Hood River, OR"
+      },
+      {
+        "name": "Trinity__CA",
+        "visitedDate": null,
+        "countyName": "Trinity, CA"
+      },
+      {
+        "name": "Navajo__AZ",
+        "visitedDate": null,
+        "countyName": "Navajo, AZ"
+      },
+      {
+        "name": "Apache__AZ",
+        "visitedDate": null,
+        "countyName": "Apache, AZ"
+      },
+      {
+        "name": "McKinley__NM",
+        "visitedDate": null,
+        "countyName": "McKinley, NM"
+      },
+      {
+        "name": "Cibola__NM",
+        "visitedDate": null,
+        "countyName": "Cibola, NM"
+      },
+      {
+        "name": "Bernalillo__NM",
+        "visitedDate": null,
+        "countyName": "Bernalillo, NM"
+      },
+      {
+        "name": "Sandoval__NM",
+        "visitedDate": null,
+        "countyName": "Sandoval, NM"
+      },
+      {
+        "name": "Santa_Fe__NM",
+        "visitedDate": null,
+        "countyName": "Santa Fe, NM"
+      },
+      {
+        "name": "Rio_Arriba__NM",
+        "visitedDate": null,
+        "countyName": "Rio Arriba, NM"
+      },
+      {
+        "name": "Taos__NM",
+        "visitedDate": null,
+        "countyName": "Taos, NM"
+      },
+      {
+        "name": "Colfax__NM",
+        "visitedDate": null,
+        "countyName": "Colfax, NM"
+      },
+      {
+        "name": "Union__NM",
+        "visitedDate": null,
+        "countyName": "Union, NM"
+      },
+      {
+        "name": "Dallam__TX",
+        "visitedDate": null,
+        "countyName": "Dallam, TX"
+      },
+      {
+        "name": "Hartley__TX",
+        "visitedDate": null,
+        "countyName": "Hartley, TX"
+      },
+      {
+        "name": "Oldham__TX",
+        "visitedDate": null,
+        "countyName": "Oldham, TX"
+      },
+      {
+        "name": "Potter__TX",
+        "visitedDate": null,
+        "countyName": "Potter, TX"
+      },
+      {
+        "name": "Randall__TX",
+        "visitedDate": null,
+        "countyName": "Randall, TX"
+      },
+      {
+        "name": "Carson__TX",
+        "visitedDate": null,
+        "countyName": "Carson, TX"
+      },
+      {
+        "name": "Gray__TX",
+        "visitedDate": null,
+        "countyName": "Gray, TX"
+      },
+      {
+        "name": "Donley__TX",
+        "visitedDate": null,
+        "countyName": "Donley, TX"
+      },
+      {
+        "name": "Wheeler__TX",
+        "visitedDate": null,
+        "countyName": "Wheeler, TX"
+      },
+      {
+        "name": "Beckham__OK",
+        "visitedDate": null,
+        "countyName": "Beckham, OK"
+      },
+      {
+        "name": "Washita__OK",
+        "visitedDate": null,
+        "countyName": "Washita, OK"
+      },
+      {
+        "name": "Custer__OK",
+        "visitedDate": null,
+        "countyName": "Custer, OK"
+      },
+      {
+        "name": "Caddo__OK",
+        "visitedDate": null,
+        "countyName": "Caddo, OK"
+      },
+      {
+        "name": "Canadian__OK",
+        "visitedDate": null,
+        "countyName": "Canadian, OK"
+      },
+      {
+        "name": "Oklahoma__OK",
+        "visitedDate": null,
+        "countyName": "Oklahoma, OK"
+      },
+      {
+        "name": "Lincoln__OK",
+        "visitedDate": null,
+        "countyName": "Lincoln, OK"
+      },
+      {
+        "name": "Creek__OK",
+        "visitedDate": null,
+        "countyName": "Creek, OK"
+      },
+      {
+        "name": "Tulsa__OK",
+        "visitedDate": null,
+        "countyName": "Tulsa, OK"
+      },
+      {
+        "name": "Wagoner__OK",
+        "visitedDate": null,
+        "countyName": "Wagoner, OK"
+      },
+      {
+        "name": "Rogers__OK",
+        "visitedDate": null,
+        "countyName": "Rogers, OK"
+      },
+      {
+        "name": "Mayes__OK",
+        "visitedDate": null,
+        "countyName": "Mayes, OK"
+      },
+      {
+        "name": "Delaware__OK",
+        "visitedDate": null,
+        "countyName": "Delaware, OK"
+      },
+      {
+        "name": "Benton__AR",
+        "visitedDate": null,
+        "countyName": "Benton, AR"
+      },
+      {
+        "name": "Washington__AR",
+        "visitedDate": null,
+        "countyName": "Washington, AR"
+      },
+      {
+        "name": "Carroll__AR",
+        "visitedDate": null,
+        "countyName": "Carroll, AR"
+      },
+      {
+        "name": "Barry__MO",
+        "visitedDate": null,
+        "countyName": "Barry, MO"
+      },
+      {
+        "name": "McDonald__MO",
+        "visitedDate": null,
+        "countyName": "McDonald, MO"
+      },
+      {
+        "name": "Madison__AR",
+        "visitedDate": null,
+        "countyName": "Madison, AR"
+      },
+      {
+        "name": "Newton__AR",
+        "visitedDate": null,
+        "countyName": "Newton, AR"
+      },
+      {
+        "name": "Pope__AR",
+        "visitedDate": null,
+        "countyName": "Pope, AR"
+      },
+      {
+        "name": "Conway__AR",
+        "visitedDate": null,
+        "countyName": "Conway, AR"
+      },
+      {
+        "name": "Faulkner__AR",
+        "visitedDate": null,
+        "countyName": "Faulkner, AR"
+      },
+      {
+        "name": "Pulaski__AR",
+        "visitedDate": null,
+        "countyName": "Pulaski, AR"
+      },
+      {
+        "name": "Lonoke__AR",
+        "visitedDate": null,
+        "countyName": "Lonoke, AR"
+      },
+      {
+        "name": "Prairie__AR",
+        "visitedDate": null,
+        "countyName": "Prairie, AR"
+      },
+      {
+        "name": "Monroe__AR",
+        "visitedDate": null,
+        "countyName": "Monroe, AR"
+      },
+      {
+        "name": "St__Francis__AR",
+        "visitedDate": null,
+        "countyName": "St. Francis, AR"
+      },
+      {
+        "name": "Crittenden__AR",
+        "visitedDate": null,
+        "countyName": "Crittenden, AR"
+      },
+      {
+        "name": "Shelby__TN",
+        "visitedDate": null,
+        "countyName": "Shelby, TN"
+      },
+      {
+        "name": "DeSoto__MS",
+        "visitedDate": null,
+        "countyName": "DeSoto, MS"
+      },
+      {
+        "name": "Marshall__MS",
+        "visitedDate": null,
+        "countyName": "Marshall, MS"
+      },
+      {
+        "name": "Benton__MS",
+        "visitedDate": null,
+        "countyName": "Benton, MS"
+      },
+      {
+        "name": "Union__MS",
+        "visitedDate": null,
+        "countyName": "Union, MS"
+      },
+      {
+        "name": "Lee__MS",
+        "visitedDate": null,
+        "countyName": "Lee, MS"
+      },
+      {
+        "name": "Itawamba__MS",
+        "visitedDate": null,
+        "countyName": "Itawamba, MS"
+      },
+      {
+        "name": "Marion__AL",
+        "visitedDate": null,
+        "countyName": "Marion, AL"
+      },
+      {
+        "name": "Winston__AL",
+        "visitedDate": null,
+        "countyName": "Winston, AL"
+      },
+      {
+        "name": "Walker__AL",
+        "visitedDate": null,
+        "countyName": "Walker, AL"
+      },
+      {
+        "name": "Jefferson__AL",
+        "visitedDate": null,
+        "countyName": "Jefferson, AL"
+      },
+      {
+        "name": "St__Clair__AL",
+        "visitedDate": null,
+        "countyName": "St. Clair, AL"
+      },
+      {
+        "name": "Talladega__AL",
+        "visitedDate": null,
+        "countyName": "Talladega, AL"
+      },
+      {
+        "name": "Calhoun__AL",
+        "visitedDate": null,
+        "countyName": "Calhoun, AL"
+      },
+      {
+        "name": "Cleburne__AL",
+        "visitedDate": null,
+        "countyName": "Cleburne, AL"
+      },
+      {
+        "name": "Haralson__GA",
+        "visitedDate": null,
+        "countyName": "Haralson, GA"
+      },
+      {
+        "name": "Carroll__GA",
+        "visitedDate": null,
+        "countyName": "Carroll, GA"
+      },
+      {
+        "name": "Douglas__GA",
+        "visitedDate": null,
+        "countyName": "Douglas, GA"
+      },
+      {
+        "name": "Rockdale__GA",
+        "visitedDate": null,
+        "countyName": "Rockdale, GA"
+      },
+      {
+        "name": "Newton__GA",
+        "visitedDate": null,
+        "countyName": "Newton, GA"
+      },
+      {
+        "name": "Walton__GA",
+        "visitedDate": null,
+        "countyName": "Walton, GA"
+      },
+      {
+        "name": "Morgan__GA",
+        "visitedDate": null,
+        "countyName": "Morgan, GA"
+      },
+      {
+        "name": "Putnam__GA",
+        "visitedDate": null,
+        "countyName": "Putnam, GA"
+      },
+      {
+        "name": "Forsyth__GA",
+        "visitedDate": null,
+        "countyName": "Forsyth, GA"
+      },
+      {
+        "name": "Dawson__GA",
+        "visitedDate": null,
+        "countyName": "Dawson, GA"
+      },
+      {
+        "name": "Lumpkin__GA",
+        "visitedDate": null,
+        "countyName": "Lumpkin, GA"
+      },
+      {
+        "name": "Union__GA",
+        "visitedDate": null,
+        "countyName": "Union, GA"
+      },
+      {
+        "name": "Towns__GA",
+        "visitedDate": null,
+        "countyName": "Towns, GA"
+      },
+      {
+        "name": "Cherokee__NC",
+        "visitedDate": null,
+        "countyName": "Cherokee, NC"
+      },
+      {
+        "name": "Graham__NC",
+        "visitedDate": null,
+        "countyName": "Graham, NC"
+      },
+      {
+        "name": "Swain__NC",
+        "visitedDate": null,
+        "countyName": "Swain, NC"
+      },
+      {
+        "name": "Blount__TN",
+        "visitedDate": null,
+        "countyName": "Blount, TN"
+      },
+      {
+        "name": "Sevier__TN",
+        "visitedDate": null,
+        "countyName": "Sevier, TN"
+      },
+      {
+        "name": "Cocke__TN",
+        "visitedDate": null,
+        "countyName": "Cocke, TN"
+      },
+      {
+        "name": "Haywood__NC",
+        "visitedDate": null,
+        "countyName": "Haywood, NC"
+      },
+      {
+        "name": "Jackson__NC",
+        "visitedDate": null,
+        "countyName": "Jackson, NC"
+      },
+      {
+        "name": "Macon__NC",
+        "visitedDate": null,
+        "countyName": "Macon, NC"
+      },
+      {
+        "name": "Rabun__GA",
+        "visitedDate": null,
+        "countyName": "Rabun, GA"
+      },
+      {
+        "name": "Habersham__GA",
+        "visitedDate": null,
+        "countyName": "Habersham, GA"
+      },
+      {
+        "name": "Hall__GA",
+        "visitedDate": null,
+        "countyName": "Hall, GA"
+      },
+      {
+        "name": "Gwinnett__GA",
+        "visitedDate": null,
+        "countyName": "Gwinnett, GA"
+      },
+      {
+        "name": "Cherokee__GA",
+        "visitedDate": null,
+        "countyName": "Cherokee, GA"
+      },
+      {
+        "name": "Bartow__GA",
+        "visitedDate": null,
+        "countyName": "Bartow, GA"
+      },
+      {
+        "name": "Gordon__GA",
+        "visitedDate": null,
+        "countyName": "Gordon, GA"
+      },
+      {
+        "name": "Whitfield__GA",
+        "visitedDate": null,
+        "countyName": "Whitfield, GA"
+      },
+      {
+        "name": "Catoosa__GA",
+        "visitedDate": null,
+        "countyName": "Catoosa, GA"
+      },
+      {
+        "name": "Hamilton__TN",
+        "visitedDate": null,
+        "countyName": "Hamilton, TN"
+      },
+      {
+        "name": "Dade__GA",
+        "visitedDate": null,
+        "countyName": "Dade, GA"
+      },
+      {
+        "name": "Marion__TN",
+        "visitedDate": null,
+        "countyName": "Marion, TN"
+      },
+      {
+        "name": "Grundy__TN",
+        "visitedDate": null,
+        "countyName": "Grundy, TN"
+      },
+      {
+        "name": "Coffee__TN",
+        "visitedDate": null,
+        "countyName": "Coffee, TN"
+      },
+      {
+        "name": "Bedford__TN",
+        "visitedDate": null,
+        "countyName": "Bedford, TN"
+      },
+      {
+        "name": "Rutherford__TN",
+        "visitedDate": null,
+        "countyName": "Rutherford, TN"
+      },
+      {
+        "name": "Davidson__TN",
+        "visitedDate": null,
+        "countyName": "Davidson, TN"
+      },
+      {
+        "name": "Peach__GA",
+        "visitedDate": null,
+        "countyName": "Peach, GA"
+      },
+      {
+        "name": "Houston__GA",
+        "visitedDate": null,
+        "countyName": "Houston, GA"
+      },
+      {
+        "name": "Dooly__GA",
+        "visitedDate": null,
+        "countyName": "Dooly, GA"
+      },
+      {
+        "name": "Crisp__GA",
+        "visitedDate": null,
+        "countyName": "Crisp, GA"
+      },
+      {
+        "name": "Turner__GA",
+        "visitedDate": null,
+        "countyName": "Turner, GA"
+      },
+      {
+        "name": "Tift__GA",
+        "visitedDate": null,
+        "countyName": "Tift, GA"
+      },
+      {
+        "name": "Cook__GA",
+        "visitedDate": null,
+        "countyName": "Cook, GA"
+      },
+      {
+        "name": "Lowndes__GA",
+        "visitedDate": null,
+        "countyName": "Lowndes, GA"
+      },
+      {
+        "name": "Hamilton__FL",
+        "visitedDate": null,
+        "countyName": "Hamilton, FL"
+      },
+      {
+        "name": "Suwannee__FL",
+        "visitedDate": null,
+        "countyName": "Suwannee, FL"
+      },
+      {
+        "name": "Columbia__FL",
+        "visitedDate": null,
+        "countyName": "Columbia, FL"
+      },
+      {
+        "name": "Union__FL",
+        "visitedDate": null,
+        "countyName": "Union, FL"
+      },
+      {
+        "name": "Pinellas__FL",
+        "visitedDate": null,
+        "countyName": "Pinellas, FL"
+      },
+      {
+        "name": "Citrus__FL",
+        "visitedDate": null,
+        "countyName": "Citrus, FL"
+      }
     ]
   },
   "visited2023": {
     "label": "Visited 2023",
     "counties": [
-      "Coweta__GA",
-      "Meriwether__GA",
-      "Troup__GA",
-      "Harris__GA",
-      "Muscogee__GA",
-      "Chattahoochee__GA",
-      "Stewart__GA",
-      "Quitman__GA",
-      "Barbour__AL",
-      "Bullock__AL",
-      "Montgomery__AL",
-      "Elmore__AL",
-      "Macon__AL",
-      "Lee__AL",
-      "Chambers__AL",
-      "Bradley__TN",
-      "McMinn__TN",
-      "Monroe__TN",
-      "Loudon__TN",
-      "Roane__TN",
-      "Anderson__TN",
-      "Knox__TN",
-      "Philadelphia__PA",
-      "Camden__NJ",
-      "Burlington__NJ",
-      "Mercer__NJ",
-      "Bucks__PA",
-      "Delaware__PA",
-      "Chester__PA",
-      "Suffolk__MA",
-      "Middlesex__MA",
-      "Stephens__GA",
-      "Franklin__GA",
-      "Banks__GA",
-      "Jackson__GA",
-      "Barrow__GA",
-      "Hart__GA",
-      "Oconee__SC",
-      "Anderson__SC",
-      "Greenville__SC",
-      "Spartanburg__SC",
-      "Polk__NC",
-      "Rutherford__NC",
-      "McDowell__NC",
-      "Yancey__NC",
-      "Buncombe__NC",
-      "Henderson__NC",
-      "Transylvania__NC",
-      "Walker__GA",
-      "Greene__GA",
-      "Taliaferro__GA",
-      "Warren__GA",
-      "McDuffie__GA",
-      "Columbia__GA",
-      "Richmond__GA",
-      "Jefferson__LA",
-      "Orleans__LA",
-      "St__Tammany__LA",
-      "Tangipahoa__LA",
-      "St__John_the_Baptist__LA",
-      "St__James__LA",
-      "Lafourche__LA",
-      "Terrebonne__LA",
-      "St__Charles__LA"
+      {
+        "name": "Coweta__GA",
+        "visitedDate": null,
+        "countyName": "Coweta, GA"
+      },
+      {
+        "name": "Meriwether__GA",
+        "visitedDate": null,
+        "countyName": "Meriwether, GA"
+      },
+      {
+        "name": "Troup__GA",
+        "visitedDate": null,
+        "countyName": "Troup, GA"
+      },
+      {
+        "name": "Harris__GA",
+        "visitedDate": null,
+        "countyName": "Harris, GA"
+      },
+      {
+        "name": "Muscogee__GA",
+        "visitedDate": null,
+        "countyName": "Muscogee, GA"
+      },
+      {
+        "name": "Chattahoochee__GA",
+        "visitedDate": null,
+        "countyName": "Chattahoochee, GA"
+      },
+      {
+        "name": "Stewart__GA",
+        "visitedDate": null,
+        "countyName": "Stewart, GA"
+      },
+      {
+        "name": "Quitman__GA",
+        "visitedDate": null,
+        "countyName": "Quitman, GA"
+      },
+      {
+        "name": "Barbour__AL",
+        "visitedDate": null,
+        "countyName": "Barbour, AL"
+      },
+      {
+        "name": "Bullock__AL",
+        "visitedDate": null,
+        "countyName": "Bullock, AL"
+      },
+      {
+        "name": "Montgomery__AL",
+        "visitedDate": null,
+        "countyName": "Montgomery, AL"
+      },
+      {
+        "name": "Elmore__AL",
+        "visitedDate": null,
+        "countyName": "Elmore, AL"
+      },
+      {
+        "name": "Macon__AL",
+        "visitedDate": null,
+        "countyName": "Macon, AL"
+      },
+      {
+        "name": "Lee__AL",
+        "visitedDate": null,
+        "countyName": "Lee, AL"
+      },
+      {
+        "name": "Chambers__AL",
+        "visitedDate": null,
+        "countyName": "Chambers, AL"
+      },
+      {
+        "name": "Bradley__TN",
+        "visitedDate": null,
+        "countyName": "Bradley, TN"
+      },
+      {
+        "name": "McMinn__TN",
+        "visitedDate": null,
+        "countyName": "McMinn, TN"
+      },
+      {
+        "name": "Monroe__TN",
+        "visitedDate": null,
+        "countyName": "Monroe, TN"
+      },
+      {
+        "name": "Loudon__TN",
+        "visitedDate": null,
+        "countyName": "Loudon, TN"
+      },
+      {
+        "name": "Roane__TN",
+        "visitedDate": null,
+        "countyName": "Roane, TN"
+      },
+      {
+        "name": "Anderson__TN",
+        "visitedDate": null,
+        "countyName": "Anderson, TN"
+      },
+      {
+        "name": "Knox__TN",
+        "visitedDate": null,
+        "countyName": "Knox, TN"
+      },
+      {
+        "name": "Philadelphia__PA",
+        "visitedDate": null,
+        "countyName": "Philadelphia, PA"
+      },
+      {
+        "name": "Camden__NJ",
+        "visitedDate": null,
+        "countyName": "Camden, NJ"
+      },
+      {
+        "name": "Burlington__NJ",
+        "visitedDate": null,
+        "countyName": "Burlington, NJ"
+      },
+      {
+        "name": "Mercer__NJ",
+        "visitedDate": null,
+        "countyName": "Mercer, NJ"
+      },
+      {
+        "name": "Bucks__PA",
+        "visitedDate": null,
+        "countyName": "Bucks, PA"
+      },
+      {
+        "name": "Delaware__PA",
+        "visitedDate": null,
+        "countyName": "Delaware, PA"
+      },
+      {
+        "name": "Chester__PA",
+        "visitedDate": null,
+        "countyName": "Chester, PA"
+      },
+      {
+        "name": "Suffolk__MA",
+        "visitedDate": null,
+        "countyName": "Suffolk, MA"
+      },
+      {
+        "name": "Middlesex__MA",
+        "visitedDate": null,
+        "countyName": "Middlesex, MA"
+      },
+      {
+        "name": "Stephens__GA",
+        "visitedDate": null,
+        "countyName": "Stephens, GA"
+      },
+      {
+        "name": "Franklin__GA",
+        "visitedDate": null,
+        "countyName": "Franklin, GA"
+      },
+      {
+        "name": "Banks__GA",
+        "visitedDate": null,
+        "countyName": "Banks, GA"
+      },
+      {
+        "name": "Jackson__GA",
+        "visitedDate": null,
+        "countyName": "Jackson, GA"
+      },
+      {
+        "name": "Barrow__GA",
+        "visitedDate": null,
+        "countyName": "Barrow, GA"
+      },
+      {
+        "name": "Hart__GA",
+        "visitedDate": null,
+        "countyName": "Hart, GA"
+      },
+      {
+        "name": "Oconee__SC",
+        "visitedDate": null,
+        "countyName": "Oconee, SC"
+      },
+      {
+        "name": "Anderson__SC",
+        "visitedDate": null,
+        "countyName": "Anderson, SC"
+      },
+      {
+        "name": "Greenville__SC",
+        "visitedDate": null,
+        "countyName": "Greenville, SC"
+      },
+      {
+        "name": "Spartanburg__SC",
+        "visitedDate": null,
+        "countyName": "Spartanburg, SC"
+      },
+      {
+        "name": "Polk__NC",
+        "visitedDate": null,
+        "countyName": "Polk, NC"
+      },
+      {
+        "name": "Rutherford__NC",
+        "visitedDate": null,
+        "countyName": "Rutherford, NC"
+      },
+      {
+        "name": "McDowell__NC",
+        "visitedDate": null,
+        "countyName": "McDowell, NC"
+      },
+      {
+        "name": "Yancey__NC",
+        "visitedDate": null,
+        "countyName": "Yancey, NC"
+      },
+      {
+        "name": "Buncombe__NC",
+        "visitedDate": null,
+        "countyName": "Buncombe, NC"
+      },
+      {
+        "name": "Henderson__NC",
+        "visitedDate": null,
+        "countyName": "Henderson, NC"
+      },
+      {
+        "name": "Transylvania__NC",
+        "visitedDate": null,
+        "countyName": "Transylvania, NC"
+      },
+      {
+        "name": "Walker__GA",
+        "visitedDate": null,
+        "countyName": "Walker, GA"
+      },
+      {
+        "name": "Greene__GA",
+        "visitedDate": null,
+        "countyName": "Greene, GA"
+      },
+      {
+        "name": "Taliaferro__GA",
+        "visitedDate": null,
+        "countyName": "Taliaferro, GA"
+      },
+      {
+        "name": "Warren__GA",
+        "visitedDate": null,
+        "countyName": "Warren, GA"
+      },
+      {
+        "name": "McDuffie__GA",
+        "visitedDate": null,
+        "countyName": "McDuffie, GA"
+      },
+      {
+        "name": "Columbia__GA",
+        "visitedDate": null,
+        "countyName": "Columbia, GA"
+      },
+      {
+        "name": "Richmond__GA",
+        "visitedDate": null,
+        "countyName": "Richmond, GA"
+      },
+      {
+        "name": "Jefferson__LA",
+        "visitedDate": null,
+        "countyName": "Jefferson, LA"
+      },
+      {
+        "name": "Orleans__LA",
+        "visitedDate": null,
+        "countyName": "Orleans, LA"
+      },
+      {
+        "name": "St__Tammany__LA",
+        "visitedDate": null,
+        "countyName": "St. Tammany, LA"
+      },
+      {
+        "name": "Tangipahoa__LA",
+        "visitedDate": null,
+        "countyName": "Tangipahoa, LA"
+      },
+      {
+        "name": "St__John_the_Baptist__LA",
+        "visitedDate": null,
+        "countyName": "St. John the Baptist, LA"
+      },
+      {
+        "name": "St__James__LA",
+        "visitedDate": null,
+        "countyName": "St. James, LA"
+      },
+      {
+        "name": "Lafourche__LA",
+        "visitedDate": null,
+        "countyName": "Lafourche, LA"
+      },
+      {
+        "name": "Terrebonne__LA",
+        "visitedDate": null,
+        "countyName": "Terrebonne, LA"
+      },
+      {
+        "name": "St__Charles__LA",
+        "visitedDate": null,
+        "countyName": "St. Charles, LA"
+      }
     ]
   }
 }

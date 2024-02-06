@@ -369,8 +369,8 @@ document.addEventListener('DOMContentLoaded', function () {
       Object.keys(myTravels).forEach(key => {
         const { label, counties } = myTravels[key];
 
-        counties.forEach(county => {
-          const element = document.getElementById(county);
+        counties.forEach(({ name, visitDate, countyName }, index) => {
+          const element = document.getElementById(name);
           if (element) {
             element.style.fill = colorMap[key];
           }
