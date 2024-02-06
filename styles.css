@@ -1,3 +1,9 @@
+:root {
+  --unvisited: #013f3f;
+  --highways: #06218e; /* blue: #06218e red: #8e0634*/
+}
+
+
 * {
   font-family: 'Rubik', sans-serif;
   color: #24292F;
@@ -1204,10 +1210,35 @@ button {
   font-weight: 300;
 }
 
+/* MAP */
+
 #rtMap {
   margin-top: -10rem;
   transform: scale(0.8);
 }
+
+/* unvisited counties */
+#rtMap > path {
+  fill: var(--unvisited);
+  stroke: #FFF;
+}
+
+/* interstates */
+
+#highways path {
+  stroke: var(--highways);
+}
+
+/* state borders */
+
+#state_borders path {
+  stroke: #FFF;
+}
+
+
+
+
+
 
 /* toggle map menu */
 
@@ -1227,12 +1258,15 @@ button {
 	position: relative;
 	z-index: 1;
 	text-align: center;
-	color: #013F3F;
 	cursor: pointer;
   transition: .5s;
 }
 
-.rtNav button:hover {
+.rtUnselected {
+  color: #013F3F;
+}
+
+.rtSelected {
   color: #FFF;
 }
 
@@ -1245,20 +1279,8 @@ button {
   border-radius: 0.5rem;
 }
 
-.start-counties, .countiesButton:hover~.rtAnimation {
+.rtAnimation {
   width: 10rem;
   left: 0;
-  background-color: #013F3F;
-}
-
-.start-states, .statesButton:hover~.rtAnimation {
-  width: 10rem;
-  left: 10rem;
-  background-color: #013F3F;
-}
-
-.start-timeline, .timelineButton:hover~.rtAnimation {
-  width: 10rem;
-  left: 20rem;
   background-color: #013F3F;
 }

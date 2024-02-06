@@ -336,3 +336,78 @@ window.onscroll = handleHome;
 homeButton.addEventListener('click', () => {
   landingSection.scrollIntoView({ behavior: 'smooth' });
 });
+
+
+
+
+
+
+
+
+
+
+/* MAP */
+const colorMap = {
+  livedIn: '#ffff33',
+  visited2012: '#008d8c',
+  visited2013: '#1a968e',
+  visited2014: '#2c9e90',
+  visited2015: '#3ca791',
+  visited2016: '#4caf91',
+  visited2018: '#6bbf92',
+  visited2019: '#7bc792',
+  visited2020: '#8ccf92',
+  visited2021: '#9dd692',
+  visited2022: '#aede92',
+  visited2023: '#bfe692',
+}
+
+document.addEventListener('DOMContentLoaded', function () {
+  fetch('../assets/roadtripper/MyTravels.json')
+    .then(response => response.json())
+    .then(myTravels => {
+      Object.keys(myTravels).forEach(key => {
+        const { label, counties } = myTravels[key];
+
+        counties.forEach(county => {
+          const element = document.getElementById(county);
+          if (element) {
+            element.style.fill = colorMap[key];
+          }
+        })
+      })
+    })
+});
+
+/* map toggle menu */
+const rtCountiesButton = document.querySelector('.rtNav .countiesButton');
+const rtStatesButton = document.querySelector('.rtNav .statesButton');
+const rtTimelineButton = document.querySelector('.rtNav .timelineButton');
+const rtAnimation = document.querySelector('.rtAnimation');
+
+let rtSelectedButton = rtCountiesButton;
+
+function updateSelectedButton(selectedButton) {
+  rtSelectedButton.classList.remove('rtSelected');
+  rtSelectedButton.classList.add('rtUnselected');
+  rtSelectedButton = selectedButton;
+  rtSelectedButton.classList.remove('rtUnselected');
+  rtSelectedButton.classList.add('rtSelected');
+}
+
+updateSelectedButton(rtCountiesButton);
+
+rtCountiesButton.addEventListener('click', function () {
+  rtAnimation.style.left = '0';
+  updateSelectedButton(rtCountiesButton);
+});
+
+rtStatesButton.addEventListener('click', function () {
+  rtAnimation.style.left = '10rem';
+  updateSelectedButton(rtStatesButton);
+});
+
+rtTimelineButton.addEventListener('click', function () {
+  rtAnimation.style.left = '20rem';
+  updateSelectedButton(rtTimelineButton);
+});
