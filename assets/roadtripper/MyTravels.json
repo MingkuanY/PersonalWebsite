@@ -23,163 +23,163 @@
     "label": "Visited by 2012",
     "counties": [
       {
-        "name": "Santa_Cruz__CA",
-        "visitedDate": "2012-01-01",
-        "countyName": "Santa Cruz, CA"
-      },
-      {
         "name": "San_Mateo__CA",
-        "visitedDate": "2012-01-01",
+        "visitDate": "2012-01-01",
         "countyName": "San Mateo, CA"
       },
       {
         "name": "San_Francisco__CA",
-        "visitedDate": "2012-01-01",
+        "visitDate": "2012-01-01",
         "countyName": "San Francisco, CA"
       },
       {
-        "name": "Sacramento__CA",
-        "visitedDate": "2012-01-01",
-        "countyName": "Sacramento, CA"
-      },
-      {
-        "name": "Solano__CA",
-        "visitedDate": "2012-01-01",
-        "countyName": "Solano, CA"
-      },
-      {
         "name": "Contra_Costa__CA",
-        "visitedDate": "2012-01-01",
+        "visitDate": "2012-01-01",
         "countyName": "Contra Costa, CA"
       },
       {
+        "name": "Napa__CA",
+        "visitDate": "2012-01-01",
+        "countyName": "Napa, CA"
+      },
+      {
         "name": "Sonoma__CA",
-        "visitedDate": "2012-01-01",
+        "visitDate": "2012-01-01",
         "countyName": "Sonoma, CA"
       },
       {
         "name": "Marin__CA",
-        "visitedDate": "2012-01-01",
+        "visitDate": "2012-01-01",
         "countyName": "Marin, CA"
       },
       {
-        "name": "Napa__CA",
-        "visitedDate": "2012-01-01",
-        "countyName": "Napa, CA"
+        "name": "Santa_Cruz__CA",
+        "visitDate": "2012-01-01",
+        "countyName": "Santa Cruz, CA"
+      },
+      {
+        "name": "Solano__CA",
+        "visitDate": "2012-01-01",
+        "countyName": "Solano, CA"
       },
       {
         "name": "Yolo__CA",
-        "visitedDate": "2012-01-01",
+        "visitDate": "2012-01-01",
         "countyName": "Yolo, CA"
       },
       {
+        "name": "Sacramento__CA",
+        "visitDate": "2012-01-01",
+        "countyName": "Sacramento, CA"
+      },
+      {
         "name": "San_Joaquin__CA",
-        "visitedDate": "2012-01-01",
+        "visitDate": "2012-01-01",
         "countyName": "San Joaquin, CA"
       },
       {
         "name": "Stanislaus__CA",
-        "visitedDate": "2012-01-01",
+        "visitDate": "2012-01-01",
         "countyName": "Stanislaus, CA"
       },
       {
         "name": "Merced__CA",
-        "visitedDate": "2012-01-01",
+        "visitDate": "2012-01-01",
         "countyName": "Merced, CA"
       },
       {
         "name": "San_Benito__CA",
-        "visitedDate": "2012-01-01",
+        "visitDate": "2012-01-01",
         "countyName": "San Benito, CA"
       },
       {
         "name": "Monterey__CA",
-        "visitedDate": "2012-01-01",
+        "visitDate": "2012-01-01",
         "countyName": "Monterey, CA"
       },
       {
         "name": "Tuolumne__CA",
-        "visitedDate": "2012-01-01",
+        "visitDate": "2012-01-01",
         "countyName": "Tuolumne, CA"
       },
       {
         "name": "Mariposa__CA",
-        "visitedDate": "2012-01-01",
+        "visitDate": "2012-01-01",
         "countyName": "Mariposa, CA"
       },
       {
-        "name": "San_Bernardino__CA",
-        "visitedDate": "2012-01-01",
-        "countyName": "San Bernardino, CA"
-      },
-      {
-        "name": "Lake__CA",
-        "visitedDate": "2012-01-01",
-        "countyName": "Lake, CA"
-      },
-      {
-        "name": "Colusa__CA",
-        "visitedDate": "2012-01-01",
-        "countyName": "Colusa, CA"
-      },
-      {
         "name": "Placer__CA",
-        "visitedDate": "2012-01-01",
+        "visitDate": "2012-01-01",
         "countyName": "Placer, CA"
       },
       {
         "name": "Nevada__CA",
-        "visitedDate": "2012-01-01",
+        "visitDate": "2012-01-01",
         "countyName": "Nevada, CA"
       },
       {
+        "name": "Sierra__CA",
+        "visitDate": "2012-01-01",
+        "countyName": "Sierra, CA"
+      },
+      {
         "name": "El_Dorado__CA",
-        "visitedDate": "2012-01-01",
+        "visitDate": "2012-01-01",
         "countyName": "El Dorado, CA"
       },
       {
         "name": "Douglas__NV",
-        "visitedDate": "2012-01-01",
+        "visitDate": "2012-01-01",
         "countyName": "Douglas, NV"
       },
       {
         "name": "Carson_City__NV",
-        "visitedDate": "2012-01-01",
+        "visitDate": "2012-01-01",
         "countyName": "Carson City, NV"
       },
       {
         "name": "Washoe__NV",
-        "visitedDate": "2012-01-01",
+        "visitDate": "2012-01-01",
         "countyName": "Washoe, NV"
       },
       {
         "name": "Clark__NV",
-        "visitedDate": "2012-01-01",
+        "visitDate": "2012-01-01",
         "countyName": "Clark, NV"
       },
       {
+        "name": "Lake__CA",
+        "visitDate": "2012-01-01",
+        "countyName": "Lake, CA"
+      },
+      {
+        "name": "Colusa__CA",
+        "visitDate": "2012-01-01",
+        "countyName": "Colusa, CA"
+      },
+      {
         "name": "Fresno__CA",
-        "visitedDate": "2012-01-01",
+        "visitDate": "2012-01-01",
         "countyName": "Fresno, CA"
       },
       {
         "name": "Kings__CA",
-        "visitedDate": "2012-01-01",
+        "visitDate": "2012-01-01",
         "countyName": "Kings, CA"
       },
       {
         "name": "Kern__CA",
-        "visitedDate": "2012-01-01",
+        "visitDate": "2012-01-01",
         "countyName": "Kern, CA"
       },
       {
-        "name": "Sierra__CA",
-        "visitedDate": "2012-01-01",
-        "countyName": "Sierra, CA"
+        "name": "San_Bernardino__CA",
+        "visitDate": "2012-01-01",
+        "countyName": "San Bernardino, CA"
       },
       {
         "name": "Los_Angeles__CA",
-        "visitedDate": "2012-01-01",
+        "visitDate": "2012-01-01",
         "countyName": "Los Angeles, CA"
       }
     ]
@@ -189,77 +189,77 @@
     "counties": [
       {
         "name": "Duval__FL",
-        "visitedDate": "2013-06-18",
+        "visitDate": "2013-06-18",
         "countyName": "Duval, FL"
       },
       {
         "name": "Clay__FL",
-        "visitedDate": "2013-06-19",
+        "visitDate": "2013-06-19",
         "countyName": "Clay, FL"
       },
       {
         "name": "Bradford__FL",
-        "visitedDate": "2013-06-19",
+        "visitDate": "2013-06-19",
         "countyName": "Bradford, FL"
       },
       {
         "name": "Alachua__FL",
-        "visitedDate": "2013-06-19",
+        "visitDate": "2013-06-19",
         "countyName": "Alachua, FL"
       },
       {
         "name": "Putnam__FL",
-        "visitedDate": "2013-06-22",
+        "visitDate": "2013-06-22",
         "countyName": "Putnam, FL"
       },
       {
         "name": "St__Johns__FL",
-        "visitedDate": "2013-06-22",
+        "visitDate": "2013-06-22",
         "countyName": "St. Johns, FL"
       },
       {
         "name": "Flagler__FL",
-        "visitedDate": "2013-06-22",
+        "visitDate": "2013-06-22",
         "countyName": "Flagler, FL"
       },
       {
         "name": "Volusia__FL",
-        "visitedDate": "2013-06-22",
+        "visitDate": "2013-06-22",
         "countyName": "Volusia, FL"
       },
       {
         "name": "Brevard__FL",
-        "visitedDate": "2013-06-23",
+        "visitDate": "2013-06-23",
         "countyName": "Brevard, FL"
       },
       {
         "name": "Orange__FL",
-        "visitedDate": "2013-06-23",
+        "visitDate": "2013-06-23",
         "countyName": "Orange, FL"
       },
       {
         "name": "Seminole__FL",
-        "visitedDate": "2013-06-23",
+        "visitDate": "2013-06-23",
         "countyName": "Seminole, FL"
       },
       {
         "name": "Lake__FL",
-        "visitedDate": "2013-06-23",
+        "visitDate": "2013-06-23",
         "countyName": "Lake, FL"
       },
       {
         "name": "Marion__FL",
-        "visitedDate": "2013-06-23",
+        "visitDate": "2013-06-23",
         "countyName": "Marion, FL"
       },
       {
         "name": "Tulare__CA",
-        "visitedDate": "2013-07-15",
+        "visitDate": "2013-07-15",
         "countyName": "Tulare, CA"
       },
       {
         "name": "Madera__CA",
-        "visitedDate": "2013-07-15",
+        "visitDate": "2013-07-15",
         "countyName": "Madera, CA"
       }
     ]
@@ -269,107 +269,107 @@
     "counties": [
       {
         "name": "Ventura__CA",
-        "visitedDate": "2014-06-11",
+        "visitDate": "2014-06-11",
         "countyName": "Ventura, CA"
       },
       {
         "name": "Santa_Barbara__CA",
-        "visitedDate": "2014-06-12",
+        "visitDate": "2014-06-12",
         "countyName": "Santa Barbara, CA"
       },
       {
         "name": "San_Luis_Obispo__CA",
-        "visitedDate": "2014-06-13",
+        "visitDate": "2014-06-13",
         "countyName": "San Luis Obispo, CA"
       },
       {
         "name": "Orange__CA",
-        "visitedDate": "2014-06-14",
+        "visitDate": "2014-06-14",
         "countyName": "Orange, CA"
       },
       {
         "name": "San_Diego__CA",
-        "visitedDate": "2014-06-15",
+        "visitDate": "2014-06-15",
         "countyName": "San Diego, CA"
       },
       {
         "name": "Miami_Dade__FL",
-        "visitedDate": "2014-12-11",
+        "visitDate": "2014-12-11",
         "countyName": "Miami-Dade, FL"
       },
       {
         "name": "Broward__FL",
-        "visitedDate": "2014-12-12",
+        "visitDate": "2014-12-12",
         "countyName": "Broward, FL"
       },
       {
         "name": "Palm_Beach__FL",
-        "visitedDate": "2014-12-13",
+        "visitDate": "2014-12-13",
         "countyName": "Palm Beach, FL"
       },
       {
         "name": "St__Lucie__FL",
-        "visitedDate": "2014-12-14",
+        "visitDate": "2014-12-14",
         "countyName": "St. Lucie, FL"
       },
       {
         "name": "Martin__FL",
-        "visitedDate": "2014-12-15",
+        "visitDate": "2014-12-15",
         "countyName": "Martin, FL"
       },
       {
         "name": "Indian_River__FL",
-        "visitedDate": "2014-12-16",
+        "visitDate": "2014-12-16",
         "countyName": "Indian River, FL"
       },
       {
         "name": "Sumter__FL",
-        "visitedDate": "2014-12-17",
+        "visitDate": "2014-12-17",
         "countyName": "Sumter, FL"
       },
       {
         "name": "Hernando__FL",
-        "visitedDate": "2014-12-18",
+        "visitDate": "2014-12-18",
         "countyName": "Hernando, FL"
       },
       {
         "name": "Pasco__FL",
-        "visitedDate": "2014-12-19",
+        "visitDate": "2014-12-19",
         "countyName": "Pasco, FL"
       },
       {
         "name": "Hillsborough__FL",
-        "visitedDate": "2014-12-20",
+        "visitDate": "2014-12-20",
         "countyName": "Hillsborough, FL"
       },
       {
         "name": "Manatee__FL",
-        "visitedDate": "2014-12-20",
+        "visitDate": "2014-12-20",
         "countyName": "Manatee, FL"
       },
       {
         "name": "Sarasota__FL",
-        "visitedDate": "2014-12-20",
+        "visitDate": "2014-12-20",
         "countyName": "Sarasota, FL"
       },
       {
         "name": "DeSoto__FL",
-        "visitedDate": "2014-12-20",
+        "visitDate": "2014-12-20",
         "countyName": "DeSoto, FL"
       },
       {
         "name": "Charlotte__FL",
-        "visitedDate": "2014-12-20",
+        "visitDate": "2014-12-20",
         "countyName": "Charlotte, FL"
       },
       {
         "name": "Lee__FL",
-        "visitedDate": "2014-12-20",
+        "visitDate": "2014-12-20",
         "countyName": "Lee, FL"
       },
       {
         "name": "Collier__FL",
-        "visitedDate": "2014-12-20",
+        "visitDate": "2014-12-20",
         "countyName": "Collier, FL"
       }
     ]
@@ -379,37 +379,37 @@
     "counties": [
       {
         "name": "Queens__NY",
-        "visitedDate": "2015-04-12",
+        "visitDate": "2015-04-12",
         "countyName": "Queens, NY"
       },
       {
         "name": "Kings__NY",
-        "visitedDate": "2015-04-12",
+        "visitDate": "2015-04-12",
         "countyName": "Kings, NY"
       },
       {
         "name": "New_York__NY",
-        "visitedDate": "2015-04-12",
+        "visitDate": "2015-04-12",
         "countyName": "New York, NY"
       },
       {
         "name": "Mono__CA",
-        "visitedDate": "2015-12-25",
+        "visitDate": "2015-12-25",
         "countyName": "Mono, CA"
       },
       {
         "name": "Inyo__CA",
-        "visitedDate": "2015-12-25",
+        "visitDate": "2015-12-25",
         "countyName": "Inyo, CA"
       },
       {
         "name": "Esmeralda__NV",
-        "visitedDate": "2015-12-25",
+        "visitDate": "2015-12-25",
         "countyName": "Esmeralda, NV"
       },
       {
         "name": "Nye__NV",
-        "visitedDate": "2015-12-25",
+        "visitDate": "2015-12-25",
         "countyName": "Nye, NV"
       }
     ]
@@ -419,117 +419,117 @@
     "counties": [
       {
         "name": "Loudoun__VA",
-        "visitedDate": "2016-04-14",
+        "visitDate": "2016-04-14",
         "countyName": "Loudoun, VA"
       },
       {
         "name": "Fairfax_Co___VA",
-        "visitedDate": "2016-04-14",
+        "visitDate": "2016-04-14",
         "countyName": "Fairfax Co., VA"
       },
       {
         "name": "Fairfax__VA",
-        "visitedDate": "2016-04-14",
+        "visitDate": "2016-04-14",
         "countyName": "Fairfax, VA"
       },
       {
         "name": "Arlington__VA",
-        "visitedDate": "2016-04-15",
+        "visitDate": "2016-04-15",
         "countyName": "Arlington, VA"
       },
       {
         "name": "Washington__DC",
-        "visitedDate": "2016-04-15",
+        "visitDate": "2016-04-15",
         "countyName": "Washington, DC"
       },
       {
         "name": "Alexandria__VA",
-        "visitedDate": "2016-04-15",
+        "visitDate": "2016-04-15",
         "countyName": "Alexandria, VA"
       },
       {
         "name": "Montgomery__MD",
-        "visitedDate": "2016-04-17",
+        "visitDate": "2016-04-17",
         "countyName": "Montgomery, MD"
       },
       {
         "name": "Prince_George_s__MD",
-        "visitedDate": "2016-04-17",
+        "visitDate": "2016-04-17",
         "countyName": "Prince George's, MD"
       },
       {
         "name": "Howard__MD",
-        "visitedDate": "2016-04-17",
+        "visitDate": "2016-04-17",
         "countyName": "Howard, MD"
       },
       {
         "name": "Baltimore_County__MD",
-        "visitedDate": "2016-04-17",
+        "visitDate": "2016-04-17",
         "countyName": "Baltimore County, MD"
       },
       {
         "name": "Baltimore_City__MD",
-        "visitedDate": "2016-04-17",
+        "visitDate": "2016-04-17",
         "countyName": "Baltimore City, MD"
       },
       {
         "name": "Anne_Arundel__MD",
-        "visitedDate": "2016-04-17",
+        "visitDate": "2016-04-17",
         "countyName": "Anne Arundel, MD"
       },
       {
         "name": "Queen_Anne_s__MD",
-        "visitedDate": "2016-04-17",
+        "visitDate": "2016-04-17",
         "countyName": "Queen Anne's, MD"
       },
       {
         "name": "Glenn__CA",
-        "visitedDate": "2016-05-26",
+        "visitDate": "2016-05-26",
         "countyName": "Glenn, CA"
       },
       {
         "name": "Tehama__CA",
-        "visitedDate": "2016-05-26",
+        "visitDate": "2016-05-26",
         "countyName": "Tehama, CA"
       },
       {
         "name": "Shasta__CA",
-        "visitedDate": "2016-05-26",
+        "visitDate": "2016-05-26",
         "countyName": "Shasta, CA"
       },
       {
         "name": "Siskiyou__CA",
-        "visitedDate": "2016-08-06",
+        "visitDate": "2016-08-06",
         "countyName": "Siskiyou, CA"
       },
       {
         "name": "Klamath__OR",
-        "visitedDate": "2016-08-06",
+        "visitDate": "2016-08-06",
         "countyName": "Klamath, OR"
       },
       {
         "name": "Jackson__OR",
-        "visitedDate": "2016-08-08",
+        "visitDate": "2016-08-08",
         "countyName": "Jackson, OR"
       },
       {
         "name": "Josephine__OR",
-        "visitedDate": "2016-08-08",
+        "visitDate": "2016-08-08",
         "countyName": "Josephine, OR"
       },
       {
         "name": "Del_Norte__CA",
-        "visitedDate": "2016-08-08",
+        "visitDate": "2016-08-08",
         "countyName": "Del Norte, CA"
       },
       {
         "name": "Humboldt__CA",
-        "visitedDate": "2016-08-09",
+        "visitDate": "2016-08-09",
         "countyName": "Humboldt, CA"
       },
       {
         "name": "Mendocino__CA",
-        "visitedDate": "2016-08-10",
+        "visitDate": "2016-08-10",
         "countyName": "Mendocino, CA"
       }
     ]
@@ -539,52 +539,52 @@
     "counties": [
       {
         "name": "Hawaii__HI",
-        "visitedDate": "2018-02-18",
+        "visitDate": "2018-02-18",
         "countyName": "Hawaii, HI"
       },
       {
         "name": "Hennepin__MN",
-        "visitedDate": "2018-07-14",
+        "visitDate": "2018-07-14",
         "countyName": "Hennepin, MN"
       },
       {
         "name": "Ramsey__MN",
-        "visitedDate": "2018-07-15",
+        "visitDate": "2018-07-15",
         "countyName": "Ramsey, MN"
       },
       {
         "name": "Anoka__MN",
-        "visitedDate": "2018-07-15",
+        "visitDate": "2018-07-15",
         "countyName": "Anoka, MN"
       },
       {
         "name": "Washington__MN",
-        "visitedDate": "2018-07-15",
+        "visitDate": "2018-07-15",
         "countyName": "Washington, MN"
       },
       {
         "name": "Chisago__MN",
-        "visitedDate": "2018-07-15",
+        "visitDate": "2018-07-15",
         "countyName": "Chisago, MN"
       },
       {
         "name": "Pine__MN",
-        "visitedDate": "2018-07-15",
+        "visitDate": "2018-07-15",
         "countyName": "Pine, MN"
       },
       {
         "name": "Carlton__MN",
-        "visitedDate": "2018-07-15",
+        "visitDate": "2018-07-15",
         "countyName": "Carlton, MN"
       },
       {
         "name": "St__Louis__MN",
-        "visitedDate": "2018-07-15",
+        "visitDate": "2018-07-15",
         "countyName": "St. Louis, MN"
       },
       {
         "name": "Lake__MN",
-        "visitedDate": "2018-07-15",
+        "visitDate": "2018-07-15",
         "countyName": "Lake, MN"
       }
     ]
@@ -594,77 +594,77 @@
     "counties": [
       {
         "name": "Mohave__AZ",
-        "visitedDate": "2019-12-21",
+        "visitDate": "2019-12-21",
         "countyName": "Mohave, AZ"
       },
       {
         "name": "Washington__UT",
-        "visitedDate": "2019-12-21",
+        "visitDate": "2019-12-21",
         "countyName": "Washington, UT"
       },
       {
         "name": "Kane__UT",
-        "visitedDate": "2019-12-22",
+        "visitDate": "2019-12-22",
         "countyName": "Kane, UT"
       },
       {
         "name": "Garfield__UT",
-        "visitedDate": "2019-12-22",
+        "visitDate": "2019-12-22",
         "countyName": "Garfield, UT"
       },
       {
         "name": "Piute__UT",
-        "visitedDate": "2019-12-24",
+        "visitDate": "2019-12-24",
         "countyName": "Piute, UT"
       },
       {
         "name": "Wayne__UT",
-        "visitedDate": "2019-12-24",
+        "visitDate": "2019-12-24",
         "countyName": "Wayne, UT"
       },
       {
         "name": "Sevier__UT",
-        "visitedDate": "2019-12-24",
+        "visitDate": "2019-12-24",
         "countyName": "Sevier, UT"
       },
       {
         "name": "Emery__UT",
-        "visitedDate": "2019-12-25",
+        "visitDate": "2019-12-25",
         "countyName": "Emery, UT"
       },
       {
         "name": "Grand__UT",
-        "visitedDate": "2019-12-25",
+        "visitDate": "2019-12-25",
         "countyName": "Grand, UT"
       },
       {
         "name": "San_Juan__UT",
-        "visitedDate": "2019-12-25",
+        "visitDate": "2019-12-25",
         "countyName": "San Juan, UT"
       },
       {
         "name": "Carbon__UT",
-        "visitedDate": "2019-12-29",
+        "visitDate": "2019-12-29",
         "countyName": "Carbon, UT"
       },
       {
         "name": "Utah__UT",
-        "visitedDate": "2019-12-29",
+        "visitDate": "2019-12-29",
         "countyName": "Utah, UT"
       },
       {
         "name": "Wasatch__UT",
-        "visitedDate": "2019-12-29",
+        "visitDate": "2019-12-29",
         "countyName": "Wasatch, UT"
       },
       {
         "name": "Salt_Lake__UT",
-        "visitedDate": "2019-12-29",
+        "visitDate": "2019-12-29",
         "countyName": "Salt Lake, UT"
       },
       {
         "name": "Davis__UT",
-        "visitedDate": "2019-12-30",
+        "visitDate": "2019-12-30",
         "countyName": "Davis, UT"
       }
     ]
@@ -674,102 +674,102 @@
     "counties": [
       {
         "name": "Deschutes__OR",
-        "visitedDate": "2020-08-07",
+        "visitDate": "2020-08-07",
         "countyName": "Deschutes, OR"
       },
       {
         "name": "Jefferson__OR",
-        "visitedDate": "2020-08-07",
+        "visitDate": "2020-08-07",
         "countyName": "Jefferson, OR"
       },
       {
         "name": "Wasco__OR",
-        "visitedDate": "2020-08-07",
+        "visitDate": "2020-08-07",
         "countyName": "Wasco, OR"
       },
       {
         "name": "Sherman__OR",
-        "visitedDate": "2020-08-07",
+        "visitDate": "2020-08-07",
         "countyName": "Sherman, OR"
       },
       {
         "name": "Klickitat__WA",
-        "visitedDate": "2020-08-07",
+        "visitDate": "2020-08-07",
         "countyName": "Klickitat, WA"
       },
       {
         "name": "Yakima__WA",
-        "visitedDate": "2020-08-07",
+        "visitDate": "2020-08-07",
         "countyName": "Yakima, WA"
       },
       {
         "name": "Lewis__WA",
-        "visitedDate": "2020-08-07",
+        "visitDate": "2020-08-07",
         "countyName": "Lewis, WA"
       },
       {
         "name": "Pierce__WA",
-        "visitedDate": "2020-08-08",
+        "visitDate": "2020-08-08",
         "countyName": "Pierce, WA"
       },
       {
         "name": "Cowlitz__WA",
-        "visitedDate": "2020-08-09",
+        "visitDate": "2020-08-09",
         "countyName": "Cowlitz, WA"
       },
       {
         "name": "Skamania__WA",
-        "visitedDate": "2020-08-09",
+        "visitDate": "2020-08-09",
         "countyName": "Skamania, WA"
       },
       {
         "name": "Columbia__OR",
-        "visitedDate": "2020-08-09",
+        "visitDate": "2020-08-09",
         "countyName": "Columbia, OR"
       },
       {
         "name": "Clatsop__OR",
-        "visitedDate": "2020-08-09",
+        "visitDate": "2020-08-09",
         "countyName": "Clatsop, OR"
       },
       {
         "name": "Tillamook__OR",
-        "visitedDate": "2020-08-10",
+        "visitDate": "2020-08-10",
         "countyName": "Tillamook, OR"
       },
       {
         "name": "Washington__OR",
-        "visitedDate": "2020-08-10",
+        "visitDate": "2020-08-10",
         "countyName": "Washington, OR"
       },
       {
         "name": "Multnomah__OR",
-        "visitedDate": "2020-08-10",
+        "visitDate": "2020-08-10",
         "countyName": "Multnomah, OR"
       },
       {
         "name": "Clackamas__OR",
-        "visitedDate": "2020-08-10",
+        "visitDate": "2020-08-10",
         "countyName": "Clackamas, OR"
       },
       {
         "name": "Marion__OR",
-        "visitedDate": "2020-08-10",
+        "visitDate": "2020-08-10",
         "countyName": "Marion, OR"
       },
       {
         "name": "Linn__OR",
-        "visitedDate": "2020-08-10",
+        "visitDate": "2020-08-10",
         "countyName": "Linn, OR"
       },
       {
         "name": "Lane__OR",
-        "visitedDate": "2020-08-10",
+        "visitDate": "2020-08-10",
         "countyName": "Lane, OR"
       },
       {
         "name": "Douglas__OR",
-        "visitedDate": "2020-08-10",
+        "visitDate": "2020-08-10",
         "countyName": "Douglas, OR"
       }
     ]
@@ -779,292 +779,292 @@
     "counties": [
       {
         "name": "Storey__NV",
-        "visitedDate": "2021-06-10",
+        "visitDate": "2021-06-10",
         "countyName": "Storey, NV"
       },
       {
         "name": "Lyon__NV",
-        "visitedDate": "2021-06-10",
+        "visitDate": "2021-06-10",
         "countyName": "Lyon, NV"
       },
       {
         "name": "Churchill__NV",
-        "visitedDate": "2021-06-10",
+        "visitDate": "2021-06-10",
         "countyName": "Churchill, NV"
       },
       {
         "name": "Pershing__NV",
-        "visitedDate": "2021-06-10",
+        "visitDate": "2021-06-10",
         "countyName": "Pershing, NV"
       },
       {
         "name": "Humboldt__NV",
-        "visitedDate": "2021-06-10",
+        "visitDate": "2021-06-10",
         "countyName": "Humboldt, NV"
       },
       {
         "name": "Malheur__OR",
-        "visitedDate": "2021-06-10",
+        "visitDate": "2021-06-10",
         "countyName": "Malheur, OR"
       },
       {
         "name": "Owyhee__ID",
-        "visitedDate": "2021-06-11",
+        "visitDate": "2021-06-11",
         "countyName": "Owyhee, ID"
       },
       {
         "name": "Canyon__ID",
-        "visitedDate": "2021-06-11",
+        "visitDate": "2021-06-11",
         "countyName": "Canyon, ID"
       },
       {
         "name": "Ada__ID",
-        "visitedDate": "2021-06-11",
+        "visitDate": "2021-06-11",
         "countyName": "Ada, ID"
       },
       {
         "name": "Elmore__ID",
-        "visitedDate": "2021-06-11",
+        "visitDate": "2021-06-11",
         "countyName": "Elmore, ID"
       },
       {
         "name": "Gooding__ID",
-        "visitedDate": "2021-06-11",
+        "visitDate": "2021-06-11",
         "countyName": "Gooding, ID"
       },
       {
         "name": "Jerome__ID",
-        "visitedDate": "2021-06-11",
+        "visitDate": "2021-06-11",
         "countyName": "Jerome, ID"
       },
       {
         "name": "Twin_Falls__ID",
-        "visitedDate": "2021-06-11",
+        "visitDate": "2021-06-11",
         "countyName": "Twin Falls, ID"
       },
       {
         "name": "Lincoln__ID",
-        "visitedDate": "2021-06-11",
+        "visitDate": "2021-06-11",
         "countyName": "Lincoln, ID"
       },
       {
         "name": "Blaine__ID",
-        "visitedDate": "2021-06-11",
+        "visitDate": "2021-06-11",
         "countyName": "Blaine, ID"
       },
       {
         "name": "Butte__ID",
-        "visitedDate": "2021-06-11",
+        "visitDate": "2021-06-11",
         "countyName": "Butte, ID"
       },
       {
         "name": "Bingham__ID",
-        "visitedDate": "2021-06-11",
+        "visitDate": "2021-06-11",
         "countyName": "Bingham, ID"
       },
       {
         "name": "Bonneville__ID",
-        "visitedDate": "2021-06-11",
+        "visitDate": "2021-06-11",
         "countyName": "Bonneville, ID"
       },
       {
         "name": "Teton__ID",
-        "visitedDate": "2021-06-11",
+        "visitDate": "2021-06-11",
         "countyName": "Teton, ID"
       },
       {
         "name": "Teton__WY",
-        "visitedDate": "2021-06-11",
+        "visitDate": "2021-06-11",
         "countyName": "Teton, WY"
       },
       {
         "name": "Park__WY",
-        "visitedDate": "2021-06-13",
+        "visitDate": "2021-06-13",
         "countyName": "Park, WY"
       },
       {
         "name": "Gallatin__MT",
-        "visitedDate": "2021-06-13",
+        "visitDate": "2021-06-13",
         "countyName": "Gallatin, MT"
       },
       {
         "name": "Carbon__MT",
-        "visitedDate": "2021-06-16",
+        "visitDate": "2021-06-16",
         "countyName": "Carbon, MT"
       },
       {
         "name": "Park__MT",
-        "visitedDate": "2021-06-16",
+        "visitDate": "2021-06-16",
         "countyName": "Park, MT"
       },
       {
         "name": "Broadwater__MT",
-        "visitedDate": "2021-06-17",
+        "visitDate": "2021-06-17",
         "countyName": "Broadwater, MT"
       },
       {
         "name": "Jefferson__MT",
-        "visitedDate": "2021-06-17",
+        "visitDate": "2021-06-17",
         "countyName": "Jefferson, MT"
       },
       {
         "name": "Lewis_and_Clark__MT",
-        "visitedDate": "2021-06-17",
+        "visitDate": "2021-06-17",
         "countyName": "Lewis and Clark, MT"
       },
       {
         "name": "Teton__MT",
-        "visitedDate": "2021-06-17",
+        "visitDate": "2021-06-17",
         "countyName": "Teton, MT"
       },
       {
         "name": "Pondera__MT",
-        "visitedDate": "2021-06-17",
+        "visitDate": "2021-06-17",
         "countyName": "Pondera, MT"
       },
       {
         "name": "Glacier__MT",
-        "visitedDate": "2021-06-17",
+        "visitDate": "2021-06-17",
         "countyName": "Glacier, MT"
       },
       {
         "name": "Flathead__MT",
-        "visitedDate": "2021-06-19",
+        "visitDate": "2021-06-19",
         "countyName": "Flathead, MT"
       },
       {
         "name": "Lincoln__MT",
-        "visitedDate": "2021-06-19",
+        "visitDate": "2021-06-19",
         "countyName": "Lincoln, MT"
       },
       {
         "name": "Sanders__MT",
-        "visitedDate": "2021-06-20",
+        "visitDate": "2021-06-20",
         "countyName": "Sanders, MT"
       },
       {
         "name": "Bonner__ID",
-        "visitedDate": "2021-06-20",
+        "visitDate": "2021-06-20",
         "countyName": "Bonner, ID"
       },
       {
         "name": "Kootenai__ID",
-        "visitedDate": "2021-06-20",
+        "visitDate": "2021-06-20",
         "countyName": "Kootenai, ID"
       },
       {
         "name": "Spokane__WA",
-        "visitedDate": "2021-06-20",
+        "visitDate": "2021-06-20",
         "countyName": "Spokane, WA"
       },
       {
         "name": "Lincoln__WA",
-        "visitedDate": "2021-06-20",
+        "visitDate": "2021-06-20",
         "countyName": "Lincoln, WA"
       },
       {
         "name": "Grant__WA",
-        "visitedDate": "2021-06-20",
+        "visitDate": "2021-06-20",
         "countyName": "Grant, WA"
       },
       {
         "name": "Douglas__WA",
-        "visitedDate": "2021-06-20",
+        "visitDate": "2021-06-20",
         "countyName": "Douglas, WA"
       },
       {
         "name": "Okanogan__WA",
-        "visitedDate": "2021-06-20",
+        "visitDate": "2021-06-20",
         "countyName": "Okanogan, WA"
       },
       {
         "name": "Chelan__WA",
-        "visitedDate": "2021-06-20",
+        "visitDate": "2021-06-20",
         "countyName": "Chelan, WA"
       },
       {
         "name": "Skagit__WA",
-        "visitedDate": "2021-06-20",
+        "visitDate": "2021-06-20",
         "countyName": "Skagit, WA"
       },
       {
         "name": "Whatcom__WA",
-        "visitedDate": "2021-06-20",
+        "visitDate": "2021-06-20",
         "countyName": "Whatcom, WA"
       },
       {
         "name": "Snohomish__WA",
-        "visitedDate": "2021-06-20",
+        "visitDate": "2021-06-20",
         "countyName": "Snohomish, WA"
       },
       {
         "name": "King__WA",
-        "visitedDate": "2021-06-20",
+        "visitDate": "2021-06-20",
         "countyName": "King, WA"
       },
       {
         "name": "Kitsap__WA",
-        "visitedDate": "2021-06-24",
+        "visitDate": "2021-06-24",
         "countyName": "Kitsap, WA"
       },
       {
         "name": "Jefferson__WA",
-        "visitedDate": "2021-06-24",
+        "visitDate": "2021-06-24",
         "countyName": "Jefferson, WA"
       },
       {
         "name": "Clallam__WA",
-        "visitedDate": "2021-06-24",
+        "visitDate": "2021-06-24",
         "countyName": "Clallam, WA"
       },
       {
         "name": "Grays_Harbor__WA",
-        "visitedDate": "2021-06-26",
+        "visitDate": "2021-06-26",
         "countyName": "Grays Harbor, WA"
       },
       {
         "name": "Thurston__WA",
-        "visitedDate": "2021-06-26",
+        "visitDate": "2021-06-26",
         "countyName": "Thurston, WA"
       },
       {
         "name": "Clark__WA",
-        "visitedDate": "2021-06-26",
+        "visitDate": "2021-06-26",
         "countyName": "Clark, WA"
       },
       {
         "name": "Riverside__CA",
-        "visitedDate": "2021-12-20",
+        "visitDate": "2021-12-20",
         "countyName": "Riverside, CA"
       },
       {
         "name": "La_Paz__AZ",
-        "visitedDate": "2021-12-21",
+        "visitDate": "2021-12-21",
         "countyName": "La Paz, AZ"
       },
       {
         "name": "Maricopa__AZ",
-        "visitedDate": "2021-12-21",
+        "visitDate": "2021-12-21",
         "countyName": "Maricopa, AZ"
       },
       {
         "name": "Pinal__AZ",
-        "visitedDate": "2021-12-21",
+        "visitDate": "2021-12-21",
         "countyName": "Pinal, AZ"
       },
       {
         "name": "Pima__AZ",
-        "visitedDate": "2021-12-21",
+        "visitDate": "2021-12-21",
         "countyName": "Pima, AZ"
       },
       {
         "name": "Yavapai__AZ",
-        "visitedDate": "2021-12-24",
+        "visitDate": "2021-12-24",
         "countyName": "Yavapai, AZ"
       },
       {
         "name": "Coconino__AZ",
-        "visitedDate": "2021-12-27",
+        "visitDate": "2021-12-27",
         "countyName": "Coconino, AZ"
       }
     ]
@@ -1074,917 +1074,917 @@
     "counties": [
       {
         "name": "Clayton__GA",
-        "visitedDate": "2022-02-21",
+        "visitDate": "2022-02-21",
         "countyName": "Clayton, GA"
       },
       {
         "name": "DeKalb__GA",
-        "visitedDate": "2022-02-21",
+        "visitDate": "2022-02-21",
         "countyName": "DeKalb, GA"
       },
       {
         "name": "Cobb__GA",
-        "visitedDate": "2022-02-22",
+        "visitDate": "2022-02-22",
         "countyName": "Cobb, GA"
       },
       {
         "name": "Henry__GA",
-        "visitedDate": "2022-02-23",
+        "visitDate": "2022-02-23",
         "countyName": "Henry, GA"
       },
       {
         "name": "Spalding__GA",
-        "visitedDate": "2022-02-23",
+        "visitDate": "2022-02-23",
         "countyName": "Spalding, GA"
       },
       {
         "name": "Butts__GA",
-        "visitedDate": "2022-02-23",
+        "visitDate": "2022-02-23",
         "countyName": "Butts, GA"
       },
       {
         "name": "Lamar__GA",
-        "visitedDate": "2022-02-23",
+        "visitDate": "2022-02-23",
         "countyName": "Lamar, GA"
       },
       {
         "name": "Monroe__GA",
-        "visitedDate": "2022-02-23",
+        "visitDate": "2022-02-23",
         "countyName": "Monroe, GA"
       },
       {
         "name": "Bibb__GA",
-        "visitedDate": "2022-02-23",
+        "visitDate": "2022-02-23",
         "countyName": "Bibb, GA"
       },
       {
         "name": "Twiggs__GA",
-        "visitedDate": "2022-02-23",
+        "visitDate": "2022-02-23",
         "countyName": "Twiggs, GA"
       },
       {
         "name": "Bleckley__GA",
-        "visitedDate": "2022-02-23",
+        "visitDate": "2022-02-23",
         "countyName": "Bleckley, GA"
       },
       {
         "name": "Laurens__GA",
-        "visitedDate": "2022-02-23",
+        "visitDate": "2022-02-23",
         "countyName": "Laurens, GA"
       },
       {
         "name": "Treutlen__GA",
-        "visitedDate": "2022-02-23",
+        "visitDate": "2022-02-23",
         "countyName": "Treutlen, GA"
       },
       {
         "name": "Emanuel__GA",
-        "visitedDate": "2022-02-23",
+        "visitDate": "2022-02-23",
         "countyName": "Emanuel, GA"
       },
       {
         "name": "Candler__GA",
-        "visitedDate": "2022-02-23",
+        "visitDate": "2022-02-23",
         "countyName": "Candler, GA"
       },
       {
         "name": "Bulloch__GA",
-        "visitedDate": "2022-02-23",
+        "visitDate": "2022-02-23",
         "countyName": "Bulloch, GA"
       },
       {
         "name": "Bryan__GA",
-        "visitedDate": "2022-02-23",
+        "visitDate": "2022-02-23",
         "countyName": "Bryan, GA"
       },
       {
         "name": "Effingham__GA",
-        "visitedDate": "2022-02-23",
+        "visitDate": "2022-02-23",
         "countyName": "Effingham, GA"
       },
       {
         "name": "Chatham__GA",
-        "visitedDate": "2022-02-23",
+        "visitDate": "2022-02-23",
         "countyName": "Chatham, GA"
       },
       {
         "name": "Jasper__SC",
-        "visitedDate": "2022-02-24",
+        "visitDate": "2022-02-24",
         "countyName": "Jasper, SC"
       },
       {
         "name": "Beaufort__SC",
-        "visitedDate": "2022-02-24",
+        "visitDate": "2022-02-24",
         "countyName": "Beaufort, SC"
       },
       {
         "name": "Hampton__SC",
-        "visitedDate": "2022-02-24",
+        "visitDate": "2022-02-24",
         "countyName": "Hampton, SC"
       },
       {
         "name": "Colleton__SC",
-        "visitedDate": "2022-02-24",
+        "visitDate": "2022-02-24",
         "countyName": "Colleton, SC"
       },
       {
         "name": "Charleston__SC",
-        "visitedDate": "2022-02-24",
+        "visitDate": "2022-02-24",
         "countyName": "Charleston, SC"
       },
       {
         "name": "Berkeley__SC",
-        "visitedDate": "2022-02-25",
+        "visitDate": "2022-02-25",
         "countyName": "Berkeley, SC"
       },
       {
         "name": "Dorchester__SC",
-        "visitedDate": "2022-02-25",
+        "visitDate": "2022-02-25",
         "countyName": "Dorchester, SC"
       },
       {
         "name": "Orangeburg__SC",
-        "visitedDate": "2022-02-25",
+        "visitDate": "2022-02-25",
         "countyName": "Orangeburg, SC"
       },
       {
         "name": "Calhoun__SC",
-        "visitedDate": "2022-02-25",
+        "visitDate": "2022-02-25",
         "countyName": "Calhoun, SC"
       },
       {
         "name": "Lexington__SC",
-        "visitedDate": "2022-02-25",
+        "visitDate": "2022-02-25",
         "countyName": "Lexington, SC"
       },
       {
         "name": "Richland__SC",
-        "visitedDate": "2022-02-25",
+        "visitDate": "2022-02-25",
         "countyName": "Richland, SC"
       },
       {
         "name": "Fairfield__SC",
-        "visitedDate": "2022-02-25",
+        "visitDate": "2022-02-25",
         "countyName": "Fairfield, SC"
       },
       {
         "name": "Chester__SC",
-        "visitedDate": "2022-02-25",
+        "visitDate": "2022-02-25",
         "countyName": "Chester, SC"
       },
       {
         "name": "York__SC",
-        "visitedDate": "2022-02-25",
+        "visitDate": "2022-02-25",
         "countyName": "York, SC"
       },
       {
         "name": "Mecklenburg__NC",
-        "visitedDate": "2022-02-25",
+        "visitDate": "2022-02-25",
         "countyName": "Mecklenburg, NC"
       },
       {
         "name": "Cabarrus__NC",
-        "visitedDate": "2022-02-25",
+        "visitDate": "2022-02-25",
         "countyName": "Cabarrus, NC"
       },
       {
         "name": "Rowan__NC",
-        "visitedDate": "2022-02-25",
+        "visitDate": "2022-02-25",
         "countyName": "Rowan, NC"
       },
       {
         "name": "Davidson__NC",
-        "visitedDate": "2022-02-25",
+        "visitDate": "2022-02-25",
         "countyName": "Davidson, NC"
       },
       {
         "name": "Randolph__NC",
-        "visitedDate": "2022-02-25",
+        "visitDate": "2022-02-25",
         "countyName": "Randolph, NC"
       },
       {
         "name": "Guilford__NC",
-        "visitedDate": "2022-02-25",
+        "visitDate": "2022-02-25",
         "countyName": "Guilford, NC"
       },
       {
         "name": "Alamance__NC",
-        "visitedDate": "2022-02-25",
+        "visitDate": "2022-02-25",
         "countyName": "Alamance, NC"
       },
       {
         "name": "Orange__NC",
-        "visitedDate": "2022-02-25",
+        "visitDate": "2022-02-25",
         "countyName": "Orange, NC"
       },
       {
         "name": "Durham__NC",
-        "visitedDate": "2022-02-25",
+        "visitDate": "2022-02-25",
         "countyName": "Durham, NC"
       },
       {
         "name": "Wake__NC",
-        "visitedDate": "2022-02-25",
+        "visitDate": "2022-02-25",
         "countyName": "Wake, NC"
       },
       {
         "name": "Honolulu__HI",
-        "visitedDate": "2022-03-19",
+        "visitDate": "2022-03-19",
         "countyName": "Honolulu, HI"
       },
       {
         "name": "Maui__HI",
-        "visitedDate": "2022-03-24",
+        "visitDate": "2022-03-24",
         "countyName": "Maui, HI"
       },
       {
         "name": "Yuba__CA",
-        "visitedDate": "2022-04-11",
+        "visitDate": "2022-04-11",
         "countyName": "Yuba, CA"
       },
       {
         "name": "Butte__CA",
-        "visitedDate": "2022-04-11",
+        "visitDate": "2022-04-11",
         "countyName": "Butte, CA"
       },
       {
         "name": "Sutter__CA",
-        "visitedDate": "2022-04-12",
+        "visitDate": "2022-04-12",
         "countyName": "Sutter, CA"
       },
       {
         "name": "Amador__CA",
-        "visitedDate": "2022-07-11",
+        "visitDate": "2022-07-11",
         "countyName": "Amador, CA"
       },
       {
         "name": "Alpine__CA",
-        "visitedDate": "2022-07-11",
+        "visitDate": "2022-07-11",
         "countyName": "Alpine, CA"
       },
       {
         "name": "Lander__NV",
-        "visitedDate": "2022-07-12",
+        "visitDate": "2022-07-12",
         "countyName": "Lander, NV"
       },
       {
         "name": "Eureka__NV",
-        "visitedDate": "2022-07-12",
+        "visitDate": "2022-07-12",
         "countyName": "Eureka, NV"
       },
       {
         "name": "White_Pine__NV",
-        "visitedDate": "2022-07-12",
+        "visitDate": "2022-07-12",
         "countyName": "White Pine, NV"
       },
       {
         "name": "Millard__UT",
-        "visitedDate": "2022-07-13",
+        "visitDate": "2022-07-13",
         "countyName": "Millard, UT"
       },
       {
         "name": "Juab__UT",
-        "visitedDate": "2022-07-13",
+        "visitDate": "2022-07-13",
         "countyName": "Juab, UT"
       },
       {
         "name": "Weber__UT",
-        "visitedDate": "2022-07-15",
+        "visitDate": "2022-07-15",
         "countyName": "Weber, UT"
       },
       {
         "name": "Box_Elder__UT",
-        "visitedDate": "2022-07-15",
+        "visitDate": "2022-07-15",
         "countyName": "Box Elder, UT"
       },
       {
         "name": "Oneida__ID",
-        "visitedDate": "2022-07-15",
+        "visitDate": "2022-07-15",
         "countyName": "Oneida, ID"
       },
       {
         "name": "Bannock__ID",
-        "visitedDate": "2022-07-15",
+        "visitDate": "2022-07-15",
         "countyName": "Bannock, ID"
       },
       {
         "name": "Custer__ID",
-        "visitedDate": "2022-07-16",
+        "visitDate": "2022-07-16",
         "countyName": "Custer, ID"
       },
       {
         "name": "Lemhi__ID",
-        "visitedDate": "2022-07-17",
+        "visitDate": "2022-07-17",
         "countyName": "Lemhi, ID"
       },
       {
         "name": "Ravalli__MT",
-        "visitedDate": "2022-07-17",
+        "visitDate": "2022-07-17",
         "countyName": "Ravalli, MT"
       },
       {
         "name": "Missoula__MT",
-        "visitedDate": "2022-07-17",
+        "visitDate": "2022-07-17",
         "countyName": "Missoula, MT"
       },
       {
         "name": "Lake__MT",
-        "visitedDate": "2022-07-17",
+        "visitDate": "2022-07-17",
         "countyName": "Lake, MT"
       },
       {
         "name": "Hood_River__OR",
-        "visitedDate": "2022-07-25",
+        "visitDate": "2022-07-25",
         "countyName": "Hood River, OR"
       },
       {
         "name": "Trinity__CA",
-        "visitedDate": "2022-07-26",
+        "visitDate": "2022-07-26",
         "countyName": "Trinity, CA"
       },
       {
         "name": "Navajo__AZ",
-        "visitedDate": "2022-07-31",
+        "visitDate": "2022-07-31",
         "countyName": "Navajo, AZ"
       },
       {
         "name": "Apache__AZ",
-        "visitedDate": "2022-07-31",
+        "visitDate": "2022-07-31",
         "countyName": "Apache, AZ"
       },
       {
         "name": "McKinley__NM",
-        "visitedDate": "2022-07-31",
+        "visitDate": "2022-07-31",
         "countyName": "McKinley, NM"
       },
       {
         "name": "Cibola__NM",
-        "visitedDate": "2022-07-31",
+        "visitDate": "2022-07-31",
         "countyName": "Cibola, NM"
       },
       {
         "name": "Bernalillo__NM",
-        "visitedDate": "2022-07-31",
+        "visitDate": "2022-07-31",
         "countyName": "Bernalillo, NM"
       },
       {
         "name": "Sandoval__NM",
-        "visitedDate": "2022-07-31",
+        "visitDate": "2022-07-31",
         "countyName": "Sandoval, NM"
       },
       {
         "name": "Santa_Fe__NM",
-        "visitedDate": "2022-07-31",
+        "visitDate": "2022-07-31",
         "countyName": "Santa Fe, NM"
       },
       {
         "name": "Rio_Arriba__NM",
-        "visitedDate": "2022-08-01",
+        "visitDate": "2022-08-01",
         "countyName": "Rio Arriba, NM"
       },
       {
         "name": "Taos__NM",
-        "visitedDate": "2022-08-01",
+        "visitDate": "2022-08-01",
         "countyName": "Taos, NM"
       },
       {
         "name": "Colfax__NM",
-        "visitedDate": "2022-08-02",
+        "visitDate": "2022-08-02",
         "countyName": "Colfax, NM"
       },
       {
         "name": "Union__NM",
-        "visitedDate": "2022-08-02",
+        "visitDate": "2022-08-02",
         "countyName": "Union, NM"
       },
       {
         "name": "Dallam__TX",
-        "visitedDate": "2022-08-02",
+        "visitDate": "2022-08-02",
         "countyName": "Dallam, TX"
       },
       {
         "name": "Hartley__TX",
-        "visitedDate": "2022-08-02",
+        "visitDate": "2022-08-02",
         "countyName": "Hartley, TX"
       },
       {
         "name": "Oldham__TX",
-        "visitedDate": "2022-08-02",
+        "visitDate": "2022-08-02",
         "countyName": "Oldham, TX"
       },
       {
         "name": "Potter__TX",
-        "visitedDate": "2022-08-02",
+        "visitDate": "2022-08-02",
         "countyName": "Potter, TX"
       },
       {
         "name": "Randall__TX",
-        "visitedDate": "2022-08-02",
+        "visitDate": "2022-08-02",
         "countyName": "Randall, TX"
       },
       {
         "name": "Carson__TX",
-        "visitedDate": "2022-08-03",
+        "visitDate": "2022-08-03",
         "countyName": "Carson, TX"
       },
       {
         "name": "Gray__TX",
-        "visitedDate": "2022-08-03",
+        "visitDate": "2022-08-03",
         "countyName": "Gray, TX"
       },
       {
         "name": "Donley__TX",
-        "visitedDate": "2022-08-03",
+        "visitDate": "2022-08-03",
         "countyName": "Donley, TX"
       },
       {
         "name": "Wheeler__TX",
-        "visitedDate": "2022-08-03",
+        "visitDate": "2022-08-03",
         "countyName": "Wheeler, TX"
       },
       {
         "name": "Beckham__OK",
-        "visitedDate": "2022-08-03",
+        "visitDate": "2022-08-03",
         "countyName": "Beckham, OK"
       },
       {
         "name": "Washita__OK",
-        "visitedDate": "2022-08-03",
+        "visitDate": "2022-08-03",
         "countyName": "Washita, OK"
       },
       {
         "name": "Custer__OK",
-        "visitedDate": "2022-08-03",
+        "visitDate": "2022-08-03",
         "countyName": "Custer, OK"
       },
       {
         "name": "Caddo__OK",
-        "visitedDate": "2022-08-03",
+        "visitDate": "2022-08-03",
         "countyName": "Caddo, OK"
       },
       {
         "name": "Canadian__OK",
-        "visitedDate": "2022-08-03",
+        "visitDate": "2022-08-03",
         "countyName": "Canadian, OK"
       },
       {
         "name": "Oklahoma__OK",
-        "visitedDate": "2022-08-03",
+        "visitDate": "2022-08-03",
         "countyName": "Oklahoma, OK"
       },
       {
         "name": "Lincoln__OK",
-        "visitedDate": "2022-08-04",
+        "visitDate": "2022-08-04",
         "countyName": "Lincoln, OK"
       },
       {
         "name": "Creek__OK",
-        "visitedDate": "2022-08-04",
+        "visitDate": "2022-08-04",
         "countyName": "Creek, OK"
       },
       {
         "name": "Tulsa__OK",
-        "visitedDate": "2022-08-04",
+        "visitDate": "2022-08-04",
         "countyName": "Tulsa, OK"
       },
       {
         "name": "Wagoner__OK",
-        "visitedDate": "2022-08-04",
+        "visitDate": "2022-08-04",
         "countyName": "Wagoner, OK"
       },
       {
         "name": "Rogers__OK",
-        "visitedDate": "2022-08-04",
+        "visitDate": "2022-08-04",
         "countyName": "Rogers, OK"
       },
       {
         "name": "Mayes__OK",
-        "visitedDate": "2022-08-04",
+        "visitDate": "2022-08-04",
         "countyName": "Mayes, OK"
       },
       {
         "name": "Delaware__OK",
-        "visitedDate": "2022-08-04",
+        "visitDate": "2022-08-04",
         "countyName": "Delaware, OK"
       },
       {
         "name": "Benton__AR",
-        "visitedDate": "2022-08-04",
+        "visitDate": "2022-08-04",
         "countyName": "Benton, AR"
       },
       {
         "name": "Washington__AR",
-        "visitedDate": "2022-08-04",
+        "visitDate": "2022-08-04",
         "countyName": "Washington, AR"
       },
       {
         "name": "Carroll__AR",
-        "visitedDate": "2022-08-04",
+        "visitDate": "2022-08-04",
         "countyName": "Carroll, AR"
       },
       {
         "name": "Barry__MO",
-        "visitedDate": "2022-08-05",
+        "visitDate": "2022-08-05",
         "countyName": "Barry, MO"
       },
       {
         "name": "McDonald__MO",
-        "visitedDate": "2022-08-05",
+        "visitDate": "2022-08-05",
         "countyName": "McDonald, MO"
       },
       {
         "name": "Madison__AR",
-        "visitedDate": "2022-08-06",
+        "visitDate": "2022-08-06",
         "countyName": "Madison, AR"
       },
       {
         "name": "Newton__AR",
-        "visitedDate": "2022-08-06",
+        "visitDate": "2022-08-06",
         "countyName": "Newton, AR"
       },
       {
         "name": "Pope__AR",
-        "visitedDate": "2022-08-06",
+        "visitDate": "2022-08-06",
         "countyName": "Pope, AR"
       },
       {
         "name": "Conway__AR",
-        "visitedDate": "2022-08-06",
+        "visitDate": "2022-08-06",
         "countyName": "Conway, AR"
       },
       {
         "name": "Faulkner__AR",
-        "visitedDate": "2022-08-06",
+        "visitDate": "2022-08-06",
         "countyName": "Faulkner, AR"
       },
       {
         "name": "Pulaski__AR",
-        "visitedDate": "2022-08-06",
+        "visitDate": "2022-08-06",
         "countyName": "Pulaski, AR"
       },
       {
         "name": "Lonoke__AR",
-        "visitedDate": "2022-08-06",
+        "visitDate": "2022-08-06",
         "countyName": "Lonoke, AR"
       },
       {
         "name": "Prairie__AR",
-        "visitedDate": "2022-08-06",
+        "visitDate": "2022-08-06",
         "countyName": "Prairie, AR"
       },
       {
         "name": "Monroe__AR",
-        "visitedDate": "2022-08-06",
+        "visitDate": "2022-08-06",
         "countyName": "Monroe, AR"
       },
       {
         "name": "St__Francis__AR",
-        "visitedDate": "2022-08-06",
+        "visitDate": "2022-08-06",
         "countyName": "St. Francis, AR"
       },
       {
         "name": "Crittenden__AR",
-        "visitedDate": "2022-08-06",
+        "visitDate": "2022-08-06",
         "countyName": "Crittenden, AR"
       },
       {
         "name": "Shelby__TN",
-        "visitedDate": "2022-08-06",
+        "visitDate": "2022-08-06",
         "countyName": "Shelby, TN"
       },
       {
         "name": "DeSoto__MS",
-        "visitedDate": "2022-08-06",
+        "visitDate": "2022-08-06",
         "countyName": "DeSoto, MS"
       },
       {
         "name": "Marshall__MS",
-        "visitedDate": "2022-08-07",
+        "visitDate": "2022-08-07",
         "countyName": "Marshall, MS"
       },
       {
         "name": "Benton__MS",
-        "visitedDate": "2022-08-07",
+        "visitDate": "2022-08-07",
         "countyName": "Benton, MS"
       },
       {
         "name": "Union__MS",
-        "visitedDate": "2022-08-07",
+        "visitDate": "2022-08-07",
         "countyName": "Union, MS"
       },
       {
         "name": "Lee__MS",
-        "visitedDate": "2022-08-07",
+        "visitDate": "2022-08-07",
         "countyName": "Lee, MS"
       },
       {
         "name": "Itawamba__MS",
-        "visitedDate": "2022-08-07",
+        "visitDate": "2022-08-07",
         "countyName": "Itawamba, MS"
       },
       {
         "name": "Marion__AL",
-        "visitedDate": "2022-08-07",
+        "visitDate": "2022-08-07",
         "countyName": "Marion, AL"
       },
       {
         "name": "Winston__AL",
-        "visitedDate": "2022-08-07",
+        "visitDate": "2022-08-07",
         "countyName": "Winston, AL"
       },
       {
         "name": "Walker__AL",
-        "visitedDate": "2022-08-07",
+        "visitDate": "2022-08-07",
         "countyName": "Walker, AL"
       },
       {
         "name": "Jefferson__AL",
-        "visitedDate": "2022-08-07",
+        "visitDate": "2022-08-07",
         "countyName": "Jefferson, AL"
       },
       {
         "name": "St__Clair__AL",
-        "visitedDate": "2022-08-08",
+        "visitDate": "2022-08-08",
         "countyName": "St. Clair, AL"
       },
       {
         "name": "Talladega__AL",
-        "visitedDate": "2022-08-08",
+        "visitDate": "2022-08-08",
         "countyName": "Talladega, AL"
       },
       {
         "name": "Calhoun__AL",
-        "visitedDate": "2022-08-08",
+        "visitDate": "2022-08-08",
         "countyName": "Calhoun, AL"
       },
       {
         "name": "Cleburne__AL",
-        "visitedDate": "2022-08-08",
+        "visitDate": "2022-08-08",
         "countyName": "Cleburne, AL"
       },
       {
         "name": "Haralson__GA",
-        "visitedDate": "2022-08-08",
+        "visitDate": "2022-08-08",
         "countyName": "Haralson, GA"
       },
       {
         "name": "Carroll__GA",
-        "visitedDate": "2022-08-08",
+        "visitDate": "2022-08-08",
         "countyName": "Carroll, GA"
       },
       {
         "name": "Douglas__GA",
-        "visitedDate": "2022-08-08",
+        "visitDate": "2022-08-08",
         "countyName": "Douglas, GA"
       },
       {
         "name": "Rockdale__GA",
-        "visitedDate": "2022-08-10",
+        "visitDate": "2022-08-10",
         "countyName": "Rockdale, GA"
       },
       {
         "name": "Newton__GA",
-        "visitedDate": "2022-08-10",
+        "visitDate": "2022-08-10",
         "countyName": "Newton, GA"
       },
       {
         "name": "Walton__GA",
-        "visitedDate": "2022-08-10",
+        "visitDate": "2022-08-10",
         "countyName": "Walton, GA"
       },
       {
         "name": "Morgan__GA",
-        "visitedDate": "2022-08-10",
+        "visitDate": "2022-08-10",
         "countyName": "Morgan, GA"
       },
       {
         "name": "Putnam__GA",
-        "visitedDate": "2022-08-10",
+        "visitDate": "2022-08-10",
         "countyName": "Putnam, GA"
       },
       {
         "name": "Forsyth__GA",
-        "visitedDate": "2022-10-15",
+        "visitDate": "2022-10-15",
         "countyName": "Forsyth, GA"
       },
       {
         "name": "Dawson__GA",
-        "visitedDate": "2022-10-15",
+        "visitDate": "2022-10-15",
         "countyName": "Dawson, GA"
       },
       {
         "name": "Lumpkin__GA",
-        "visitedDate": "2022-10-15",
+        "visitDate": "2022-10-15",
         "countyName": "Lumpkin, GA"
       },
       {
         "name": "Union__GA",
-        "visitedDate": "2022-10-15",
+        "visitDate": "2022-10-15",
         "countyName": "Union, GA"
       },
       {
         "name": "Towns__GA",
-        "visitedDate": "2022-10-15",
+        "visitDate": "2022-10-15",
         "countyName": "Towns, GA"
       },
       {
         "name": "Cherokee__NC",
-        "visitedDate": "2022-10-15",
+        "visitDate": "2022-10-15",
         "countyName": "Cherokee, NC"
       },
       {
         "name": "Graham__NC",
-        "visitedDate": "2022-10-15",
+        "visitDate": "2022-10-15",
         "countyName": "Graham, NC"
       },
       {
         "name": "Swain__NC",
-        "visitedDate": "2022-10-15",
+        "visitDate": "2022-10-15",
         "countyName": "Swain, NC"
       },
       {
         "name": "Blount__TN",
-        "visitedDate": "2022-10-16",
+        "visitDate": "2022-10-16",
         "countyName": "Blount, TN"
       },
       {
         "name": "Sevier__TN",
-        "visitedDate": "2022-10-16",
+        "visitDate": "2022-10-16",
         "countyName": "Sevier, TN"
       },
       {
         "name": "Cocke__TN",
-        "visitedDate": "2022-10-16",
+        "visitDate": "2022-10-16",
         "countyName": "Cocke, TN"
       },
       {
         "name": "Haywood__NC",
-        "visitedDate": "2022-10-16",
+        "visitDate": "2022-10-16",
         "countyName": "Haywood, NC"
       },
       {
         "name": "Jackson__NC",
-        "visitedDate": "2022-10-17",
+        "visitDate": "2022-10-17",
         "countyName": "Jackson, NC"
       },
       {
         "name": "Macon__NC",
-        "visitedDate": "2022-10-17",
+        "visitDate": "2022-10-17",
         "countyName": "Macon, NC"
       },
       {
         "name": "Rabun__GA",
-        "visitedDate": "2022-10-17",
+        "visitDate": "2022-10-17",
         "countyName": "Rabun, GA"
       },
       {
         "name": "Habersham__GA",
-        "visitedDate": "2022-10-17",
+        "visitDate": "2022-10-17",
         "countyName": "Habersham, GA"
       },
       {
         "name": "Hall__GA",
-        "visitedDate": "2022-10-17",
+        "visitDate": "2022-10-17",
         "countyName": "Hall, GA"
       },
       {
         "name": "Gwinnett__GA",
-        "visitedDate": "2022-10-17",
+        "visitDate": "2022-10-17",
         "countyName": "Gwinnett, GA"
       },
       {
         "name": "Cherokee__GA",
-        "visitedDate": "2022-10-29",
+        "visitDate": "2022-10-29",
         "countyName": "Cherokee, GA"
       },
       {
         "name": "Bartow__GA",
-        "visitedDate": "2022-10-29",
+        "visitDate": "2022-10-29",
         "countyName": "Bartow, GA"
       },
       {
         "name": "Gordon__GA",
-        "visitedDate": "2022-10-29",
+        "visitDate": "2022-10-29",
         "countyName": "Gordon, GA"
       },
       {
         "name": "Whitfield__GA",
-        "visitedDate": "2022-10-29",
+        "visitDate": "2022-10-29",
         "countyName": "Whitfield, GA"
       },
       {
         "name": "Catoosa__GA",
-        "visitedDate": "2022-10-29",
+        "visitDate": "2022-10-29",
         "countyName": "Catoosa, GA"
       },
       {
         "name": "Hamilton__TN",
-        "visitedDate": "2022-10-29",
+        "visitDate": "2022-10-29",
         "countyName": "Hamilton, TN"
       },
       {
         "name": "Dade__GA",
-        "visitedDate": "2022-10-29",
+        "visitDate": "2022-10-29",
         "countyName": "Dade, GA"
       },
       {
         "name": "Marion__TN",
-        "visitedDate": "2022-10-29",
+        "visitDate": "2022-10-29",
         "countyName": "Marion, TN"
       },
       {
         "name": "Grundy__TN",
-        "visitedDate": "2022-10-29",
+        "visitDate": "2022-10-29",
         "countyName": "Grundy, TN"
       },
       {
         "name": "Coffee__TN",
-        "visitedDate": "2022-10-29",
+        "visitDate": "2022-10-29",
         "countyName": "Coffee, TN"
       },
       {
         "name": "Bedford__TN",
-        "visitedDate": "2022-10-29",
+        "visitDate": "2022-10-29",
         "countyName": "Bedford, TN"
       },
       {
         "name": "Rutherford__TN",
-        "visitedDate": "2022-10-29",
+        "visitDate": "2022-10-29",
         "countyName": "Rutherford, TN"
       },
       {
         "name": "Davidson__TN",
-        "visitedDate": "2022-10-29",
+        "visitDate": "2022-10-29",
         "countyName": "Davidson, TN"
       },
       {
         "name": "Peach__GA",
-        "visitedDate": "2022-11-19",
+        "visitDate": "2022-11-19",
         "countyName": "Peach, GA"
       },
       {
         "name": "Houston__GA",
-        "visitedDate": "2022-11-19",
+        "visitDate": "2022-11-19",
         "countyName": "Houston, GA"
       },
       {
         "name": "Dooly__GA",
-        "visitedDate": "2022-11-19",
+        "visitDate": "2022-11-19",
         "countyName": "Dooly, GA"
       },
       {
         "name": "Crisp__GA",
-        "visitedDate": "2022-11-19",
+        "visitDate": "2022-11-19",
         "countyName": "Crisp, GA"
       },
       {
         "name": "Turner__GA",
-        "visitedDate": "2022-11-19",
+        "visitDate": "2022-11-19",
         "countyName": "Turner, GA"
       },
       {
         "name": "Tift__GA",
-        "visitedDate": "2022-11-19",
+        "visitDate": "2022-11-19",
         "countyName": "Tift, GA"
       },
       {
         "name": "Cook__GA",
-        "visitedDate": "2022-11-19",
+        "visitDate": "2022-11-19",
         "countyName": "Cook, GA"
       },
       {
         "name": "Lowndes__GA",
-        "visitedDate": "2022-11-19",
+        "visitDate": "2022-11-19",
         "countyName": "Lowndes, GA"
       },
       {
         "name": "Hamilton__FL",
-        "visitedDate": "2022-11-19",
+        "visitDate": "2022-11-19",
         "countyName": "Hamilton, FL"
       },
       {
         "name": "Suwannee__FL",
-        "visitedDate": "2022-11-19",
+        "visitDate": "2022-11-19",
         "countyName": "Suwannee, FL"
       },
       {
         "name": "Columbia__FL",
-        "visitedDate": "2022-11-19",
+        "visitDate": "2022-11-19",
         "countyName": "Columbia, FL"
       },
       {
         "name": "Union__FL",
-        "visitedDate": "2022-11-19",
+        "visitDate": "2022-11-19",
         "countyName": "Union, FL"
       },
       {
         "name": "Pinellas__FL",
-        "visitedDate": "2022-11-19",
+        "visitDate": "2022-11-19",
         "countyName": "Pinellas, FL"
       },
       {
         "name": "Citrus__FL",
-        "visitedDate": "2022-11-26",
+        "visitDate": "2022-11-26",
         "countyName": "Citrus, FL"
       }
     ]
@@ -1994,322 +1994,322 @@
     "counties": [
       {
         "name": "Coweta__GA",
-        "visitedDate": "2023-02-26",
+        "visitDate": "2023-02-26",
         "countyName": "Coweta, GA"
       },
       {
         "name": "Meriwether__GA",
-        "visitedDate": "2023-02-26",
+        "visitDate": "2023-02-26",
         "countyName": "Meriwether, GA"
       },
       {
         "name": "Troup__GA",
-        "visitedDate": "2023-02-26",
+        "visitDate": "2023-02-26",
         "countyName": "Troup, GA"
       },
       {
         "name": "Harris__GA",
-        "visitedDate": "2023-02-26",
+        "visitDate": "2023-02-26",
         "countyName": "Harris, GA"
       },
       {
         "name": "Muscogee__GA",
-        "visitedDate": "2023-02-26",
+        "visitDate": "2023-02-26",
         "countyName": "Muscogee, GA"
       },
       {
         "name": "Chattahoochee__GA",
-        "visitedDate": "2023-02-26",
+        "visitDate": "2023-02-26",
         "countyName": "Chattahoochee, GA"
       },
       {
         "name": "Stewart__GA",
-        "visitedDate": "2023-02-26",
+        "visitDate": "2023-02-26",
         "countyName": "Stewart, GA"
       },
       {
         "name": "Quitman__GA",
-        "visitedDate": "2023-02-26",
+        "visitDate": "2023-02-26",
         "countyName": "Quitman, GA"
       },
       {
         "name": "Barbour__AL",
-        "visitedDate": "2023-02-26",
+        "visitDate": "2023-02-26",
         "countyName": "Barbour, AL"
       },
       {
         "name": "Bullock__AL",
-        "visitedDate": "2023-02-26",
+        "visitDate": "2023-02-26",
         "countyName": "Bullock, AL"
       },
       {
         "name": "Montgomery__AL",
-        "visitedDate": "2023-02-26",
+        "visitDate": "2023-02-26",
         "countyName": "Montgomery, AL"
       },
       {
         "name": "Elmore__AL",
-        "visitedDate": "2023-02-26",
+        "visitDate": "2023-02-26",
         "countyName": "Elmore, AL"
       },
       {
         "name": "Macon__AL",
-        "visitedDate": "2023-02-26",
+        "visitDate": "2023-02-26",
         "countyName": "Macon, AL"
       },
       {
         "name": "Lee__AL",
-        "visitedDate": "2023-02-26",
+        "visitDate": "2023-02-26",
         "countyName": "Lee, AL"
       },
       {
         "name": "Chambers__AL",
-        "visitedDate": "2023-02-26",
+        "visitDate": "2023-02-26",
         "countyName": "Chambers, AL"
       },
       {
         "name": "Bradley__TN",
-        "visitedDate": "2023-04-14",
+        "visitDate": "2023-04-14",
         "countyName": "Bradley, TN"
       },
       {
         "name": "McMinn__TN",
-        "visitedDate": "2023-04-14",
+        "visitDate": "2023-04-14",
         "countyName": "McMinn, TN"
       },
       {
         "name": "Monroe__TN",
-        "visitedDate": "2023-04-14",
+        "visitDate": "2023-04-14",
         "countyName": "Monroe, TN"
       },
       {
         "name": "Loudon__TN",
-        "visitedDate": "2023-04-14",
+        "visitDate": "2023-04-14",
         "countyName": "Loudon, TN"
       },
       {
         "name": "Roane__TN",
-        "visitedDate": "2023-04-14",
+        "visitDate": "2023-04-14",
         "countyName": "Roane, TN"
       },
       {
         "name": "Anderson__TN",
-        "visitedDate": "2023-04-14",
+        "visitDate": "2023-04-14",
         "countyName": "Anderson, TN"
       },
       {
         "name": "Knox__TN",
-        "visitedDate": "2023-04-14",
+        "visitDate": "2023-04-14",
         "countyName": "Knox, TN"
       },
       {
         "name": "Philadelphia__PA",
-        "visitedDate": "2023-05-12",
+        "visitDate": "2023-05-12",
         "countyName": "Philadelphia, PA"
       },
       {
         "name": "Camden__NJ",
-        "visitedDate": "2023-05-12",
+        "visitDate": "2023-05-12",
         "countyName": "Camden, NJ"
       },
       {
         "name": "Burlington__NJ",
-        "visitedDate": "2023-05-12",
+        "visitDate": "2023-05-12",
         "countyName": "Burlington, NJ"
       },
       {
         "name": "Mercer__NJ",
-        "visitedDate": "2023-05-12",
+        "visitDate": "2023-05-12",
         "countyName": "Mercer, NJ"
       },
       {
         "name": "Bucks__PA",
-        "visitedDate": "2023-05-13",
+        "visitDate": "2023-05-13",
         "countyName": "Bucks, PA"
       },
       {
         "name": "Delaware__PA",
-        "visitedDate": "2023-05-13",
+        "visitDate": "2023-05-13",
         "countyName": "Delaware, PA"
       },
       {
         "name": "Chester__PA",
-        "visitedDate": "2023-05-13",
+        "visitDate": "2023-05-13",
         "countyName": "Chester, PA"
       },
       {
         "name": "Suffolk__MA",
-        "visitedDate": "2023-09-15",
+        "visitDate": "2023-09-15",
         "countyName": "Suffolk, MA"
       },
       {
         "name": "Middlesex__MA",
-        "visitedDate": "2023-09-16",
+        "visitDate": "2023-09-16",
         "countyName": "Middlesex, MA"
       },
       {
         "name": "Stephens__GA",
-        "visitedDate": "2023-10-07",
+        "visitDate": "2023-10-07",
         "countyName": "Stephens, GA"
       },
       {
         "name": "Franklin__GA",
-        "visitedDate": "2023-10-07",
+        "visitDate": "2023-10-07",
         "countyName": "Franklin, GA"
       },
       {
         "name": "Banks__GA",
-        "visitedDate": "2023-10-09",
+        "visitDate": "2023-10-09",
         "countyName": "Banks, GA"
       },
       {
         "name": "Jackson__GA",
-        "visitedDate": "2023-10-09",
+        "visitDate": "2023-10-09",
         "countyName": "Jackson, GA"
       },
       {
         "name": "Barrow__GA",
-        "visitedDate": "2023-10-09",
+        "visitDate": "2023-10-09",
         "countyName": "Barrow, GA"
       },
       {
         "name": "Hart__GA",
-        "visitedDate": "2023-10-09",
+        "visitDate": "2023-10-09",
         "countyName": "Hart, GA"
       },
       {
         "name": "Oconee__SC",
-        "visitedDate": "2023-10-09",
+        "visitDate": "2023-10-09",
         "countyName": "Oconee, SC"
       },
       {
         "name": "Anderson__SC",
-        "visitedDate": "2023-10-09",
+        "visitDate": "2023-10-09",
         "countyName": "Anderson, SC"
       },
       {
         "name": "Greenville__SC",
-        "visitedDate": "2023-10-09",
+        "visitDate": "2023-10-09",
         "countyName": "Greenville, SC"
       },
       {
         "name": "Spartanburg__SC",
-        "visitedDate": "2023-10-09",
+        "visitDate": "2023-10-09",
         "countyName": "Spartanburg, SC"
       },
       {
         "name": "Polk__NC",
-        "visitedDate": "2023-10-09",
+        "visitDate": "2023-10-09",
         "countyName": "Polk, NC"
       },
       {
         "name": "Rutherford__NC",
-        "visitedDate": "2023-10-09",
+        "visitDate": "2023-10-09",
         "countyName": "Rutherford, NC"
       },
       {
         "name": "McDowell__NC",
-        "visitedDate": "2023-10-09",
+        "visitDate": "2023-10-09",
         "countyName": "McDowell, NC"
       },
       {
         "name": "Yancey__NC",
-        "visitedDate": "2023-10-09",
+        "visitDate": "2023-10-09",
         "countyName": "Yancey, NC"
       },
       {
         "name": "Buncombe__NC",
-        "visitedDate": "2023-10-09",
+        "visitDate": "2023-10-09",
         "countyName": "Buncombe, NC"
       },
       {
         "name": "Henderson__NC",
-        "visitedDate": "2023-10-09",
+        "visitDate": "2023-10-09",
         "countyName": "Henderson, NC"
       },
       {
         "name": "Transylvania__NC",
-        "visitedDate": "2023-10-09",
+        "visitDate": "2023-10-09",
         "countyName": "Transylvania, NC"
       },
       {
         "name": "Walker__GA",
-        "visitedDate": "2023-11-11",
+        "visitDate": "2023-11-11",
         "countyName": "Walker, GA"
       },
       {
         "name": "Greene__GA",
-        "visitedDate": "2023-11-11",
+        "visitDate": "2023-11-11",
         "countyName": "Greene, GA"
       },
       {
         "name": "Taliaferro__GA",
-        "visitedDate": "2023-11-11",
+        "visitDate": "2023-11-11",
         "countyName": "Taliaferro, GA"
       },
       {
         "name": "Warren__GA",
-        "visitedDate": "2023-11-11",
+        "visitDate": "2023-11-11",
         "countyName": "Warren, GA"
       },
       {
         "name": "McDuffie__GA",
-        "visitedDate": "2023-11-11",
+        "visitDate": "2023-11-11",
         "countyName": "McDuffie, GA"
       },
       {
         "name": "Columbia__GA",
-        "visitedDate": "2023-11-11",
+        "visitDate": "2023-11-11",
         "countyName": "Columbia, GA"
       },
       {
         "name": "Richmond__GA",
-        "visitedDate": "2023-11-11",
+        "visitDate": "2023-11-11",
         "countyName": "Richmond, GA"
       },
       {
         "name": "Jefferson__LA",
-        "visitedDate": "2023-11-20",
+        "visitDate": "2023-11-20",
         "countyName": "Jefferson, LA"
       },
       {
         "name": "Orleans__LA",
-        "visitedDate": "2023-11-20",
+        "visitDate": "2023-11-20",
         "countyName": "Orleans, LA"
       },
       {
         "name": "St__Tammany__LA",
-        "visitedDate": "2023-11-22",
+        "visitDate": "2023-11-22",
         "countyName": "St. Tammany, LA"
       },
       {
         "name": "Tangipahoa__LA",
-        "visitedDate": "2023-11-22",
+        "visitDate": "2023-11-22",
         "countyName": "Tangipahoa, LA"
       },
       {
         "name": "St__John_the_Baptist__LA",
-        "visitedDate": "2023-11-22",
+        "visitDate": "2023-11-22",
         "countyName": "St. John the Baptist, LA"
       },
       {
         "name": "St__James__LA",
-        "visitedDate": "2023-11-22",
+        "visitDate": "2023-11-22",
         "countyName": "St. James, LA"
       },
       {
         "name": "Lafourche__LA",
-        "visitedDate": "2023-11-22",
+        "visitDate": "2023-11-22",
         "countyName": "Lafourche, LA"
       },
       {
         "name": "Terrebonne__LA",
-        "visitedDate": "2023-11-22",
+        "visitDate": "2023-11-22",
         "countyName": "Terrebonne, LA"
       },
       {
         "name": "St__Charles__LA",
-        "visitedDate": "2023-11-22",
+        "visitDate": "2023-11-22",
         "countyName": "St. Charles, LA"
       }
     ]

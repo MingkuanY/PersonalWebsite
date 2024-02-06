@@ -1,0 +1,212 @@
+{
+  "livedIn": {
+    "label": "Lived in",
+    "states": [
+      {
+        "name": "CA",
+        "visitDate": "2004-07-30",
+        "stateName": "California"
+      },
+      {
+        "name": "GA",
+        "visitDate": "2022-08-08",
+        "stateName": "Georgia"
+      }
+    ]
+  },
+  "visited2012": {
+    "label": "Visited by 2012",
+    "states": [
+      {
+        "name": "NV",
+        "visitDate": "2005-02-04",
+        "stateName": "Nevada"
+      },
+      {
+        "name": "OR",
+        "visitDate": "2008-10-04",
+        "stateName": "Oregon"
+      }
+    ]
+  },
+  "visited2013": {
+    "label": "Visited 2013",
+    "states": [
+      {
+        "name": "FL",
+        "visitDate": "2013-06-18",
+        "stateName": "Florida"
+      }
+    ]
+  },
+  "visited2015": {
+    "label": "Visited 2015",
+    "states": [
+      {
+        "name": "NY",
+        "visitDate": "2015-04-10",
+        "stateName": "New York"
+      }
+    ]
+  },
+  "visited2016": {
+    "label": "Visited 2016",
+    "states": [
+      {
+        "name": "VA",
+        "visitDate": "2016-04-15",
+        "stateName": "Virginia"
+      },
+      {
+        "name": "DC",
+        "visitDate": "2016-04-16",
+        "stateName": "District of Columbia"
+      },
+      {
+        "name": "MD",
+        "visitDate": "2016-04-18",
+        "stateName": "Maryland"
+      }
+    ]
+  },
+  "visited2018": {
+    "label": "Visited 2018",
+    "states": [
+      {
+        "name": "HI",
+        "visitDate": "2018-02-20",
+        "stateName": "Hawaii"
+      },
+      {
+        "name": "MN",
+        "visitDate": "2018-07-14",
+        "stateName": "Minnesota"
+      }
+    ]
+  },
+  "visited2019": {
+    "label": "Visited 2019",
+    "states": [
+      {
+        "name": "AZ",
+        "visitDate": "2019-12-20",
+        "stateName": "Arizona"
+      },
+      {
+        "name": "UT",
+        "visitDate": "2019-12-20",
+        "stateName": "Utah"
+      }
+    ]
+  },
+  "visited2020": {
+    "label": "Visited 2020",
+    "states": [
+      {
+        "name": "WA",
+        "visitDate": "2020-08-06",
+        "stateName": "Washington"
+      }
+    ]
+  },
+  "visited2021": {
+    "label": "Visited 2021",
+    "states": [
+      {
+        "name": "ID",
+        "visitDate": "2021-06-10",
+        "stateName": "Idaho"
+      },
+      {
+        "name": "WY",
+        "visitDate": "2021-06-12",
+        "stateName": "Idaho"
+      },
+      {
+        "name": "MT",
+        "visitDate": "2021-06-14",
+        "stateName": "Idaho"
+      }
+    ]
+  },
+  "visited2022": {
+    "label": "Visited 2022",
+    "states": [
+      {
+        "name": "SC",
+        "visitDate": "2022-02-23",
+        "stateName": "South Carolina"
+      },
+      {
+        "name": "NC",
+        "visitDate": "2022-02-24",
+        "stateName": "North Carolina"
+      },
+      {
+        "name": "NM",
+        "visitDate": "2022-08-01",
+        "stateName": "New Mexico"
+      },
+      {
+        "name": "TX",
+        "visitDate": "2022-08-02",
+        "stateName": "Texas"
+      },
+      {
+        "name": "OK",
+        "visitDate": "2022-08-03",
+        "stateName": "Oklahoma"
+      },
+      {
+        "name": "AR",
+        "visitDate": "2022-08-04",
+        "stateName": "Arkansas"
+      },
+      {
+        "name": "MO",
+        "visitDate": "2022-08-05",
+        "stateName": "Missouri"
+      },
+      {
+        "name": "TN",
+        "visitDate": "2022-08-07",
+        "stateName": "Tennessee"
+      },
+      {
+        "name": "MS",
+        "visitDate": "2022-08-08",
+        "stateName": "Mississippi"
+      },
+      {
+        "name": "AL",
+        "visitDate": "2022-08-09",
+        "stateName": "Alabama"
+      }
+    ]
+  },
+  "visited2023": {
+    "label": "Visited 2023",
+    "states": [
+      {
+        "name": "PA",
+        "visitDate": "2023-05-12",
+        "stateName": "Pennsylvania"
+      },
+      {
+        "name": "NJ",
+        "visitDate": "2023-05-12",
+        "stateName": "New Jersey"
+      },
+      {
+        "name": "MA",
+        "visitDate": "2023-09-15",
+        "stateName": "Massachusetts"
+      },
+      {
+        "name": "LA",
+        "visitDate": "2023-11-20",
+        "stateName": "Louisiana"
+      }
+    ]
+  }
+}

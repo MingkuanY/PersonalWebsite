@@ -135,6 +135,13 @@ const hornplayerContent = document.querySelector('.hornplayerContent');
 const photographerContent = document.querySelector('.photographerContent');
 const rowerContent = document.querySelector('.rowerContent');
 
+// hide states map
+const countiesMap = document.getElementById('rtMap');
+const countiesBio = document.querySelector('.rtBio');
+
+const statesMap = document.getElementById('rtStates');
+const statesBio = document.querySelector('.rtStatesBio');
+
 
 // website setup
 function setupInitialState() {
@@ -151,9 +158,184 @@ function setupInitialState() {
   hornplayerContent.style.display = 'none';
   photographerContent.style.display = 'none';
   rowerContent.style.display = 'none';
+
+  statesMap.style.display = 'none';
+  statesBio.style.display = 'none';
 }
 
 window.addEventListener('load', setupInitialState);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MAP */
+const colorMap = {
+  livedIn: '#ffff33',
+  visited2012: '#008d8c',
+  visited2013: '#1a968e',
+  visited2014: '#2c9e90',
+  visited2015: '#3ca791',
+  visited2016: '#4caf91',
+  visited2018: '#6bbf92',
+  visited2019: '#7bc792',
+  visited2020: '#8ccf92',
+  visited2021: '#9dd692',
+  visited2022: '#aede92',
+  visited2023: '#bfe692',
+  unvisited: '#013f3f',
+}
+
+const rtIntro = document.querySelector('.rtIntro');
+const rtIntroText = rtIntro.textContent;
+
+const countiesCounter = document.querySelector('.countiesCounter');
+const statesCounter = document.querySelector('.statesCounter');
+
+/* map toggle menu */
+const rtCountiesButton = document.querySelector('.rtNav .countiesButton');
+const rtStatesButton = document.querySelector('.rtNav .statesButton');
+const rtAnimation = document.querySelector('.rtAnimation');
+
+let rtSelectedButton = rtCountiesButton;
+
+function updateSelectedButton(selectedButton) {
+  rtSelectedButton.classList.remove('rtSelected');
+  rtSelectedButton.classList.add('rtUnselected');
+  rtSelectedButton = selectedButton;
+  loadMap();
+  rtSelectedButton.classList.remove('rtUnselected');
+  rtSelectedButton.classList.add('rtSelected');
+}
+
+rtCountiesButton.addEventListener('click', function () {
+  rtAnimation.style.left = '0';
+  updateSelectedButton(rtCountiesButton);
+});
+
+rtStatesButton.addEventListener('click', function () {
+  rtAnimation.style.left = '12rem';
+  updateSelectedButton(rtStatesButton);
+});
+
+
+
+
+
+function loadMap() {
+  resetMap();
+
+  if (rtSelectedButton == rtCountiesButton) {
+    /* counties map */
+    countiesMap.style.display = 'block';
+    statesMap.style.display = 'none';
+    countiesBio.style.display = 'block';
+    statesBio.style.display = 'none';
+
+    fetch('../assets/roadtripper/MyTravels.json')
+      .then(response => response.json())
+      .then(myTravels => {
+        let counter = 0;
+        let countiesCount = 0;
+
+        Object.keys(myTravels).forEach(key => {
+          const { label, counties } = myTravels[key];
+
+          counties.forEach(({ name, visitDate, countyName }, index) => {
+            let pause = name === "Fulton__GA" ? 205 : counter++;
+            setTimeout(() => {
+              let year = new Date(visitDate).getFullYear();
+              rtIntro.textContent = `By ${year},`;
+              const element = document.getElementById(name);
+              if (element) {
+                element.style.fill = colorMap[key];
+              }
+              countiesCount++;
+              countiesCounter.textContent = countiesCount;
+            }, 800 + 20 * pause);
+          });
+        });
+      });
+  } else {
+    /* states map */
+    countiesMap.style.display = 'none';
+    statesMap.style.display = 'block';
+    countiesBio.style.display = 'none';
+    statesBio.style.display = 'block';
+
+    fetch('../assets/roadtripper/MyStates.json')
+      .then(response => response.json())
+      .then(myTravels => {
+        let counter = 0;
+        let statesCount = 0;
+
+        Object.keys(myTravels).forEach(key => {
+          const { label, states } = myTravels[key];
+
+          states.forEach(({ name, visitDate, stateName }, index) => {
+            let pause = name === "GA" ? 16 : counter++;
+            setTimeout(() => {
+              let year = new Date(visitDate).getFullYear();
+              rtIntro.textContent = `By ${year},`;
+              const element = document.getElementById(name);
+              if (element) {
+                element.style.fill = colorMap[key];
+              }
+              if (name !== "DC") {
+                statesCount++;
+              }
+              statesCounter.textContent = statesCount;
+            }, 800 + 200 * pause);
+          });
+        });
+      });
+  }
+}
+
+function resetMap() {
+  document.querySelectorAll('#rtMap > path').forEach(county => {
+    county.style.fill = colorMap['unvisited'];
+  });
+  document.querySelectorAll('#rtStates > g > path').forEach(state => {
+    state.style.fill = colorMap['unvisited'];
+  });
+  countiesCounter.textContent = '0';
+  statesCounter.textContent = '0';
+  rtIntro.textContent = rtIntroText;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -165,6 +347,7 @@ window.addEventListener('load', setupInitialState);
 
 const intro = document.querySelector('.intro');
 const picContainers = document.querySelectorAll('.collage button');
+const scrollPause = 1300;
 
 images.forEach(pic => {
   pic.addEventListener('click', () => {
@@ -209,42 +392,42 @@ images.forEach(pic => {
     rowerContent.style.display = 'none';
 
     // show specific content based on clicked image
-    const pause = 1300;
     switch (pic.classList[0]) {
       case 'csstudent':
         csContent.style.display = 'block';
         setTimeout(() => {
           const csStudentSection = document.querySelector('.csstudentSection');
           csStudentSection.scrollIntoView({ behavior: 'smooth' });
-        }, pause);
+        }, scrollPause);
         break;
       case 'roadtripper':
         roadtripperContent.style.display = 'block';
         setTimeout(() => {
           const rtMainSection = document.querySelector('.rtMainSection');
           rtMainSection.scrollIntoView({ behavior: 'smooth' });
-        }, pause);
+          updateSelectedButton(rtCountiesButton);
+        }, scrollPause);
         break;
       case 'hornplayer':
         hornplayerContent.style.display = 'block';
         setTimeout(() => {
           const hpMainSection = document.querySelector('.hpMainSection');
           hpMainSection.scrollIntoView({ behavior: 'smooth' });
-        }, pause);
+        }, scrollPause);
         break;
       case 'photographer':
         photographerContent.style.display = 'block';
         setTimeout(() => {
           const phMainSection = document.querySelector('.phMainSection');
           phMainSection.scrollIntoView({ behavior: 'smooth' });
-        }, pause);
+        }, scrollPause);
         break;
       case 'rower':
         rowerContent.style.display = 'block';
         setTimeout(() => {
           const roMainSection = document.querySelector('.roMainSection');
           roMainSection.scrollIntoView({ behavior: 'smooth' });
-        }, pause);
+        }, scrollPause);
         break;
     }
 
@@ -335,79 +518,4 @@ window.onscroll = handleHome;
 
 homeButton.addEventListener('click', () => {
   landingSection.scrollIntoView({ behavior: 'smooth' });
-});
-
-
-
-
-
-
-
-
-
-
-/* MAP */
-const colorMap = {
-  livedIn: '#ffff33',
-  visited2012: '#008d8c',
-  visited2013: '#1a968e',
-  visited2014: '#2c9e90',
-  visited2015: '#3ca791',
-  visited2016: '#4caf91',
-  visited2018: '#6bbf92',
-  visited2019: '#7bc792',
-  visited2020: '#8ccf92',
-  visited2021: '#9dd692',
-  visited2022: '#aede92',
-  visited2023: '#bfe692',
-}
-
-document.addEventListener('DOMContentLoaded', function () {
-  fetch('../assets/roadtripper/MyTravels.json')
-    .then(response => response.json())
-    .then(myTravels => {
-      Object.keys(myTravels).forEach(key => {
-        const { label, counties } = myTravels[key];
-
-        counties.forEach(({ name, visitDate, countyName }, index) => {
-          const element = document.getElementById(name);
-          if (element) {
-            element.style.fill = colorMap[key];
-          }
-        })
-      })
-    })
-});
-
-/* map toggle menu */
-const rtCountiesButton = document.querySelector('.rtNav .countiesButton');
-const rtStatesButton = document.querySelector('.rtNav .statesButton');
-const rtTimelineButton = document.querySelector('.rtNav .timelineButton');
-const rtAnimation = document.querySelector('.rtAnimation');
-
-let rtSelectedButton = rtCountiesButton;
-
-function updateSelectedButton(selectedButton) {
-  rtSelectedButton.classList.remove('rtSelected');
-  rtSelectedButton.classList.add('rtUnselected');
-  rtSelectedButton = selectedButton;
-  rtSelectedButton.classList.remove('rtUnselected');
-  rtSelectedButton.classList.add('rtSelected');
-}
-
-updateSelectedButton(rtCountiesButton);
-
-rtCountiesButton.addEventListener('click', function () {
-  rtAnimation.style.left = '0';
-  updateSelectedButton(rtCountiesButton);
-});
-
-rtStatesButton.addEventListener('click', function () {
-  rtAnimation.style.left = '10rem';
-  updateSelectedButton(rtStatesButton);
-});
-
-rtTimelineButton.addEventListener('click', function () {
-  rtAnimation.style.left = '20rem';
-  updateSelectedButton(rtTimelineButton);
 });
