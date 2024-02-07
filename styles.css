@@ -1209,12 +1209,12 @@ button {
 }
 
 .rtIntro {
-  font-size: 4rem;
+  font-size: 1.6rem;
   font-weight: 300;
 }
 
-.rtBio, .rtStatesBio {
-  font-size: 1.6rem;
+.rtBio, .rtStatesBio, .rtCountriesBio {
+  font-size: 4rem;
   font-weight: 300;
 }
 
@@ -1258,6 +1258,27 @@ button {
   fill: var(--unvisited);
   stroke: #FFF;
   cursor: pointer;
+}
+
+
+
+/* COUNTRIES MAP */
+
+#rtCountries {
+  margin-top: 3rem;
+  width: 88rem;
+  margin-bottom: 7rem;
+}
+
+/* unvisited counties */
+#rtCountries > g > path {
+  fill: var(--unvisited);
+  stroke: #FFF;
+  cursor: pointer;
+}
+
+#rtCountries text {
+  display: none;
 }
 
 

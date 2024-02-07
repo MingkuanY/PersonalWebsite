@@ -1,0 +1,132 @@
+{
+  "visited2012": {
+    "label": "Visited by 2012",
+    "countries": [
+      {
+        "name": "United_States",
+        "visitDate": "2004-07-30",
+        "countryName": "United countries of America"
+      },
+      {
+        "name": "China",
+        "visitDate": "2004-09-20",
+        "countryName": "China"
+      },
+      {
+        "name": "Mexico",
+        "visitDate": "2009-09-20",
+        "countryName": "Mexico"
+      }
+    ]
+  },
+  "visited2015": {
+    "label": "Visited 2014",
+    "countries": [
+      {
+        "name": "Bahamas",
+        "visitDate": "2014-12-20",
+        "countryName": "Bahamas"
+      }
+    ]
+  },
+  "visited2016": {
+    "label": "Visited 2017",
+    "countries": [
+      {
+        "name": "Cambodia",
+        "visitDate": "2017-10-04",
+        "countryName": "Cambodia"
+      }
+    ]
+  },
+  "visited2018": {
+    "label": "Visited 2018",
+    "countries": [
+      {
+        "name": "Canada",
+        "visitDate": "2018-06-20",
+        "countryName": "Canada"
+      },
+      {
+        "name": "United_Kingdom",
+        "visitDate": "2018-12-26",
+        "countryName": "United Kingdom"
+      }
+    ]
+  },
+  "visited2019": {
+    "label": "Visited 2019",
+    "countries": [
+      {
+        "name": "Spain",
+        "visitDate": "2019-04-20",
+        "countryName": "Spain"
+      },
+      {
+        "name": "Sweden",
+        "visitDate": "2019-06-30",
+        "countryName": "Sweden"
+      },
+      {
+        "name": "Finland",
+        "visitDate": "2019-07-01",
+        "countryName": "Finland"
+      },
+      {
+        "name": "Russia",
+        "visitDate": "2019-07-03",
+        "countryName": "Russia"
+      }
+    ]
+  },
+  "visited2022": {
+    "label": "Visited 2022",
+    "countries": [
+      {
+        "name": "Czechia",
+        "visitDate": "2022-06-27",
+        "countryName": "Czech Republic"
+      },
+      {
+        "name": "Poland",
+        "visitDate": "2022-06-29",
+        "countryName": "Poland"
+      },
+      {
+        "name": "Slovakia",
+        "visitDate": "2022-07-01",
+        "countryName": "Slovakia"
+      },
+      {
+        "name": "Hungary",
+        "visitDate": "2022-07-01",
+        "countryName": "Hungary"
+      }
+    ]
+  },
+  "visited2023": {
+    "label": "Visited 2023",
+    "countries": [
+      {
+        "name": "Germany",
+        "visitDate": "2023-05-15",
+        "countryName": "Germany"
+      },
+      {
+        "name": "Austria",
+        "visitDate": "2023-05-27",
+        "countryName": "Austria"
+      },
+      {
+        "name": "France",
+        "visitDate": "2023-06-03",
+        "countryName": "France"
+      },
+      {
+        "name": "Switzerland",
+        "visitDate": "2023-07-09",
+        "countryName": "Switzerland"
+      }
+    ]
+  }
+}

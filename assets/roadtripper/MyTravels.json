@@ -33,14 +33,9 @@
         "countyName": "San Francisco, CA"
       },
       {
-        "name": "Contra_Costa__CA",
+        "name": "Marin__CA",
         "visitDate": "2012-01-01",
-        "countyName": "Contra Costa, CA"
-      },
-      {
-        "name": "Napa__CA",
-        "visitDate": "2012-01-01",
-        "countyName": "Napa, CA"
+        "countyName": "Marin, CA"
       },
       {
         "name": "Sonoma__CA",
@@ -48,14 +43,9 @@
         "countyName": "Sonoma, CA"
       },
       {
-        "name": "Marin__CA",
+        "name": "Napa__CA",
         "visitDate": "2012-01-01",
-        "countyName": "Marin, CA"
-      },
-      {
-        "name": "Santa_Cruz__CA",
-        "visitDate": "2012-01-01",
-        "countyName": "Santa Cruz, CA"
+        "countyName": "Napa, CA"
       },
       {
         "name": "Solano__CA",
@@ -63,49 +53,34 @@
         "countyName": "Solano, CA"
       },
       {
+        "name": "Contra_Costa__CA",
+        "visitDate": "2012-01-01",
+        "countyName": "Contra Costa, CA"
+      },
+      {
+        "name": "Santa_Cruz__CA",
+        "visitDate": "2012-01-01",
+        "countyName": "Santa Cruz, CA"
+      },
+      {
         "name": "Yolo__CA",
         "visitDate": "2012-01-01",
         "countyName": "Yolo, CA"
       },
       {
+        "name": "Lake__CA",
+        "visitDate": "2012-01-01",
+        "countyName": "Lake, CA"
+      },
+      {
+        "name": "Colusa__CA",
+        "visitDate": "2012-01-01",
+        "countyName": "Colusa, CA"
+      },
+      {
         "name": "Sacramento__CA",
         "visitDate": "2012-01-01",
         "countyName": "Sacramento, CA"
-      },
-      {
-        "name": "San_Joaquin__CA",
-        "visitDate": "2012-01-01",
-        "countyName": "San Joaquin, CA"
-      },
-      {
-        "name": "Stanislaus__CA",
-        "visitDate": "2012-01-01",
-        "countyName": "Stanislaus, CA"
-      },
-      {
-        "name": "Merced__CA",
-        "visitDate": "2012-01-01",
-        "countyName": "Merced, CA"
-      },
-      {
-        "name": "San_Benito__CA",
-        "visitDate": "2012-01-01",
-        "countyName": "San Benito, CA"
-      },
-      {
-        "name": "Monterey__CA",
-        "visitDate": "2012-01-01",
-        "countyName": "Monterey, CA"
-      },
-      {
-        "name": "Tuolumne__CA",
-        "visitDate": "2012-01-01",
-        "countyName": "Tuolumne, CA"
-      },
-      {
-        "name": "Mariposa__CA",
-        "visitDate": "2012-01-01",
-        "countyName": "Mariposa, CA"
       },
       {
         "name": "Placer__CA",
@@ -123,14 +98,9 @@
         "countyName": "Sierra, CA"
       },
       {
-        "name": "El_Dorado__CA",
+        "name": "Washoe__NV",
         "visitDate": "2012-01-01",
-        "countyName": "El Dorado, CA"
-      },
-      {
-        "name": "Douglas__NV",
-        "visitDate": "2012-01-01",
-        "countyName": "Douglas, NV"
+        "countyName": "Washoe, NV"
       },
       {
         "name": "Carson_City__NV",
@@ -138,24 +108,49 @@
         "countyName": "Carson City, NV"
       },
       {
-        "name": "Washoe__NV",
+        "name": "Douglas__NV",
         "visitDate": "2012-01-01",
-        "countyName": "Washoe, NV"
+        "countyName": "Douglas, NV"
       },
       {
-        "name": "Clark__NV",
+        "name": "El_Dorado__CA",
         "visitDate": "2012-01-01",
-        "countyName": "Clark, NV"
+        "countyName": "El Dorado, CA"
       },
       {
-        "name": "Lake__CA",
+        "name": "San_Joaquin__CA",
         "visitDate": "2012-01-01",
-        "countyName": "Lake, CA"
+        "countyName": "San Joaquin, CA"
       },
       {
-        "name": "Colusa__CA",
+        "name": "Stanislaus__CA",
         "visitDate": "2012-01-01",
-        "countyName": "Colusa, CA"
+        "countyName": "Stanislaus, CA"
+      },
+      {
+        "name": "Merced__CA",
+        "visitDate": "2012-01-01",
+        "countyName": "Merced, CA"
+      },
+      {
+        "name": "Tuolumne__CA",
+        "visitDate": "2012-01-01",
+        "countyName": "Tuolumne, CA"
+      },
+      {
+        "name": "Mariposa__CA",
+        "visitDate": "2012-01-01",
+        "countyName": "Mariposa, CA"
+      },
+      {
+        "name": "San_Benito__CA",
+        "visitDate": "2012-01-01",
+        "countyName": "San Benito, CA"
+      },
+      {
+        "name": "Monterey__CA",
+        "visitDate": "2012-01-01",
+        "countyName": "Monterey, CA"
       },
       {
         "name": "Fresno__CA",
@@ -173,14 +168,19 @@
         "countyName": "Kern, CA"
       },
       {
+        "name": "Los_Angeles__CA",
+        "visitDate": "2012-01-01",
+        "countyName": "Los Angeles, CA"
+      },
+      {
         "name": "San_Bernardino__CA",
         "visitDate": "2012-01-01",
         "countyName": "San Bernardino, CA"
       },
       {
-        "name": "Los_Angeles__CA",
+        "name": "Clark__NV",
         "visitDate": "2012-01-01",
-        "countyName": "Los Angeles, CA"
+        "countyName": "Clark, NV"
       }
     ]
   },

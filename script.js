@@ -142,6 +142,9 @@ const countiesBio = document.querySelector('.rtBio');
 const statesMap = document.getElementById('rtStates');
 const statesBio = document.querySelector('.rtStatesBio');
 
+const countriesMap = document.getElementById('rtCountries');
+const countriesBio = document.querySelector('.rtCountriesBio');
+
 
 // website setup
 function setupInitialState() {
@@ -161,6 +164,9 @@ function setupInitialState() {
 
   statesMap.style.display = 'none';
   statesBio.style.display = 'none';
+
+  countriesMap.style.display = 'none';
+  countriesBio.style.display = 'none';
 }
 
 window.addEventListener('load', setupInitialState);
@@ -201,15 +207,16 @@ const colorMap = {
   unvisited: '#013f3f',
 }
 
-const rtIntro = document.querySelector('.rtIntro');
-const rtIntroText = rtIntro.textContent;
-
 const countiesCounter = document.querySelector('.countiesCounter');
 const statesCounter = document.querySelector('.statesCounter');
+const countriesCounter = document.querySelector('.countriesCounter');
+
+const yearCounter = document.querySelector('.yearCounter');
 
 /* map toggle menu */
 const rtCountiesButton = document.querySelector('.rtNav .countiesButton');
 const rtStatesButton = document.querySelector('.rtNav .statesButton');
+const rtCountriesButton = document.querySelector('.rtNav .countriesButton');
 const rtAnimation = document.querySelector('.rtAnimation');
 
 let rtSelectedButton = rtCountiesButton;
@@ -221,16 +228,22 @@ function updateSelectedButton(selectedButton) {
   loadMap();
   rtSelectedButton.classList.remove('rtUnselected');
   rtSelectedButton.classList.add('rtSelected');
+  rtAnimation.style.left = '0';
 }
 
 rtCountiesButton.addEventListener('click', function () {
-  rtAnimation.style.left = '0';
   updateSelectedButton(rtCountiesButton);
+  rtAnimation.style.left = '0';
 });
 
 rtStatesButton.addEventListener('click', function () {
-  rtAnimation.style.left = '12rem';
   updateSelectedButton(rtStatesButton);
+  rtAnimation.style.left = '12rem';
+});
+
+rtCountriesButton.addEventListener('click', function () {
+  updateSelectedButton(rtCountriesButton);
+  rtAnimation.style.left = '24rem';
 });
 
 
@@ -243,9 +256,7 @@ function loadMap() {
   if (rtSelectedButton == rtCountiesButton) {
     /* counties map */
     countiesMap.style.display = 'block';
-    statesMap.style.display = 'none';
     countiesBio.style.display = 'block';
-    statesBio.style.display = 'none';
 
     fetch('../assets/roadtripper/MyTravels.json')
       .then(response => response.json())
@@ -260,7 +271,7 @@ function loadMap() {
             let pause = name === "Fulton__GA" ? 205 : counter++;
             setTimeout(() => {
               let year = new Date(visitDate).getFullYear();
-              rtIntro.textContent = `By ${year},`;
+              yearCounter.textContent = year;
               const element = document.getElementById(name);
               if (element) {
                 element.style.fill = colorMap[key];
@@ -271,11 +282,9 @@ function loadMap() {
           });
         });
       });
-  } else {
+  } else if (rtSelectedButton == rtStatesButton) {
     /* states map */
-    countiesMap.style.display = 'none';
     statesMap.style.display = 'block';
-    countiesBio.style.display = 'none';
     statesBio.style.display = 'block';
 
     fetch('../assets/roadtripper/MyStates.json')
@@ -291,7 +300,7 @@ function loadMap() {
             let pause = counter++;
             setTimeout(() => {
               let year = new Date(visitDate).getFullYear();
-              rtIntro.textContent = `By ${year},`;
+              yearCounter.textContent = year;
               const element = document.getElementById(name);
               if (element) {
                 element.style.fill = colorMap[key];
@@ -300,7 +309,36 @@ function loadMap() {
                 statesCount++;
               }
               statesCounter.textContent = statesCount;
-            }, 800 + 200 * pause);
+            }, 400 + 200 * pause);
+          });
+        });
+      });
+  } else {
+    /* countries map */
+    countriesMap.style.display = 'block';
+    countriesBio.style.display = 'block';
+
+    fetch('../assets/roadtripper/MyCountries.json')
+      .then(response => response.json())
+      .then(myTravels => {
+        let counter = 0;
+        let countriesCount = 0;
+
+        Object.keys(myTravels).forEach(key => {
+          const { label, countries } = myTravels[key];
+
+          countries.forEach(({ name, visitDate, countryName }, index) => {
+            let pause = counter++;
+            setTimeout(() => {
+              let year = new Date(visitDate).getFullYear();
+              yearCounter.textContent = year;
+              const element = document.getElementById(name);
+              if (element) {
+                element.style.fill = colorMap[key];
+              }
+              countriesCount++;
+              countriesCounter.textContent = countriesCount;
+            }, 400 + 250 * pause);
           });
         });
       });
@@ -314,9 +352,23 @@ function resetMap() {
   document.querySelectorAll('#rtStates > g > path').forEach(state => {
     state.style.fill = colorMap['unvisited'];
   });
-  countiesCounter.textContent = '0';
-  statesCounter.textContent = '0';
-  rtIntro.textContent = rtIntroText;
+  document.querySelectorAll('#rtCountries > g > path').forEach(country => {
+    country.style.fill = colorMap['unvisited'];
+  });
+
+  countiesCounter.textContent = 0;
+  statesCounter.textContent = 0;
+  countriesCounter.textContent = 0;
+  yearCounter.textContent = '2004';
+
+  countiesMap.style.display = 'none';
+  countiesBio.style.display = 'none';
+
+  statesMap.style.display = 'none';
+  statesBio.style.display = 'none';
+
+  countriesMap.style.display = 'none';
+  countriesBio.style.display = 'none';
 }
 
 
