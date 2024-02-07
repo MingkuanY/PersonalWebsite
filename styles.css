@@ -1295,6 +1295,7 @@ button {
   background-color: #BFE692;
   border-radius: 0.5rem;
   display: flex;
+  cursor: pointer;
 }
 
 .rtNav button {
