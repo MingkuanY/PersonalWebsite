@@ -611,7 +611,7 @@ button {
 }
 
 .csTravelDustName {
-  font-size: 3rem;
+  font-size: 4rem;
   color: white;
   font-weight: 400;
   margin: 0;
@@ -1236,12 +1236,14 @@ button {
 
 #highways path {
   stroke: var(--highways);
+  cursor: pointer;
 }
 
 /* state borders */
 
 #state_borders path {
   stroke: #FFF;
+  cursor: pointer;
 }
 
 
@@ -1253,7 +1255,7 @@ button {
   width: 84rem;
 }
 
-/* unvisited counties */
+/* unvisited states */
 #rtStates > g > path {
   fill: var(--unvisited);
   stroke: #FFF;
@@ -1270,7 +1272,7 @@ button {
   margin-bottom: 7rem;
 }
 
-/* unvisited counties */
+/* unvisited countries */
 #rtCountries > g > path {
   fill: var(--unvisited);
   stroke: #FFF;
