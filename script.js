@@ -566,8 +566,37 @@ function handleHome() {
   }
 }
 
-window.onscroll = handleHome;
 
 homeButton.addEventListener('click', () => {
   landingSection.scrollIntoView({ behavior: 'smooth' });
 });
+
+
+
+
+
+
+
+// PHOTOGRAPHER
+
+// background scroll fade fx NOT WORKING
+
+// const gallerySection = document.querySelector('.gallerySection');
+// const phMainSection = document.querySelector('.phMainSection');
+
+// function handleScrollFade() {
+//   if (window.scrollY > 0) {
+//     const opac = window.scrollY / (gallerySection.offsetTop - landingSection.getBoundingClientRect().top);
+//     console.log("opac: " + opac)
+//     const phMainSection = document.querySelector('.phMainSection');
+//     phMainSection.style.backgroundColor = `rgba(255, 255, 255, ${opac})`;
+//   }
+// }
+
+
+// window scroll
+
+window.onscroll = function() {
+  handleHome();
+  // handleScrollFade();
+};
