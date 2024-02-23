@@ -1161,6 +1161,7 @@ button {
 /* ROWER */
 
 .roMainSection {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1170,18 +1171,24 @@ button {
 .roIntro {
   font-size: 4rem;
   font-weight: 300;
+  color: white;
 }
 
 .roBio {
   font-size: 1.6rem;
   font-weight: 300;
+  color: white;
+  margin-bottom: 26rem;
 }
 
 .rowerContent video {
-  margin-top: 3rem;
-  height: 50rem;
-  box-shadow: 3px 4px 4px 0px rgba(36,41,47,0.25);
-  border-radius: 4rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  object-fit: cover;
 }
 
 
