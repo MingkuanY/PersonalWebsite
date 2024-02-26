@@ -47,11 +47,23 @@ body {
   html {
     font-size: 5px;
   }
+  .fullProjectContainer {
+    flex-direction: column !important;
+  }
+  .fullProjectMarginRight {
+    margin-right: 0;
+  }
 }
 
 @media (max-width: 575px) {
   html {
     font-size: 4px;
+  }
+  .fullProjectContainer {
+    flex-direction: column !important;
+  }
+  .fullProjectMarginRight {
+    margin-right: 0;
   }
 }
 
@@ -735,6 +747,10 @@ button {
   justify-content: center;
   align-items: center;
   margin-bottom: 10rem;
+}
+
+.projectReverse {
+  flex-direction: row-reverse;
 }
 
 .fullProjectInfo {
