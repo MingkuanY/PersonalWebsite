@@ -3,14 +3,18 @@
   --highways: #06218e; /* blue: #06218e red: #8e0634*/
 }
 
-
 * {
-  font-family: 'Rubik', sans-serif;
-  color: #24292F;
+  font-family: "Rubik", sans-serif;
+  color: #24292f;
   box-sizing: border-box;
 }
 
-body, h1, h2, h3, p, footer {
+body,
+h1,
+h2,
+h3,
+p,
+footer {
   margin: 0;
   padding: 0;
 }
@@ -67,24 +71,11 @@ body {
   }
 }
 
-
-
-
-
-
-
-
 /* sections */
 
 section {
   height: 100vh;
 }
-
-
-
-
-
-
 
 /* HOME BUTTON */
 
@@ -104,14 +95,6 @@ section {
   transform: scale(1.1);
 }
 
-
-
-
-
-
-
-
-
 /* LANDING PAGE */
 
 .landingSection {
@@ -125,8 +108,9 @@ section {
 
 .collage img {
   cursor: pointer;
-  box-shadow: 3px 4px 4px 0px rgba(36,41,47,0.25);
-  transition: opacity 0.5s, filter 0.5s, object-position 0.5s, border-radius 0.5s, aspect-ratio 0.5s;
+  box-shadow: 3px 4px 4px 0px rgba(36, 41, 47, 0.25);
+  transition: opacity 0.5s, filter 0.5s, object-position 0.5s,
+    border-radius 0.5s, aspect-ratio 0.5s;
   height: 100%;
   aspect-ratio: 0.818;
   object-fit: cover;
@@ -235,14 +219,6 @@ button {
   width: fit-content;
 }
 
-
-
-
-
-
-
-
-
 /* CSSTUDENT */
 
 /* CS STUDENT PAGE */
@@ -297,9 +273,9 @@ button {
 
 .csEmail {
   margin-top: -0.1rem;
-  font-family: 'Quantico', sans-serif;
+  font-family: "Quantico", sans-serif;
   font-size: 1.2rem;
-  color: #656A71;
+  color: #656a71;
   text-decoration: none;
 }
 
@@ -319,9 +295,10 @@ button {
   text-align: center;
   letter-spacing: 0.5rem;
   text-transform: uppercase;
-  background-color: #24292F;
+  background-color: #24292f;
   border: 0.3rem solid #000;
-  box-shadow: 3px 4px 4px 0px rgba(36,41,47,0.25), inset 0 0 2rem rgba(0,0,0,1);
+  box-shadow: 3px 4px 4px 0px rgba(36, 41, 47, 0.25),
+    inset 0 0 2rem rgba(0, 0, 0, 1);
   color: white;
   text-decoration: none;
   font-size: 2rem;
@@ -330,14 +307,14 @@ button {
 }
 
 .csResume:before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: -1.25rem;
   width: 70%;
   height: 100%;
   background: rgba(255, 255, 255, 0.1);
-  transition: .5s;
+  transition: 0.5s;
   transform: skewX(-15deg);
 }
 
@@ -346,16 +323,16 @@ button {
 }
 
 .csResume:after {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: -8.8rem;
   width: 6.25rem;
   height: 100%;
   background: rgba(255, 255, 255, 0.1);
-  transition: .8s;
+  transition: 0.8s;
   transform: skewX(-15deg);
-  transition-delay: .3s;
+  transition-delay: 0.3s;
 }
 
 .csResume:hover:after {
@@ -385,11 +362,10 @@ button {
   transform: scale(1.1);
 }
 
-.githubContainer, .devpostContainer {
+.githubContainer,
+.devpostContainer {
   margin-left: 3rem;
 }
-
-
 
 /* bio */
 
@@ -448,8 +424,8 @@ button {
 }
 
 .csProject {
-  background-color: #24292F;
-  box-shadow: 3px 4px 4px 0px rgba(36,41,47,0.25);
+  background-color: #24292f;
+  box-shadow: 3px 4px 4px 0px rgba(36, 41, 47, 0.25);
   padding: 0.3rem 1rem;
   display: flex;
   flex-direction: column;
@@ -491,7 +467,8 @@ button {
   align-items: center;
 }
 
-.csProjectIconContainer img, .fullProjectIconContainer img {
+.csProjectIconContainer img,
+.fullProjectIconContainer img {
   width: 2.5rem;
   height: 2.5rem;
   margin-right: 0.4rem;
@@ -514,7 +491,8 @@ button {
   height: 40rem;
   width: 100%;
   border-top-left-radius: 1.7rem;
-  background: rgba(0, 0, 0, 0.7) url(assets/csstudent/projectpreviews/ensemble.jpg);
+  background: rgba(0, 0, 0, 0.7)
+    url(assets/csstudent/projectpreviews/ensemble.jpg);
   background-size: cover;
   background-position: 50% 20%;
   background-blend-mode: darken;
@@ -522,7 +500,8 @@ button {
 
 .csEnsemble:hover {
   height: 41rem;
-  background: rgba(0, 0, 0, 0.4) url(assets/csstudent/projectpreviews/ensemble.jpg);
+  background: rgba(0, 0, 0, 0.4)
+    url(assets/csstudent/projectpreviews/ensemble.jpg);
   background-size: cover;
   background-position: 50% 20%;
   background-blend-mode: darken;
@@ -583,14 +562,16 @@ button {
   margin-top: 0.7rem;
   height: 11rem;
   width: 100%;
-  background: rgba(0, 0, 0, 0.75) url(assets/csstudent/projectpreviews/geosurfer.jpg);
+  background: rgba(0, 0, 0, 0.75)
+    url(assets/csstudent/projectpreviews/geosurfer.jpg);
   background-size: cover;
   background-blend-mode: darken;
 }
 
 .csGeoSurfer:hover {
   height: 12rem;
-  background: rgba(0, 0, 0, 0.5) url(assets/csstudent/projectpreviews/geosurfer.jpg);
+  background: rgba(0, 0, 0, 0.5)
+    url(assets/csstudent/projectpreviews/geosurfer.jpg);
   background-size: cover;
   background-blend-mode: darken;
 }
@@ -602,28 +583,30 @@ button {
   margin: 0;
 }
 
-/* traveldust */
+/* Gravl */
 
-.csTravelDust {
+.csGravl {
   border-top-right-radius: 1.7rem;
   height: 12rem;
   width: 100%;
-  background: rgba(0, 0, 0, 0.35) url(assets/csstudent/projectpreviews/traveldust.jpeg);
+  background: rgba(0, 0, 0, 0.35)
+    url(assets/csstudent/projectpreviews/Gravl.jpeg);
   background-size: cover;
   background-position: 50% 50%;
   background-blend-mode: darken;
 }
 
-.csTravelDust:hover {
+.csGravl:hover {
   height: 13rem;
-  background: rgba(0, 0, 0, 0.1) url(assets/csstudent/projectpreviews/traveldust.jpeg);
+  background: rgba(0, 0, 0, 0.1)
+    url(assets/csstudent/projectpreviews/Gravl.jpeg);
   background-size: cover;
   background-position: 50% 50%;
   background-blend-mode: darken;
 }
 
-.csTravelDustName {
-  font-size: 4rem;
+.csGravlName {
+  font-size: 5rem;
   color: white;
   font-weight: 400;
   margin: 0;
@@ -635,14 +618,16 @@ button {
   margin-top: 0.7rem;
   height: 9rem;
   width: 15rem;
-  background: rgba(0, 0, 0, 0.5) url(assets/csstudent/projectpreviews/kanjiro.jpeg);
+  background: rgba(0, 0, 0, 0.5)
+    url(assets/csstudent/projectpreviews/kanjiro.jpeg);
   background-size: cover;
   background-blend-mode: darken;
 }
 
 .csKanjiro:hover {
   height: 10rem;
-  background: rgba(0, 0, 0, 0.3) url(assets/csstudent/projectpreviews/kanjiro.jpeg);
+  background: rgba(0, 0, 0, 0.3)
+    url(assets/csstudent/projectpreviews/kanjiro.jpeg);
   background-size: cover;
   background-blend-mode: darken;
 }
@@ -681,19 +666,6 @@ button {
   margin: 0;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* CS SKILLS & PROJECTS SECTION */
 
 .csSkillsSection {
@@ -703,7 +675,8 @@ button {
   justify-content: center;
 }
 
-.skillsContainer, .courseworkContainer {
+.skillsContainer,
+.courseworkContainer {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -711,13 +684,15 @@ button {
   margin-top: 8rem;
 }
 
-.mySkills, .myCoursework {
+.mySkills,
+.myCoursework {
   font-size: 3rem;
   font-weight: 500;
   margin-bottom: 2.5rem;
 }
 
-.skills, .coursework {
+.skills,
+.coursework {
   font-size: 2rem;
   line-height: 2.6rem;
   font-style: italic;
@@ -819,11 +794,11 @@ button {
 
 .visitProjectButton {
   padding: 0.5rem 1rem;
-  background-color: #24292F;
+  background-color: #24292f;
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 3px 4px 4px 0px rgba(36,41,47,0.25);
+  box-shadow: 3px 4px 4px 0px rgba(36, 41, 47, 0.25);
   cursor: pointer;
 }
 
@@ -858,12 +833,13 @@ button {
   object-fit: cover;
   border-radius: 1.6rem;
   /* box-shadow: 3px 4px 4px 0px rgba(36,41,47,0.25); */
-  box-shadow: 0 60px 123px -25px hsla(240, 2%, 12%, 0.42), 0 35px 75px -35px hsla(240, 1%, 18%, 0.08);
-  transition: all .6s ease;
+  box-shadow: 0 60px 123px -25px hsla(240, 2%, 12%, 0.42),
+    0 35px 75px -35px hsla(240, 1%, 18%, 0.08);
+  transition: all 0.6s ease;
 }
 
 .fullProjectPicLeftLean {
-  transform: perspective(50rem) rotateY(-25deg) scale(.8) rotateX(10deg);
+  transform: perspective(50rem) rotateY(-25deg) scale(0.8) rotateX(10deg);
 }
 
 .fullProjectPicLeftLean:hover {
@@ -871,7 +847,7 @@ button {
 }
 
 .fullProjectPicRightLean {
-  transform: perspective(50rem) rotateY(25deg) scale(.8) rotateX(10deg);
+  transform: perspective(50rem) rotateY(25deg) scale(0.8) rotateX(10deg);
 }
 
 .fullProjectPicRightLean:hover {
@@ -889,12 +865,6 @@ button {
   aspect-ratio: 0.5;
 }
 
-
-
-
-
-
-
 /* footer */
 
 .footerContainer {
@@ -908,24 +878,6 @@ button {
   font-size: 1.5rem;
   font-weight: 100;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* HORNPLAYER */
 
@@ -970,25 +922,6 @@ button {
   font-size: 1.5rem;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* PHOTOGRAPHER */
 
 /* highlights */
@@ -998,7 +931,8 @@ button {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url(assets/photographer/lonepineMD.jpeg);
+  background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)),
+    url(assets/photographer/lonepineMD.jpeg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -1078,7 +1012,7 @@ button {
   width: fit-content;
   transition: transform 0.5s, margin-top 0.3s;
   overflow: hidden;
-  box-shadow: 3px 4px 4px 0px rgba(36,41,47,0.25);
+  box-shadow: 3px 4px 4px 0px rgba(36, 41, 47, 0.25);
 }
 
 .albumContainer:hover {
@@ -1158,22 +1092,6 @@ button {
   align-items: center;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* ROWER */
 
 .roMainSection {
@@ -1207,25 +1125,6 @@ button {
   object-fit: cover;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* ROADTRIPPER */
 
 .rtMainSection {
@@ -1240,7 +1139,9 @@ button {
   font-weight: 300;
 }
 
-.rtBio, .rtStatesBio, .rtCountriesBio {
+.rtBio,
+.rtStatesBio,
+.rtCountriesBio {
   font-size: 4rem;
   font-weight: 300;
 }
@@ -1255,7 +1156,7 @@ button {
 /* unvisited counties */
 #rtMap > path {
   fill: var(--unvisited);
-  stroke: #FFF;
+  stroke: #fff;
   cursor: pointer;
 }
 
@@ -1269,11 +1170,9 @@ button {
 /* state borders */
 
 #state_borders path {
-  stroke: #FFF;
+  stroke: #fff;
   cursor: pointer;
 }
-
-
 
 /* STATES MAP */
 
@@ -1285,11 +1184,9 @@ button {
 /* unvisited states */
 #rtStates > g > path {
   fill: var(--unvisited);
-  stroke: #FFF;
+  stroke: #fff;
   cursor: pointer;
 }
-
-
 
 /* COUNTRIES MAP */
 
@@ -1302,7 +1199,7 @@ button {
 /* unvisited countries */
 #rtCountries > g > path {
   fill: var(--unvisited);
-  stroke: #FFF;
+  stroke: #fff;
   cursor: pointer;
 }
 
@@ -1310,40 +1207,35 @@ button {
   display: none;
 }
 
-
-
-
-
-
 /* toggle map menu */
 
 .rtNav {
   margin-top: -6rem;
   position: relative;
   height: 1.8rem;
-  background-color: #BFE692;
+  background-color: #bfe692;
   border-radius: 0.5rem;
   display: flex;
   cursor: pointer;
 }
 
 .rtNav button {
-	height: 100%;
+  height: 100%;
   width: 12rem;
-	font-size: 1.3rem;
-	position: relative;
-	z-index: 1;
-	text-align: center;
-	cursor: pointer;
-  transition: .5s;
+  font-size: 1.3rem;
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.5s;
 }
 
 .rtUnselected {
-  color: #013F3F;
+  color: #013f3f;
 }
 
 .rtSelected {
-  color: #FFF;
+  color: #fff;
 }
 
 .rtNav .rtAnimation {
@@ -1351,12 +1243,12 @@ button {
   height: 100%;
   top: 0;
   z-index: 0;
-  transition: all .5s ease 0s;
+  transition: all 0.5s ease 0s;
   border-radius: 0.5rem;
 }
 
 .rtAnimation {
   width: 12rem;
   left: 0;
-  background-color: #013F3F;
+  background-color: #013f3f;
 }

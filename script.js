@@ -529,9 +529,9 @@ csGeoSurfer.addEventListener('click', () => {
   ensembleProject.scrollIntoView({ behavior: 'smooth', block: 'center' });
 });
 
-const csTravelDust = document.querySelector('.csTravelDust');
-csTravelDust.addEventListener('click', () => {
-  const ensembleProject = document.querySelector('.traveldustProject');
+const csGravl = document.querySelector('.csGravl');
+csGravl.addEventListener('click', () => {
+  const ensembleProject = document.querySelector('.GravlProject');
   ensembleProject.scrollIntoView({ behavior: 'smooth', block: 'center' });
 });
 
