@@ -590,7 +590,7 @@ button {
   height: 12rem;
   width: 100%;
   background: rgba(0, 0, 0, 0.35)
-    url(assets/csstudent/projectpreviews/Gravl.jpeg);
+    url(assets/csstudent/projectpreviews/gravl.jpeg);
   background-size: cover;
   background-position: 50% 50%;
   background-blend-mode: darken;
@@ -599,7 +599,7 @@ button {
 .csGravl:hover {
   height: 13rem;
   background: rgba(0, 0, 0, 0.1)
-    url(assets/csstudent/projectpreviews/Gravl.jpeg);
+    url(assets/csstudent/projectpreviews/gravl.jpeg);
   background-size: cover;
   background-position: 50% 50%;
   background-blend-mode: darken;
