@@ -724,7 +724,7 @@ button {
   margin-bottom: 10rem;
 }
 
-.projectReverse {
+.fullProjectContainer:nth-child(odd) {
   flex-direction: row-reverse;
 }
 
