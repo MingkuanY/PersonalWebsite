@@ -2313,5 +2313,285 @@
         "countyName": "St. Charles, LA"
       }
     ]
+  },
+  "visited2024": {
+    "label": "Visited 2024",
+    "counties": [
+      {
+        "name": "DeKalb__AL",
+        "visitDate": "2024-03-24",
+        "countyName": "DeKalb, AL"
+      },
+      {
+        "name": "Cherokee__AL",
+        "visitDate": "2024-03-24",
+        "countyName": "Cherokee, AL"
+      },
+      {
+        "name": "Floyd__GA",
+        "visitDate": "2024-03-24",
+        "countyName": "Floyd, GA"
+      },
+      {
+        "name": "Polk__GA",
+        "visitDate": "2024-03-24",
+        "countyName": "Polk, GA"
+      },
+      {
+        "name": "Paulding__GA",
+        "visitDate": "2024-03-24",
+        "countyName": "Paulding, GA"
+      },
+      {
+        "name": "Harris__TX",
+        "visitDate": "2024-04-05",
+        "countyName": "Harris, TX"
+      },
+      {
+        "name": "Fort_Bend__TX",
+        "visitDate": "2024-04-06",
+        "countyName": "Fort Bend, TX"
+      },
+      {
+        "name": "Waller__TX",
+        "visitDate": "2024-04-06",
+        "countyName": "Waller, TX"
+      },
+      {
+        "name": "Grimes__TX",
+        "visitDate": "2024-04-06",
+        "countyName": "Grimes, TX"
+      },
+      {
+        "name": "Brazos__TX",
+        "visitDate": "2024-04-06",
+        "countyName": "Brazos, TX"
+      },
+      {
+        "name": "Robertson__TX",
+        "visitDate": "2024-04-06",
+        "countyName": "Robertson, TX"
+      },
+      {
+        "name": "Falls__TX",
+        "visitDate": "2024-04-06",
+        "countyName": "Falls, TX"
+      },
+      {
+        "name": "McLennan__TX",
+        "visitDate": "2024-04-06",
+        "countyName": "McLennan, TX"
+      },
+      {
+        "name": "Hill__TX",
+        "visitDate": "2024-04-06",
+        "countyName": "Hill, TX"
+      },
+      {
+        "name": "Johnson__TX",
+        "visitDate": "2024-04-06",
+        "countyName": "Johnson, TX"
+      },
+      {
+        "name": "Tarrant__TX",
+        "visitDate": "2024-04-06",
+        "countyName": "Tarrant, TX"
+      },
+      {
+        "name": "Dallas__TX",
+        "visitDate": "2024-04-06",
+        "countyName": "Dallas, TX"
+      },
+      {
+        "name": "Collin__TX",
+        "visitDate": "2024-04-06",
+        "countyName": "Collin, TX"
+      },
+      {
+        "name": "Grayson__TX",
+        "visitDate": "2024-04-06",
+        "countyName": "Grayson, TX"
+      },
+      {
+        "name": "Bryan__OK",
+        "visitDate": "2024-04-06",
+        "countyName": "Bryan, OK"
+      },
+      {
+        "name": "Marshall__OK",
+        "visitDate": "2024-04-07",
+        "countyName": "Marshall, OK"
+      },
+      {
+        "name": "Atoka__OK",
+        "visitDate": "2024-04-07",
+        "countyName": "Atoka, OK"
+      },
+      {
+        "name": "Pittsburg__OK",
+        "visitDate": "2024-04-07",
+        "countyName": "Pittsburg, OK"
+      },
+      {
+        "name": "McIntosh__OK",
+        "visitDate": "2024-04-07",
+        "countyName": "McIntosh, OK"
+      },
+      {
+        "name": "Okmulgee__OK",
+        "visitDate": "2024-04-07",
+        "countyName": "Okmulgee, OK"
+      },
+      {
+        "name": "Craig__OK",
+        "visitDate": "2024-04-07",
+        "countyName": "Craig, OK"
+      },
+      {
+        "name": "Ottawa__OK",
+        "visitDate": "2024-04-07",
+        "countyName": "Ottawa, OK"
+      },
+      {
+        "name": "Newton__MO",
+        "visitDate": "2024-04-07",
+        "countyName": "Newton, MO"
+      },
+      {
+        "name": "Cherokee__KS",
+        "visitDate": "2024-04-07",
+        "countyName": "Cherokee, KS"
+      },
+      {
+        "name": "Jasper__MO",
+        "visitDate": "2024-04-07",
+        "countyName": "Jasper, MO"
+      },
+      {
+        "name": "Lawrence__MO",
+        "visitDate": "2024-04-07",
+        "countyName": "Lawrence, MO"
+      },
+      {
+        "name": "Greene__MO",
+        "visitDate": "2024-04-07",
+        "countyName": "Greene, MO"
+      },
+      {
+        "name": "Christian__MO",
+        "visitDate": "2024-04-07",
+        "countyName": "Christian, MO"
+      },
+      {
+        "name": "Taney__MO",
+        "visitDate": "2024-04-07",
+        "countyName": "Taney, MO"
+      },
+      {
+        "name": "Boone__AR",
+        "visitDate": "2024-04-08",
+        "countyName": "Boone, AR"
+      },
+      {
+        "name": "Yell__AR",
+        "visitDate": "2024-04-08",
+        "countyName": "Yell, AR"
+      },
+      {
+        "name": "Saline__AR",
+        "visitDate": "2024-04-08",
+        "countyName": "Saline, AR"
+      },
+      {
+        "name": "Garland__AR",
+        "visitDate": "2024-04-08",
+        "countyName": "Garland, AR"
+      },
+      {
+        "name": "Hot_Spring__AR",
+        "visitDate": "2024-04-08",
+        "countyName": "Hot Spring, AR"
+      },
+      {
+        "name": "Clark__AR",
+        "visitDate": "2024-04-08",
+        "countyName": "Clark, AR"
+      },
+      {
+        "name": "Nevada__AR",
+        "visitDate": "2024-04-08",
+        "countyName": "Nevada, AR"
+      },
+      {
+        "name": "Hempstead__AR",
+        "visitDate": "2024-04-08",
+        "countyName": "Hempstead, AR"
+      },
+      {
+        "name": "Miller__AR",
+        "visitDate": "2024-04-08",
+        "countyName": "Miller, AR"
+      },
+      {
+        "name": "Bowie__TX",
+        "visitDate": "2024-04-08",
+        "countyName": "Bowie, TX"
+      },
+      {
+        "name": "Cass__TX",
+        "visitDate": "2024-04-08",
+        "countyName": "Cass, TX"
+      },
+      {
+        "name": "Marion__TX",
+        "visitDate": "2024-04-08",
+        "countyName": "Marion, TX"
+      },
+      {
+        "name": "Harrison__TX",
+        "visitDate": "2024-04-08",
+        "countyName": "Harrison, TX"
+      },
+      {
+        "name": "Panola__TX",
+        "visitDate": "2024-04-08",
+        "countyName": "Panola, TX"
+      },
+      {
+        "name": "Rusk__TX",
+        "visitDate": "2024-04-08",
+        "countyName": "Rusk, TX"
+      },
+      {
+        "name": "Nacogdoches__TX",
+        "visitDate": "2024-04-08",
+        "countyName": "Nacogdoches, TX"
+      },
+      {
+        "name": "Angelina__TX",
+        "visitDate": "2024-04-08",
+        "countyName": "Angelina, TX"
+      },
+      {
+        "name": "Polk__TX",
+        "visitDate": "2024-04-08",
+        "countyName": "Polk, TX"
+      },
+      {
+        "name": "San_Jacinto__TX",
+        "visitDate": "2024-04-08",
+        "countyName": "San Jacinto, TX"
+      },
+      {
+        "name": "Liberty__TX",
+        "visitDate": "2024-04-08",
+        "countyName": "Liberty, TX"
+      },
+      {
+        "name": "Montgomery__TX",
+        "visitDate": "2024-04-08",
+        "countyName": "Montgomery, TX"
+      }
+    ]
   }
 }

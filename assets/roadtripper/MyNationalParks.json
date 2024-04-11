@@ -168,5 +168,15 @@
         "parkName": "Great Smoky Mountains"
       }
     ]
+  },
+  "visited2024": {
+    "label": "Visited 2024",
+    "parks": [
+      {
+        "name": "Hot Springs",
+        "visitDate": "2024-04-08",
+        "parkName": "Hot Springs"
+      }
+    ]
   }
 }
