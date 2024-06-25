@@ -471,39 +471,39 @@ images.forEach((pic) => {
 
 /* scroll to CS projects */
 
-const csEnsemble = document.querySelector(".csEnsemble");
-csEnsemble.addEventListener("click", () => {
-  const ensembleProject = document.querySelector(".ensembleProject");
+const csBox1 = document.querySelector(".csBox1");
+csBox1.addEventListener("click", () => {
+  const ensembleProject = document.querySelector(".project1");
   ensembleProject.scrollIntoView({ behavior: "smooth", block: "center" });
 });
 
-const csBite = document.querySelector(".csBite");
-csBite.addEventListener("click", () => {
-  const ensembleProject = document.querySelector(".biteProject");
+const csBox2 = document.querySelector(".csBox2");
+csBox2.addEventListener("click", () => {
+  const ensembleProject = document.querySelector(".project2");
   ensembleProject.scrollIntoView({ behavior: "smooth", block: "center" });
 });
 
-const csGeoSurfer = document.querySelector(".csGeoSurfer");
-csGeoSurfer.addEventListener("click", () => {
-  const ensembleProject = document.querySelector(".geosurferProject");
+const csBox3 = document.querySelector(".csBox3");
+csBox3.addEventListener("click", () => {
+  const ensembleProject = document.querySelector(".project3");
   ensembleProject.scrollIntoView({ behavior: "smooth", block: "center" });
 });
 
-const csGravl = document.querySelector(".csGravl");
-csGravl.addEventListener("click", () => {
-  const ensembleProject = document.querySelector(".GravlProject");
+const csBox4 = document.querySelector(".csBox4");
+csBox4.addEventListener("click", () => {
+  const ensembleProject = document.querySelector(".project5");
   ensembleProject.scrollIntoView({ behavior: "smooth", block: "center" });
 });
 
-const csKanjiro = document.querySelector(".csKanjiro");
-csKanjiro.addEventListener("click", () => {
-  const ensembleProject = document.querySelector(".kanjiroProject");
+const csBox5 = document.querySelector(".csBox5");
+csBox5.addEventListener("click", () => {
+  const ensembleProject = document.querySelector(".project6");
   ensembleProject.scrollIntoView({ behavior: "smooth", block: "center" });
 });
 
-const csBump = document.querySelector(".csBump");
-csBump.addEventListener("click", () => {
-  const ensembleProject = document.querySelector(".bumpProject");
+const csBox6 = document.querySelector(".csBox6");
+csBox6.addEventListener("click", () => {
+  const ensembleProject = document.querySelector(".project7");
   ensembleProject.scrollIntoView({ behavior: "smooth", block: "center" });
 });
 

@@ -485,154 +485,160 @@ button {
   text-align: left;
 }
 
-/* ensemble */
+/* highlights */
 
-.csEnsemble {
-  height: 40rem;
-  width: 100%;
-  border-top-left-radius: 1.7rem;
-  background: rgba(0, 0, 0, 0.7)
-    url(assets/csstudent/projectpreviews/ensemble.jpg);
-  background-size: cover;
-  background-position: 50% 20%;
-  background-blend-mode: darken;
-}
-
-.csEnsemble:hover {
-  height: 41rem;
-  background: rgba(0, 0, 0, 0.4)
-    url(assets/csstudent/projectpreviews/ensemble.jpg);
-  background-size: cover;
-  background-position: 50% 20%;
-  background-blend-mode: darken;
-}
-
-.csEnsembleName {
-  font-size: 5.5rem;
-  color: white;
-  font-weight: 400;
-  margin: 0;
-}
-
-.csEnsembleUsersText {
+.violetHighlight {
   font-size: 1.4rem;
   color: #f266f5;
 }
 
-/* bite */
-.csBite {
-  height: 26rem;
-  width: 100%;
-  background: rgba(0, 0, 0, 0.7) url(assets/csstudent/projectpreviews/bite.jpeg);
-  background-size: cover;
-  background-position: 30% 50%;
-  background-blend-mode: darken;
-}
-
-.csBite:hover {
-  height: 27rem;
-  background: rgba(0, 0, 0, 0.4) url(assets/csstudent/projectpreviews/bite.jpeg);
-  background-size: cover;
-  background-position: 30% 50%;
-  background-blend-mode: darken;
-}
-
-.csBiteName {
-  font-size: 7.5rem;
-  color: white;
-  font-weight: 400;
-  margin: 0;
-}
-
-.csBiteHackMitText {
+.goldHighlight {
   font-size: 1.4rem;
   color: #ffd700;
 }
 
-/* netwark */
-
-.csNetwarkARText {
+.pinkHighlight {
   font-size: 1.4rem;
   color: #ff00aa;
 }
 
-/* geosurfer */
+.yellowHighlight {
+  font-size: 1.4rem;
+  color: #ff7676;
+}
 
-.csGeoSurfer {
-  margin-top: 0.7rem;
-  height: 11rem;
+/* gravl */
+
+.csBox1 {
+  height: 40rem;
   width: 100%;
-  background: rgba(0, 0, 0, 0.75)
-    url(assets/csstudent/projectpreviews/geosurfer.jpg);
+  border-top-left-radius: 1.7rem;
+  background: rgba(0, 0, 0, 0.7)
+    url(assets/csstudent/projectpreviews/gravl.jpg);
   background-size: cover;
+  background-position: 0% 20%;
   background-blend-mode: darken;
 }
 
-.csGeoSurfer:hover {
-  height: 12rem;
-  background: rgba(0, 0, 0, 0.5)
-    url(assets/csstudent/projectpreviews/geosurfer.jpg);
+.csBox1:hover {
+  height: 41rem;
+  background: rgba(0, 0, 0, 0.4)
+    url(assets/csstudent/projectpreviews/gravl.jpg);
   background-size: cover;
+  background-position: 0% 20%;
   background-blend-mode: darken;
 }
 
-.csGeoSurferName {
-  font-size: 3rem;
+.csBox1Name {
+  font-size: 8.5rem;
   color: white;
   font-weight: 400;
   margin: 0;
 }
 
-/* Gravl */
+/* ensemble */
 
-.csGravl {
+.csBox2 {
+  height: 26rem;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.6) url(assets/csstudent/projectpreviews/ensemble.jpg);
+  background-size: cover;
+  background-position: 30% 50%;
+  background-blend-mode: darken;
+}
+
+.csBox2:hover {
+  height: 27rem;
+  background: rgba(0, 0, 0, 0.4) url(assets/csstudent/projectpreviews/ensemble.jpg);
+  background-size: cover;
+  background-position: 30% 50%;
+  background-blend-mode: darken;
+}
+
+.csBox2Name {
+  font-size: 3.5rem;
+  color: white;
+  font-weight: 400;
+  margin: 0;
+}
+
+/* bite */
+
+.csBox3 {
+  margin-top: 0.7rem;
+  height: 11rem;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5)
+    url(assets/csstudent/projectpreviews/bite.jpeg);
+  background-size: cover;
+  background-blend-mode: darken;
+}
+
+.csBox3:hover {
+  height: 12rem;
+  background: rgba(0, 0, 0, 0.4)
+    url(assets/csstudent/projectpreviews/bite.jpeg);
+  background-size: cover;
+  background-blend-mode: darken;
+}
+
+.csBox3Name {
+  font-size: 4.5rem;
+  color: white;
+  font-weight: 400;
+  margin: 0;
+}
+
+/* geosurfer */
+
+.csBox4 {
   border-top-right-radius: 1.7rem;
   height: 12rem;
   width: 100%;
   background: rgba(0, 0, 0, 0.35)
-    url(assets/csstudent/projectpreviews/gravl.jpg);
+    url(assets/csstudent/projectpreviews/geosurfer.jpg);
   background-size: cover;
-  background-position: 30% 50%;
+  background-position: 0% 50%;
   background-blend-mode: darken;
 }
 
-.csGravl:hover {
+.csBox4:hover {
   height: 13rem;
   background: rgba(0, 0, 0, 0.1)
-    url(assets/csstudent/projectpreviews/gravl.jpg);
+    url(assets/csstudent/projectpreviews/geosurfer.jpg);
   background-size: cover;
-  background-position: 30% 50%;
+  background-position: 0% 50%;
   background-blend-mode: darken;
 }
 
-.csGravlName {
-  font-size: 5rem;
+.csBox4Name {
+  font-size: 2.75rem;
   color: white;
   font-weight: 400;
   margin: 0;
 }
 
-/* kanjiro */
+/* sideline */
 
-.csKanjiro {
+.csBox5 {
   margin-top: 0.7rem;
   height: 9rem;
   width: 15rem;
   background: rgba(0, 0, 0, 0.5)
-    url(assets/csstudent/projectpreviews/kanjiro.jpeg);
+    url(assets/csstudent/projectpreviews/sideline.jpeg);
   background-size: cover;
   background-blend-mode: darken;
 }
 
-.csKanjiro:hover {
+.csBox5:hover {
   height: 10rem;
   background: rgba(0, 0, 0, 0.3)
-    url(assets/csstudent/projectpreviews/kanjiro.jpeg);
+    url(assets/csstudent/projectpreviews/sideline.jpeg);
   background-size: cover;
   background-blend-mode: darken;
 }
 
-.csKanjiroName {
+.csBox5Name {
   font-size: 3.5rem;
   color: white;
   font-weight: 400;
@@ -641,7 +647,7 @@ button {
 
 /* bump */
 
-.csBump {
+.csBox6 {
   margin-top: 0.7rem;
   height: 7rem;
   width: 11rem;
@@ -651,7 +657,7 @@ button {
   background-blend-mode: darken;
 }
 
-.csBump:hover {
+.csBox6:hover {
   height: 8rem;
   background: rgba(0, 0, 0, 0.3) url(assets/csstudent/projectpreviews/bump.jpg);
   background-size: cover;
@@ -659,7 +665,7 @@ button {
   background-blend-mode: darken;
 }
 
-.csBumpName {
+.csBox6Name {
   font-size: 3rem;
   color: white;
   font-weight: 400;
