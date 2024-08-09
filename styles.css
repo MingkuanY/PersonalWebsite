@@ -1258,3 +1258,13 @@ button {
   left: 0;
   background-color: #013f3f;
 }
+
+.checkoutGravl {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+}
+
+.checkoutGravl a {
+  color: #319fff;
+  text-decoration: underline;
+}
