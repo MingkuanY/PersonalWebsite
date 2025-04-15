@@ -1,6 +1,7 @@
 :root {
   --unvisited: #013f3f;
-  --highways: #06218e; /* blue: #06218e red: #8e0634*/
+  --highways: #06218e;
+  /* blue: #06218e red: #8e0634*/
 }
 
 * {
@@ -51,9 +52,11 @@ body {
   html {
     font-size: 5px;
   }
+
   .fullProjectContainer {
     flex-direction: column !important;
   }
+
   .fullProjectMarginRight {
     margin-right: 0;
   }
@@ -63,9 +66,11 @@ body {
   html {
     font-size: 4px;
   }
+
   .fullProjectContainer {
     flex-direction: column !important;
   }
+
   .fullProjectMarginRight {
     margin-right: 0;
   }
@@ -480,7 +485,7 @@ button {
   font-weight: 700;
   color: white;
   font-size: 1.2rem;
-  line-height: 1.6rem;
+  line-height: 2rem;
   letter-spacing: 0.07rem;
   text-align: left;
 }
@@ -513,8 +518,7 @@ button {
   height: 40rem;
   width: 100%;
   border-top-left-radius: 1.7rem;
-  background: rgba(0, 0, 0, 0.7)
-    url(assets/csstudent/projectpreviews/gravl.jpg);
+  background: rgba(0, 0, 0, 0.7) url(assets/csstudent/projectpreviews/gravl.jpg);
   background-size: cover;
   background-position: 0% 20%;
   background-blend-mode: darken;
@@ -522,8 +526,7 @@ button {
 
 .csBox1:hover {
   height: 41rem;
-  background: rgba(0, 0, 0, 0.4)
-    url(assets/csstudent/projectpreviews/gravl.jpg);
+  background: rgba(0, 0, 0, 0.4) url(assets/csstudent/projectpreviews/gravl.jpg);
   background-size: cover;
   background-position: 0% 20%;
   background-blend-mode: darken;
@@ -568,16 +571,14 @@ button {
   margin-top: 0.7rem;
   height: 11rem;
   width: 100%;
-  background: rgba(0, 0, 0, 0.5)
-    url(assets/csstudent/projectpreviews/bite.jpeg);
+  background: rgba(0, 0, 0, 0.5) url(assets/csstudent/projectpreviews/bite.jpeg);
   background-size: cover;
   background-blend-mode: darken;
 }
 
 .csBox3:hover {
   height: 12rem;
-  background: rgba(0, 0, 0, 0.4)
-    url(assets/csstudent/projectpreviews/bite.jpeg);
+  background: rgba(0, 0, 0, 0.4) url(assets/csstudent/projectpreviews/bite.jpeg);
   background-size: cover;
   background-blend-mode: darken;
 }
@@ -595,8 +596,7 @@ button {
   border-top-right-radius: 1.7rem;
   height: 12rem;
   width: 100%;
-  background: rgba(0, 0, 0, 0.35)
-    url(assets/csstudent/projectpreviews/geosurfer.jpg);
+  background: rgba(0, 0, 0, 0.35) url(assets/csstudent/projectpreviews/geosurfer.jpg);
   background-size: cover;
   background-position: 0% 50%;
   background-blend-mode: darken;
@@ -604,8 +604,7 @@ button {
 
 .csBox4:hover {
   height: 13rem;
-  background: rgba(0, 0, 0, 0.1)
-    url(assets/csstudent/projectpreviews/geosurfer.jpg);
+  background: rgba(0, 0, 0, 0.1) url(assets/csstudent/projectpreviews/geosurfer.jpg);
   background-size: cover;
   background-position: 0% 50%;
   background-blend-mode: darken;
@@ -624,16 +623,14 @@ button {
   margin-top: 0.7rem;
   height: 9rem;
   width: 15rem;
-  background: rgba(0, 0, 0, 0.5)
-    url(assets/csstudent/projectpreviews/sideline.jpeg);
+  background: rgba(0, 0, 0, 0.5) url(assets/csstudent/projectpreviews/sideline.jpeg);
   background-size: cover;
   background-blend-mode: darken;
 }
 
 .csBox5:hover {
   height: 10rem;
-  background: rgba(0, 0, 0, 0.3)
-    url(assets/csstudent/projectpreviews/sideline.jpeg);
+  background: rgba(0, 0, 0, 0.3) url(assets/csstudent/projectpreviews/sideline.jpeg);
   background-size: cover;
   background-blend-mode: darken;
 }
@@ -681,6 +678,7 @@ button {
   justify-content: center;
 }
 
+.researchContainer,
 .skillsContainer,
 .courseworkContainer {
   display: flex;
@@ -705,6 +703,38 @@ button {
   font-weight: 100;
   text-align: center;
   width: 100rem;
+}
+
+.myResearch {
+  font-size: 3rem;
+  font-weight: 500;
+  margin-bottom: 0rem;
+}
+
+.lab {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  width: 100rem;
+  margin-top: 2.5rem;
+}
+
+.labName {
+  font-size: 2rem;
+  line-height: 2.6rem;
+  font-weight: 400;
+  text-align: start;
+  flex: 1;
+  margin-right: 3rem;
+}
+
+.research {
+  font-size: 2rem;
+  line-height: 2.6rem;
+  font-style: italic;
+  font-weight: 100;
+  text-align: start;
+  flex: 2;
 }
 
 .csProjectSection {
@@ -783,12 +813,12 @@ button {
 
 .visitContainer {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  width: 54%;
 }
 
 .visitProjectContainer {
+  margin-left: 2rem;
   margin-top: 2.4rem;
   cursor: pointer;
   transition: transform 0.3s;
@@ -1043,6 +1073,7 @@ button {
   top: 0.5rem;
   left: 2rem;
 }
+
 .album1caption2 {
   top: 3.5rem;
   left: 8rem;
@@ -1052,26 +1083,32 @@ button {
   top: 1rem;
   left: 1rem;
 }
+
 .album2caption2 {
   top: 4rem;
   left: 4rem;
 }
+
 .album2caption3 {
   top: 7rem;
   left: 10rem;
 }
+
 .album2caption4 {
   top: 10rem;
   left: 12rem;
 }
+
 .album2caption5 {
   top: 14rem;
   left: 11rem;
 }
+
 .album2caption6 {
   top: 17rem;
   left: 9rem;
 }
+
 .album2caption7 {
   top: 20rem;
   left: 13rem;
@@ -1160,7 +1197,7 @@ button {
 }
 
 /* unvisited counties */
-#rtMap > path {
+#rtMap>path {
   fill: var(--unvisited);
   stroke: #fff;
   cursor: pointer;
@@ -1188,7 +1225,7 @@ button {
 }
 
 /* unvisited states */
-#rtStates > g > path {
+#rtStates>g>path {
   fill: var(--unvisited);
   stroke: #fff;
   cursor: pointer;
@@ -1203,7 +1240,7 @@ button {
 }
 
 /* unvisited countries */
-#rtCountries > g > path {
+#rtCountries>g>path {
   fill: var(--unvisited);
   stroke: #fff;
   cursor: pointer;
