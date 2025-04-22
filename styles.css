@@ -726,6 +726,7 @@ button {
   text-align: start;
   flex: 1;
   margin-right: 3rem;
+  text-decoration: none;
 }
 
 .research {
@@ -760,7 +761,7 @@ button {
   margin-bottom: 10rem;
 }
 
-.fullProjectContainer:nth-child(odd) {
+.fullProjectContainer:nth-child(even) {
   flex-direction: row-reverse;
 }
 
