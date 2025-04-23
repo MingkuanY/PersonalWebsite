@@ -539,22 +539,22 @@ button {
   margin: 0;
 }
 
-/* ensemble */
+/* sideline */
 
 .csBox2 {
   height: 26rem;
   width: 100%;
-  background: rgba(0, 0, 0, 0.6) url(assets/csstudent/projectpreviews/ensemble.jpg);
+  background: rgba(0, 0, 0, 0.7) url(assets/csstudent/projectpreviews/sideline.jpeg);
   background-size: cover;
-  background-position: 30% 50%;
+  background-position: 0% 50%;
   background-blend-mode: darken;
 }
 
 .csBox2:hover {
   height: 27rem;
-  background: rgba(0, 0, 0, 0.4) url(assets/csstudent/projectpreviews/ensemble.jpg);
+  background: rgba(0, 0, 0, 0.5) url(assets/csstudent/projectpreviews/sideline.jpeg);
   background-size: cover;
-  background-position: 30% 50%;
+  background-position: 0% 50%;
   background-blend-mode: darken;
 }
 
@@ -565,21 +565,23 @@ button {
   margin: 0;
 }
 
-/* bite */
+/* motherly */
 
 .csBox3 {
   margin-top: 0.7rem;
   height: 11rem;
   width: 100%;
-  background: rgba(0, 0, 0, 0.5) url(assets/csstudent/projectpreviews/bite.jpeg);
+  background: rgba(0, 0, 0, 0.6) url(assets/csstudent/projectpreviews/motherly.jpg);
   background-size: cover;
+  background-position: 0% 60%;
   background-blend-mode: darken;
 }
 
 .csBox3:hover {
   height: 12rem;
-  background: rgba(0, 0, 0, 0.4) url(assets/csstudent/projectpreviews/bite.jpeg);
+  background: rgba(0, 0, 0, 0.5) url(assets/csstudent/projectpreviews/motherly.jpg);
   background-size: cover;
+  background-position: 0% 60%;
   background-blend-mode: darken;
 }
 
@@ -590,13 +592,13 @@ button {
   margin: 0;
 }
 
-/* geosurfer */
+/* ensemble */
 
 .csBox4 {
   border-top-right-radius: 1.7rem;
   height: 12rem;
   width: 100%;
-  background: rgba(0, 0, 0, 0.35) url(assets/csstudent/projectpreviews/geosurfer.jpg);
+  background: rgba(0, 0, 0, 0.6) url(assets/csstudent/projectpreviews/ensemble.jpg);
   background-size: cover;
   background-position: 0% 50%;
   background-blend-mode: darken;
@@ -604,7 +606,7 @@ button {
 
 .csBox4:hover {
   height: 13rem;
-  background: rgba(0, 0, 0, 0.1) url(assets/csstudent/projectpreviews/geosurfer.jpg);
+  background: rgba(0, 0, 0, 0.5) url(assets/csstudent/projectpreviews/ensemble.jpg);
   background-size: cover;
   background-position: 0% 50%;
   background-blend-mode: darken;
@@ -617,38 +619,38 @@ button {
   margin: 0;
 }
 
-/* sideline */
+/* telepathy */
 
 .csBox5 {
   margin-top: 0.7rem;
   height: 9rem;
   width: 15rem;
-  background: rgba(0, 0, 0, 0.5) url(assets/csstudent/projectpreviews/sideline.jpeg);
+  background: rgba(0, 0, 0, 0.35) url(assets/csstudent/projectpreviews/telepathy.jpeg);
   background-size: cover;
   background-blend-mode: darken;
 }
 
 .csBox5:hover {
   height: 10rem;
-  background: rgba(0, 0, 0, 0.3) url(assets/csstudent/projectpreviews/sideline.jpeg);
+  background: rgba(0, 0, 0, 0.2) url(assets/csstudent/projectpreviews/telepathy.jpeg);
   background-size: cover;
   background-blend-mode: darken;
 }
 
 .csBox5Name {
-  font-size: 3.5rem;
+  font-size: 2.75rem;
   color: white;
   font-weight: 400;
   margin: 0;
 }
 
-/* bump */
+/* bite */
 
 .csBox6 {
   margin-top: 0.7rem;
   height: 7rem;
   width: 11rem;
-  background: rgba(0, 0, 0, 0.7) url(assets/csstudent/projectpreviews/bump.jpg);
+  background: rgba(0, 0, 0, 0.4) url(assets/csstudent/projectpreviews/bite.jpeg);
   background-size: cover;
   background-position: 50% 5%;
   background-blend-mode: darken;
@@ -656,7 +658,7 @@ button {
 
 .csBox6:hover {
   height: 8rem;
-  background: rgba(0, 0, 0, 0.3) url(assets/csstudent/projectpreviews/bump.jpg);
+  background: rgba(0, 0, 0, 0.3) url(assets/csstudent/projectpreviews/bite.jpeg);
   background-size: cover;
   background-position: 50% 5%;
   background-blend-mode: darken;

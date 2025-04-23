@@ -491,19 +491,19 @@ csBox3.addEventListener("click", () => {
 
 const csBox4 = document.querySelector(".csBox4");
 csBox4.addEventListener("click", () => {
-  const ensembleProject = document.querySelector(".project5");
+  const ensembleProject = document.querySelector(".project4");
   ensembleProject.scrollIntoView({ behavior: "smooth", block: "center" });
 });
 
 const csBox5 = document.querySelector(".csBox5");
 csBox5.addEventListener("click", () => {
-  const ensembleProject = document.querySelector(".project6");
+  const ensembleProject = document.querySelector(".project5");
   ensembleProject.scrollIntoView({ behavior: "smooth", block: "center" });
 });
 
 const csBox6 = document.querySelector(".csBox6");
 csBox6.addEventListener("click", () => {
-  const ensembleProject = document.querySelector(".project7");
+  const ensembleProject = document.querySelector(".project6");
   ensembleProject.scrollIntoView({ behavior: "smooth", block: "center" });
 });
 
