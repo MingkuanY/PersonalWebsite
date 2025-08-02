@@ -502,6 +502,12 @@ button {
   color: #ffd700;
 }
 
+.goldHighlightSmall {
+  font-size: 1rem;
+  color: #ffd700;
+  white-space: nowrap;
+}
+
 .pinkHighlight {
   font-size: 1.4rem;
   color: #ff00aa;
@@ -544,7 +550,8 @@ button {
 .csBox2 {
   height: 26rem;
   width: 100%;
-  background: rgba(0, 0, 0, 0.7) url(assets/csstudent/projectpreviews/sideline.jpeg);
+  background: rgba(0, 0, 0, 0.7)
+    url(assets/csstudent/projectpreviews/sideline.jpeg);
   background-size: cover;
   background-position: 0% 50%;
   background-blend-mode: darken;
@@ -552,7 +559,8 @@ button {
 
 .csBox2:hover {
   height: 27rem;
-  background: rgba(0, 0, 0, 0.5) url(assets/csstudent/projectpreviews/sideline.jpeg);
+  background: rgba(0, 0, 0, 0.5)
+    url(assets/csstudent/projectpreviews/sideline.jpeg);
   background-size: cover;
   background-position: 0% 50%;
   background-blend-mode: darken;
@@ -571,7 +579,8 @@ button {
   margin-top: 0.7rem;
   height: 11rem;
   width: 100%;
-  background: rgba(0, 0, 0, 0.6) url(assets/csstudent/projectpreviews/motherly.jpg);
+  background: rgba(0, 0, 0, 0.6)
+    url(assets/csstudent/projectpreviews/motherly.jpg);
   background-size: cover;
   background-position: 0% 60%;
   background-blend-mode: darken;
@@ -579,7 +588,8 @@ button {
 
 .csBox3:hover {
   height: 12rem;
-  background: rgba(0, 0, 0, 0.5) url(assets/csstudent/projectpreviews/motherly.jpg);
+  background: rgba(0, 0, 0, 0.5)
+    url(assets/csstudent/projectpreviews/motherly.jpg);
   background-size: cover;
   background-position: 0% 60%;
   background-blend-mode: darken;
@@ -598,7 +608,8 @@ button {
   border-top-right-radius: 1.7rem;
   height: 12rem;
   width: 100%;
-  background: rgba(0, 0, 0, 0.6) url(assets/csstudent/projectpreviews/ensemble.jpg);
+  background: rgba(0, 0, 0, 0.6)
+    url(assets/csstudent/projectpreviews/ensemble.jpg);
   background-size: cover;
   background-position: 0% 50%;
   background-blend-mode: darken;
@@ -606,7 +617,8 @@ button {
 
 .csBox4:hover {
   height: 13rem;
-  background: rgba(0, 0, 0, 0.5) url(assets/csstudent/projectpreviews/ensemble.jpg);
+  background: rgba(0, 0, 0, 0.5)
+    url(assets/csstudent/projectpreviews/ensemble.jpg);
   background-size: cover;
   background-position: 0% 50%;
   background-blend-mode: darken;
@@ -625,14 +637,16 @@ button {
   margin-top: 0.7rem;
   height: 9rem;
   width: 15rem;
-  background: rgba(0, 0, 0, 0.35) url(assets/csstudent/projectpreviews/telepathy.jpeg);
+  background: rgba(0, 0, 0, 0.35)
+    url(assets/csstudent/projectpreviews/telepathy.jpeg);
   background-size: cover;
   background-blend-mode: darken;
 }
 
 .csBox5:hover {
   height: 10rem;
-  background: rgba(0, 0, 0, 0.2) url(assets/csstudent/projectpreviews/telepathy.jpeg);
+  background: rgba(0, 0, 0, 0.2)
+    url(assets/csstudent/projectpreviews/telepathy.jpeg);
   background-size: cover;
   background-blend-mode: darken;
 }
@@ -1200,7 +1214,7 @@ button {
 }
 
 /* unvisited counties */
-#rtMap>path {
+#rtMap > path {
   fill: var(--unvisited);
   stroke: #fff;
   cursor: pointer;
@@ -1228,7 +1242,7 @@ button {
 }
 
 /* unvisited states */
-#rtStates>g>path {
+#rtStates > g > path {
   fill: var(--unvisited);
   stroke: #fff;
   cursor: pointer;
@@ -1243,7 +1257,7 @@ button {
 }
 
 /* unvisited countries */
-#rtCountries>g>path {
+#rtCountries > g > path {
   fill: var(--unvisited);
   stroke: #fff;
   cursor: pointer;

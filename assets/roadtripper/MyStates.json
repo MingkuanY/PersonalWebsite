@@ -211,6 +211,56 @@
         "name": "KS",
         "visitDate": "2024-04-07",
         "stateName": "Kansas"
+      },
+      {
+        "name": "DE",
+        "visitDate": "2024-05-10",
+        "stateName": "Delaware"
+      },
+      {
+        "name": "CO",
+        "visitDate": "2024-07-03",
+        "stateName": "Colorado"
+      },
+      {
+        "name": "NE",
+        "visitDate": "2024-07-08",
+        "stateName": "Nebraska"
+      },
+      {
+        "name": "IA",
+        "visitDate": "2024-07-08",
+        "stateName": "Iowa"
+      },
+      {
+        "name": "WI",
+        "visitDate": "2024-07-10",
+        "stateName": "Wisconsin"
+      },
+      {
+        "name": "SD",
+        "visitDate": "2024-07-11",
+        "stateName": "South Dakota"
+      }
+    ]
+  },
+  "visited2025": {
+    "label": "Visited 2025",
+    "states": [
+      {
+        "name": "OH",
+        "visitDate": "2024-05-24",
+        "stateName": "Ohio"
+      },
+      {
+        "name": "MI",
+        "visitDate": "2024-05-24",
+        "stateName": "Michigan"
+      },
+      {
+        "name": "WV",
+        "visitDate": "2024-05-26",
+        "stateName": "West Virginia"
       }
     ]
   }

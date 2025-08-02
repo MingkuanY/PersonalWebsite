@@ -181,18 +181,19 @@ window.addEventListener("load", setupInitialState);
 /* MAP */
 const colorMap = {
   livedIn: "#ffff33",
-  visited2012: "#008d8c",
-  visited2013: "#19968f",
-  visited2014: "#2b9e90",
-  visited2015: "#3aa791",
-  visited2016: "#4ab091",
-  visited2018: "#59b891",
+  visited2012: "#69c091",
+  visited2013: "#69c091",
+  visited2014: "#69c091",
+  visited2015: "#69c091",
+  visited2016: "#69c091",
+  visited2018: "#69c091",
   visited2019: "#69c091",
-  visited2020: "#79c891",
-  visited2021: "#8ad091",
-  visited2022: "#9bd892",
-  visited2023: "#acdf93",
-  visited2024: "#bfe692",
+  visited2020: "#69c091",
+  visited2021: "#69c091",
+  visited2022: "#69c091",
+  visited2023: "#69c091",
+  visited2024: "#69c091",
+  visited2025: "#69c091",
   unvisited: "#013f3f",
 };
 
@@ -235,6 +236,8 @@ rtCountriesButton.addEventListener("click", function () {
   rtAnimation.style.left = "24rem";
 });
 
+let mapTimeouts = [];
+
 function loadMap() {
   resetMap();
 
@@ -254,7 +257,7 @@ function loadMap() {
 
           counties.forEach(({ name, visitDate, countyName }, index) => {
             let pause = name === "Fulton__GA" ? 205 : counter++;
-            setTimeout(() => {
+            const timeoutId = setTimeout(() => {
               let year = new Date(visitDate).getFullYear();
               yearCounter.textContent = year;
               const element = document.getElementById(name);
@@ -263,7 +266,8 @@ function loadMap() {
               }
               countiesCount++;
               countiesCounter.textContent = countiesCount;
-            }, 800 + 20 * pause);
+            }, 400 + 20 * pause);
+            mapTimeouts.push(timeoutId);
           });
         });
       });
@@ -283,7 +287,7 @@ function loadMap() {
 
           states.forEach(({ name, visitDate, stateName }, index) => {
             let pause = counter++;
-            setTimeout(() => {
+            const timeoutId = setTimeout(() => {
               let year = new Date(visitDate).getFullYear();
               yearCounter.textContent = year;
               const element = document.getElementById(name);
@@ -294,7 +298,8 @@ function loadMap() {
                 statesCount++;
               }
               statesCounter.textContent = statesCount;
-            }, 400 + 200 * pause);
+            }, 200 + 200 * pause);
+            mapTimeouts.push(timeoutId);
           });
         });
       });
@@ -314,7 +319,7 @@ function loadMap() {
 
           countries.forEach(({ name, visitDate, countryName }, index) => {
             let pause = counter++;
-            setTimeout(() => {
+            const timeoutId = setTimeout(() => {
               let year = new Date(visitDate).getFullYear();
               yearCounter.textContent = year;
               const element = document.getElementById(name);
@@ -323,7 +328,8 @@ function loadMap() {
               }
               countriesCount++;
               countriesCounter.textContent = countriesCount;
-            }, 400 + 250 * pause);
+            }, 200 + 250 * pause);
+            mapTimeouts.push(timeoutId);
           });
         });
       });
@@ -354,6 +360,11 @@ function resetMap() {
 
   countriesMap.style.display = "none";
   countriesBio.style.display = "none";
+
+  mapTimeouts.forEach((timeoutId) => {
+    clearTimeout(timeoutId);
+  });
+  mapTimeouts = [];
 }
 
 /* click -> focus -> scroll */
