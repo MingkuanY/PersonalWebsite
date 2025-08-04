@@ -513,6 +513,11 @@ button {
   color: #ff00aa;
 }
 
+.darkHighlight {
+  font-size: 1.4rem;
+  color: #24292f;
+}
+
 .yellowHighlight {
   font-size: 1.4rem;
   color: #ff7676;
@@ -740,7 +745,7 @@ button {
   line-height: 2.6rem;
   font-weight: 400;
   text-align: start;
-  flex: 1;
+  flex: 4;
   margin-right: 3rem;
   text-decoration: none;
 }
@@ -751,7 +756,7 @@ button {
   font-style: italic;
   font-weight: 100;
   text-align: start;
-  flex: 2;
+  flex: 9;
 }
 
 .csProjectSection {
@@ -824,7 +829,7 @@ button {
   line-height: 2.1rem;
   font-style: italic;
   font-weight: 600;
-  width: 29rem;
+  width: 25rem;
   text-align: center;
 }
 
