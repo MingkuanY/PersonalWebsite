@@ -734,14 +734,12 @@ button {
   width: 100rem;
 }
 
-.myResearch,
 .myExperience {
   font-size: 3rem;
   font-weight: 500;
   margin-bottom: 0rem;
 }
 
-.lab,
 .exp {
   display: flex;
   align-items: start;
@@ -764,7 +762,6 @@ button {
   font-weight: 200;
 }
 
-.labName,
 .expName {
   font-size: 2rem;
   line-height: 2.6rem;
@@ -774,8 +771,7 @@ button {
   text-decoration: none;
 }
 
-.research,
-.job {
+.expDescription {
   font-size: 2rem;
   line-height: 2.6rem;
   font-style: italic;
