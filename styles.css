@@ -114,8 +114,12 @@ section {
 .collage img {
   cursor: pointer;
   box-shadow: 3px 4px 4px 0px rgba(36, 41, 47, 0.25);
-  transition: opacity 0.5s, filter 0.5s, object-position 0.5s,
-    border-radius 0.5s, aspect-ratio 0.5s;
+  transition:
+    opacity 0.5s,
+    filter 0.5s,
+    object-position 0.5s,
+    border-radius 0.5s,
+    aspect-ratio 0.5s;
   height: 100%;
   aspect-ratio: 0.818;
   object-fit: cover;
@@ -302,7 +306,8 @@ button {
   text-transform: uppercase;
   background-color: #24292f;
   border: 0.3rem solid #000;
-  box-shadow: 3px 4px 4px 0px rgba(36, 41, 47, 0.25),
+  box-shadow:
+    3px 4px 4px 0px rgba(36, 41, 47, 0.25),
     inset 0 0 2rem rgba(0, 0, 0, 1);
   color: white;
   text-decoration: none;
@@ -438,7 +443,9 @@ button {
   position: relative;
   cursor: pointer;
   border: none;
-  transition: height 0.3s, background 0.3s;
+  transition:
+    height 0.3s,
+    background 0.3s;
 }
 
 /* learn more */
@@ -701,7 +708,8 @@ button {
 
 .researchContainer,
 .skillsContainer,
-.courseworkContainer {
+.courseworkContainer,
+.experienceContainer {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -726,13 +734,15 @@ button {
   width: 100rem;
 }
 
-.myResearch {
+.myResearch,
+.myExperience {
   font-size: 3rem;
   font-weight: 500;
   margin-bottom: 0rem;
 }
 
-.lab {
+.lab,
+.exp {
   display: flex;
   align-items: start;
   justify-content: space-between;
@@ -740,17 +750,32 @@ button {
   margin-top: 2.5rem;
 }
 
-.labName {
+.exp div {
+  flex: 4;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.exp div p {
+  margin-top: 0.5rem;
+  font-size: 1.5rem;
+  font-style: italic;
+  font-weight: 200;
+}
+
+.labName,
+.expName {
   font-size: 2rem;
   line-height: 2.6rem;
   font-weight: 400;
   text-align: start;
-  flex: 4;
   margin-right: 3rem;
   text-decoration: none;
 }
 
-.research {
+.research,
+.job {
   font-size: 2rem;
   line-height: 2.6rem;
   font-style: italic;
@@ -891,7 +916,8 @@ button {
   object-fit: cover;
   border-radius: 1.6rem;
   /* box-shadow: 3px 4px 4px 0px rgba(36,41,47,0.25); */
-  box-shadow: 0 60px 123px -25px hsla(240, 2%, 12%, 0.42),
+  box-shadow:
+    0 60px 123px -25px hsla(240, 2%, 12%, 0.42),
     0 35px 75px -35px hsla(240, 1%, 18%, 0.08);
   transition: all 0.6s ease;
 }
@@ -989,7 +1015,8 @@ button {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)),
+  background:
+    linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)),
     url(assets/photographer/lonepineMD.jpeg);
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -1068,7 +1095,9 @@ button {
   position: relative;
   height: 26rem;
   width: fit-content;
-  transition: transform 0.5s, margin-top 0.3s;
+  transition:
+    transform 0.5s,
+    margin-top 0.3s;
   overflow: hidden;
   box-shadow: 3px 4px 4px 0px rgba(36, 41, 47, 0.25);
 }
