@@ -53,11 +53,12 @@ body {
     font-size: 5px;
   }
 
-  .fullProjectContainer {
+  .projectsGrid > .fullProjectContainer {
     flex-direction: column !important;
   }
 
-  .fullProjectMarginRight {
+  .projectsGrid > .fullProjectContainer:nth-child(odd) .fullProjectInfo,
+  .projectsGrid > .fullProjectContainer:nth-child(even) .fullProjectPicContainer {
     margin-right: 0;
   }
 }
@@ -67,11 +68,12 @@ body {
     font-size: 4px;
   }
 
-  .fullProjectContainer {
+  .projectsGrid > .fullProjectContainer {
     flex-direction: column !important;
   }
 
-  .fullProjectMarginRight {
+  .projectsGrid > .fullProjectContainer:nth-child(odd) .fullProjectInfo,
+  .projectsGrid > .fullProjectContainer:nth-child(even) .fullProjectPicContainer {
     margin-right: 0;
   }
 }
@@ -803,7 +805,7 @@ button {
   margin-bottom: 10rem;
 }
 
-.fullProjectContainer:nth-child(even) {
+.projectsGrid > .fullProjectContainer:nth-child(even) {
   flex-direction: row-reverse;
 }
 
@@ -814,7 +816,11 @@ button {
   align-items: center;
 }
 
-.fullProjectMarginRight {
+.projectsGrid > .fullProjectContainer:nth-child(odd) .fullProjectInfo {
+  margin-right: 6rem;
+}
+
+.projectsGrid > .fullProjectContainer:nth-child(even) .fullProjectPicContainer {
   margin-right: 6rem;
 }
 
@@ -918,19 +924,19 @@ button {
   transition: all 0.6s ease;
 }
 
-.fullProjectPicLeftLean {
+.projectsGrid > .fullProjectContainer:nth-child(odd) .fullProjectPic {
   transform: perspective(50rem) rotateY(-25deg) scale(0.8) rotateX(10deg);
 }
 
-.fullProjectPicLeftLean:hover {
+.projectsGrid > .fullProjectContainer:nth-child(odd) .fullProjectPic:hover {
   transform: perspective(70rem) rotateY(10deg) scale(1) rotateX(6deg);
 }
 
-.fullProjectPicRightLean {
+.projectsGrid > .fullProjectContainer:nth-child(even) .fullProjectPic {
   transform: perspective(50rem) rotateY(25deg) scale(0.8) rotateX(10deg);
 }
 
-.fullProjectPicRightLean:hover {
+.projectsGrid > .fullProjectContainer:nth-child(even) .fullProjectPic:hover {
   transform: perspective(70rem) rotateY(-10deg) scale(1) rotateX(6deg);
 }
 
