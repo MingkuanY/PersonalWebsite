@@ -50,7 +50,7 @@ body {
 
 @media (max-width: 740px) {
   html {
-    font-size: 5px;
+    font-size: 7px;
   }
 
   .projectsGrid > .fullProjectContainer {
@@ -65,7 +65,7 @@ body {
 
 @media (max-width: 575px) {
   html {
-    font-size: 4px;
+    font-size: 8px;
   }
 
   .projectsGrid > .fullProjectContainer {
@@ -954,6 +954,7 @@ button {
 /* footer */
 
 .footerContainer {
+  margin-top: 10rem;
   height: 7rem;
   display: flex;
   justify-content: center;
@@ -1357,4 +1358,580 @@ button {
 .checkoutGravl a {
   color: #319fff;
   text-decoration: underline;
+}
+
+/* =============================================
+   MOBILE RESPONSIVE STYLES
+   ============================================= */
+
+@media (max-width: 575px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
+
+  * {
+    font-style: normal !important;
+  }
+
+  section {
+    height: auto;
+    min-height: 100vh;
+  }
+}
+
+@media (hover: none) {
+  .homeButton:hover {
+    transform: none;
+  }
+
+  .csPic:hover {
+    transform: none;
+  }
+
+  .csResume:hover:before {
+    left: -1.25rem;
+  }
+
+  .csResume:hover:after {
+    left: -8.8rem;
+  }
+
+  .csSocials img:hover {
+    transform: none;
+  }
+
+  .csProjectLearnMoreText:hover {
+    text-decoration: none;
+  }
+
+  .csBox1:hover {
+    height: 40rem;
+    background: rgba(0, 0, 0, 0.7) url(assets/csstudent/projectpreviews/gravl.jpg);
+    background-size: cover;
+    background-position: 0% 20%;
+    background-blend-mode: darken;
+  }
+
+  .csBox2:hover {
+    height: 26rem;
+    background: rgba(0, 0, 0, 0.7)
+      url(assets/csstudent/projectpreviews/sideline.jpeg);
+    background-size: cover;
+    background-position: 0% 50%;
+    background-blend-mode: darken;
+  }
+
+  .csBox3:hover {
+    height: 11rem;
+    background: rgba(0, 0, 0, 0.6)
+      url(assets/csstudent/projectpreviews/motherly.jpg);
+    background-size: cover;
+    background-position: 0% 60%;
+    background-blend-mode: darken;
+  }
+
+  .csBox4:hover {
+    height: 12rem;
+    background: rgba(0, 0, 0, 0.6)
+      url(assets/csstudent/projectpreviews/ensemble.jpg);
+    background-size: cover;
+    background-position: 0% 50%;
+    background-blend-mode: darken;
+  }
+
+  .csBox5:hover {
+    height: 9rem;
+    background: rgba(0, 0, 0, 0.35)
+      url(assets/csstudent/projectpreviews/telepathy.jpeg);
+    background-size: cover;
+    background-blend-mode: darken;
+  }
+
+  .csBox6:hover {
+    height: 7rem;
+    background: rgba(0, 0, 0, 0.4)
+      url(assets/csstudent/projectpreviews/bite.jpeg);
+    background-size: cover;
+    background-position: 50% 5%;
+    background-blend-mode: darken;
+  }
+
+  .visitProjectContainer:hover {
+    transform: none;
+  }
+
+  .projectsGrid > .fullProjectContainer:nth-child(odd) .fullProjectPic:hover,
+  .projectsGrid > .fullProjectContainer:nth-child(even) .fullProjectPic:hover {
+    transform: none;
+  }
+
+  .albumContainer {
+    transition: none !important;
+  }
+
+  .albumContainer:hover {
+    margin-top: 0 !important;
+    cursor: default;
+  }
+}
+
+@media (max-width: 575px) {
+  .intro {
+    font-size: 4rem;
+    white-space: normal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1.4;
+  }
+
+  .introFacet {
+    font-size: 2.8rem;
+    line-height: 1.4;
+  }
+
+  .collage {
+    margin-top: 3rem;
+    zoom: 0.75;
+  }
+}
+
+@media (max-width: 575px) {
+  .csContent {
+    padding: 0 5vw;
+  }
+}
+
+/* ---- CS STUDENT PROFILE (mobile) ---- */
+@media (max-width: 575px) {
+  .csstudentSection {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 5rem 0 2rem;
+    height: auto;
+  }
+
+  .profileBar {
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  .csNameAndEmail {
+    align-items: flex-start;
+
+    .csEmail {
+      font-size: 1.8rem;
+      margin-top: 0.5rem;
+    }
+  }
+
+  .csGT {
+    display: none;
+  }
+
+  .csResumeContainer {
+    display: none;
+  }
+
+  .csSocials {
+    justify-content: flex-start;
+    margin-top: 2rem;
+  }
+
+  .githubContainer,
+  .devpostContainer {
+    margin-left: 2rem;
+  }
+
+  .csMain {
+    margin-left: 0;
+    margin-top: 2rem;
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  .csIntro {
+    text-align: left;
+    font-size: 2.8rem;
+    margin-bottom: 1rem;
+  }
+
+  .csBio {
+    width: 100%;
+    text-align: left;
+    font-size: 2rem;
+    line-height: 2.8rem;
+  }
+
+  .csProjectCollage {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    margin-top: 3rem;
+    align-items: flex-start;
+  }
+
+  .csProjectCol1,
+  .csProjectCol2,
+  .csProjectCol3 {
+    width: 100%;
+    flex-direction: column;
+    margin-left: 0;
+    align-items: flex-start;
+    flex: none;
+  }
+
+  .csProject {
+    height: 7rem !important;
+    flex-direction: row;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    margin-top: 0.5rem;
+  }
+
+  .csBox1 {
+    width: 100%;
+    border-radius: 1rem 1rem 0 0;
+    height: 7rem !important;
+    background-position: 0% 8%;
+  }
+
+  .csBox2 {
+    width: 90%;
+    border-radius: 0;
+    height: 7rem !important;
+    background-position: 0% 90%;
+  }
+
+  .csBox3 {
+    width: 80%;
+    border-radius: 0;
+    height: 7rem !important;
+    margin-top: 0.5rem;
+    background-position: 0% 30%;
+  }
+
+  .csBox4 {
+    width: 70%;
+    border-radius: 0;
+    height: 7rem !important;
+    background-position: 0% 50%;
+  }
+
+  .csBox5 {
+    width: 60%;
+    border-radius: 0;
+    height: 7rem !important;
+    margin-top: 0.5rem;
+    background-position: 0% 50%;
+  }
+
+  .csBox6 {
+    width: 50%;
+    border-radius: 0 0 0 1rem;
+    height: 7rem !important;
+    margin-top: 0.5rem;
+    background-position: 50% 25%;
+  }
+
+  .csBox1Name,
+  .csBox2Name,
+  .csBox3Name,
+  .csBox4Name,
+  .csBox5Name,
+  .csBox6Name {
+    font-size: 2.8rem;
+    white-space: nowrap;
+  }
+
+  .csProjectIconContainer {
+    margin-left: 1.2rem;
+  }
+
+  .csProjectIconContainer img,
+  .fullProjectIconContainer img {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .csProjectTools {
+    display: none;
+  }
+
+  .csProjectLearnMore {
+    display: none;
+  }
+
+  .violetHighlight,
+  .goldHighlight,
+  .goldHighlightSmall,
+  .pinkHighlight,
+  .darkHighlight,
+  .yellowHighlight {
+    font-size: 1.7rem;
+    white-space: nowrap;
+  }
+
+  .goldHighlight, .goldHighlightSmall {
+    white-space: wrap;
+    text-align: left;
+  }
+
+  .goldHighlightSmall {
+    font-size: 1.5rem;
+  }
+}
+
+/* ---- CS SKILLS SECTION (mobile) ---- */
+@media (max-width: 575px) {
+  .csSkillsSection {
+    align-items: flex-start;
+    padding: 0 5vw;
+  }
+
+  .researchContainer,
+  .skillsContainer,
+  .courseworkContainer,
+  .experienceContainer {
+    margin-top: 5rem;
+    width: 100%;
+    align-items: flex-start;
+  }
+
+  .mySkills,
+  .myCoursework,
+  .myExperience {
+    text-align: left;
+  }
+
+  .exp {
+    flex-direction: column;
+    width: 100%;
+    margin-top: 2rem;
+  }
+
+  .exp div p {
+    font-size: 1.8rem;
+  }
+
+  .expDescription {
+    margin-top: 1rem;
+    flex: none;
+  }
+
+  .skills,
+  .coursework {
+    width: 100%;
+    font-size: 2rem;
+    line-height: 3rem;
+    text-align: left;
+  }
+}
+
+/* ---- FULL PROJECTS (mobile) ---- */
+@media (max-width: 575px) {
+  .csProjectSection {
+    align-items: flex-start;
+  }
+
+  .myProjects {
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+  }
+
+  .fullProjectContainer {
+    align-items: flex-start !important;
+    margin-bottom: 6rem;
+    width: 100%;
+  }
+
+  .fullProjectInfo {
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  .fullProjectNameContainer {
+    justify-content: flex-start;
+  }
+
+  .fullProjectName {
+    font-size: 5rem;
+    text-align: left;
+  }
+
+  .fullProjectIconContainer {
+    justify-content: flex-start;
+    margin-top: 1rem;
+  }
+
+  .fullProjectDescription {
+    width: 100%;
+    font-size: 2rem;
+    line-height: 2.8rem;
+    text-align: left;
+  }
+
+  .fullProjectTools {
+    width: 100%;
+    font-size: 1.8rem;
+    text-align: left;
+  }
+
+  .visitContainer {
+    justify-content: flex-start;
+  }
+
+  .visitProjectContainer {
+    margin-left: 0;
+    margin-right: 2rem;
+  }
+
+  .fullProjectPicContainer {
+    height: auto;
+    width: 100%;
+    margin-top: 3rem;
+    margin-right: 0 !important;
+  }
+
+  .fullProjectPic {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1.42;
+    border-radius: 1rem;
+  }
+
+  .projectsGrid > .fullProjectContainer:nth-child(odd) .fullProjectPic,
+  .projectsGrid > .fullProjectContainer:nth-child(even) .fullProjectPic {
+    transform: none;
+  }
+
+  .projectsGrid > .fullProjectContainer:nth-child(odd) .fullProjectInfo,
+  .projectsGrid > .fullProjectContainer:nth-child(even) .fullProjectPicContainer {
+    margin-right: 0;
+  }
+}
+
+/* ---- HORN PLAYER (mobile) ---- */
+@media (max-width: 575px) {
+  .hpProfilePicContainer {
+    height: 30rem;
+  }
+
+  .hpIntro {
+    font-size: 5rem;
+  }
+
+  .hpBio {
+    font-size: 2rem;
+    text-align: center;
+    padding: 0 2rem;
+  }
+}
+
+/* ---- PHOTOGRAPHER (mobile) ---- */
+@media (max-width: 575px) {
+  .phIntro {
+    font-size: 5rem;
+    margin-top: 6rem;
+  }
+
+  .phBio {
+    font-size: 2rem;
+    text-align: center;
+    padding: 0 2rem;
+  }
+
+  .highlightsContainer {
+    margin-top: 5rem;
+  }
+
+  .highlightsAlbums {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+
+  .albumContainer {
+    height: 35rem;
+    pointer-events: none;
+  }
+
+  .albumMarginLeft {
+    margin-left: 0;
+    margin-top: 1.5rem;
+  }
+}
+
+/* ---- ROWER (mobile) ---- */
+@media (max-width: 575px) {
+  .roIntro {
+    font-size: 5rem;
+  }
+
+  .roBio {
+    font-size: 2rem;
+    text-align: center;
+    padding: 0 2rem;
+    margin-bottom: 20rem;
+  }
+}
+
+/* ---- ROAD TRIPPER (mobile) ---- */
+@media (max-width: 575px) {
+  .rtIntro {
+    font-size: 2.2rem;
+    text-align: center;
+    padding: 0 2rem;
+  }
+
+  .rtBio,
+  .rtStatesBio,
+  .rtCountriesBio {
+    font-size: 5rem;
+  }
+
+  #rtMap {
+    width: 100vw;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  }
+
+  #rtStates {
+    width: 100vw;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  }
+
+  #rtCountries {
+    width: 100vw;
+    margin-top: 4rem;
+    margin-bottom: 7rem;
+  }
+
+  .rtNav {
+    width: 90vw;
+    margin-top: -4rem;
+  }
+
+  .rtNav button {
+    width: calc(90vw / 3);
+    font-size: 1.6rem;
+  }
+
+  .rtAnimation {
+    width: calc(90vw / 3);
+  }
+
+  .checkoutGravl {
+    font-size: 1.6rem;
+  }
+}
+
+/* ---- FOOTER (mobile) ---- */
+@media (max-width: 575px) {
+  .footer {
+    font-size: 2rem;
+    padding: 1rem 0;
+  }
 }

@@ -5,12 +5,15 @@
 let currentIndex = 1;
 let fade = true;
 
+const isTouchDevice = window.matchMedia("(hover: none)").matches;
+
 const images = document.querySelectorAll(".collage img");
 
 images.forEach((image) => {
   image.addEventListener(
     "mouseover",
     () => {
+      if (isTouchDevice) return;
       if (fade) {
         let index = 0;
         switch (image.classList[0]) {
@@ -49,6 +52,7 @@ images.forEach((image) => {
   image.addEventListener(
     "mouseout",
     () => {
+      if (isTouchDevice) return;
       if (fade) {
         if (currentIndex !== 1) {
           fx.setText(phrases[1], 45, 50);
@@ -218,22 +222,21 @@ function updateSelectedButton(selectedButton) {
   loadMap();
   rtSelectedButton.classList.remove("rtUnselected");
   rtSelectedButton.classList.add("rtSelected");
-  rtAnimation.style.left = "0";
 }
 
 rtCountiesButton.addEventListener("click", function () {
   updateSelectedButton(rtCountiesButton);
-  rtAnimation.style.left = "0";
+  rtAnimation.style.left = rtCountiesButton.offsetLeft + "px";
 });
 
 rtStatesButton.addEventListener("click", function () {
   updateSelectedButton(rtStatesButton);
-  rtAnimation.style.left = "12rem";
+  rtAnimation.style.left = rtStatesButton.offsetLeft + "px";
 });
 
 rtCountriesButton.addEventListener("click", function () {
   updateSelectedButton(rtCountriesButton);
-  rtAnimation.style.left = "24rem";
+  rtAnimation.style.left = rtCountriesButton.offsetLeft + "px";
 });
 
 let mapTimeouts = [];
@@ -377,6 +380,16 @@ images.forEach((pic) => {
   pic.addEventListener("click", () => {
     fade = false;
 
+    // Update grayscale state: selected image in color, all others gray.
+    // This is essential on mobile where hover never fires to do this update.
+    images.forEach((image) => {
+      if (image === pic) {
+        image.classList.remove("gray");
+      } else if (!image.classList.contains("gray")) {
+        image.classList.add("gray");
+      }
+    });
+
     // fade the other images
     images.forEach((image) => {
       if (pic !== image) {
@@ -389,16 +402,16 @@ images.forEach((pic) => {
         const csStudentContainer = document.querySelector(
           ".csstudentContainer"
         );
-        const csHeight = csStudentContainer.offsetHeight;
-        const currHeight = picContainer.offsetHeight;
-        const translateX =
-          csStudentContainer.getBoundingClientRect().left -
-          picContainer.offsetLeft;
-        const translateY =
-          csStudentContainer.offsetTop - picContainer.offsetTop;
+        const csRect = csStudentContainer.getBoundingClientRect();
+        const picRect = picContainer.getBoundingClientRect();
+        // Compute the effective CSS zoom on the collage so translate values
+        // are correct in CSS px regardless of any parent zoom/transform.
+        const zoom = picRect.width / picContainer.offsetWidth || 1;
+        const translateX = (csRect.left - picRect.left) / zoom;
+        const translateY = (csRect.top - picRect.top) / zoom;
         picContainer.style.transformOrigin = "top left";
         picContainer.style.transform = `translate(${translateX}px, ${translateY}px) scale(${
-          csHeight / currHeight
+          csRect.height / picRect.height
         })`;
         picContainer.style.zIndex = "10";
         if (picContainer.children[0].classList.contains("hornplayer")) {
@@ -410,6 +423,17 @@ images.forEach((pic) => {
 
     // scramble 'Hi, I'm Mingkuan' into nothing
     fxIntro.setText(phrases[0], 20, 25);
+
+    // Update facet to reflect the clicked section.
+    // On desktop, hover already set this; on mobile, hover never runs so we must do it here.
+    const phraseMap = {
+      csstudent: 1,
+      roadtripper: 2,
+      hornplayer: 3,
+      photographer: 4,
+      rower: 5,
+    };
+    fx.setText(phrases[phraseMap[pic.classList[0]] || 1], 45, 50);
 
     // CHANGE AND SCROLL TO SECTION
 
