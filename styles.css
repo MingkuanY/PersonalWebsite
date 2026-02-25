@@ -684,6 +684,10 @@ button {
   background-blend-mode: darken;
 }
 
+.csBox6 .csProjectIconContainer {
+  display: none;
+}
+
 .csBox6:hover {
   height: 8rem;
   background: rgba(0, 0, 0, 0.3) url(assets/csstudent/projectpreviews/bite.jpeg);
@@ -1635,6 +1639,10 @@ button {
     background-position: 50% 25%;
   }
 
+  .csBox6 .csProjectIconContainer {
+    display: flex;
+  }
+
   .csBox1Name,
   .csBox2Name,
   .csBox3Name,
@@ -1711,6 +1719,10 @@ button {
     margin-top: 2rem;
   }
 
+  .expName {
+    font-weight: bolder;
+  }
+
   .exp div p {
     font-size: 1.8rem;
   }
@@ -1718,6 +1730,10 @@ button {
   .expDescription {
     margin-top: 1rem;
     flex: none;
+  }
+
+  .expDescription b {
+    font-weight: 400;
   }
 
   .skills,
@@ -1831,6 +1847,12 @@ button {
 
 /* ---- PHOTOGRAPHER (mobile) ---- */
 @media (max-width: 575px) {
+  .phMainSection {
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center center;
+  }
+
   .phIntro {
     font-size: 5rem;
     margin-top: 6rem;
